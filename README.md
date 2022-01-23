@@ -22,6 +22,7 @@ It uses extended Markdown, as implemented by [MkDocs](https://www.mkdocs.org/).
 
 ## Building the documentation
 
+- Clone it: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
 - Install/update dependencies: `pip3 install -Ur requirements.txt`
 - From the root directory, run: `mkdocs serve`
 
