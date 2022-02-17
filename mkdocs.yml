@@ -94,7 +94,7 @@ extra_css:
 - assets/stylesheets/custom.css
 
 nav:
-- HOME:
+- Start:
   - Overview: index.md
   - Installation: install.md
   - Getting started: getting_started.md
@@ -162,10 +162,7 @@ nav:
   - DietPi Forum: https://dietpi.com/phpbb/
   - Community tutorials: https://dietpi.com/phpbb/viewforum.php?f=15
   - Troubleshooting: https://dietpi.com/phpbb/viewforum.php?f=11
- 
-  
-  
-  - HOME:
+ - HOME:
   - Overview: index-en.md
   - Installation: install-en.md
   - Getting started: getting_started-en.md
