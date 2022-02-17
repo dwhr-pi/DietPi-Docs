@@ -105,7 +105,7 @@ nav:
     - Supported hardware: hardware.md
     - Releases: releases.md
     - References: references.md
-    - OPTIMISED SOFTWARE:
+  - OPTIMISED SOFTWARE:
     - Overview: software.md
     - Advanced Networking: software/advanced_networking.md
     - BitTorrent & Download Tools: software/bittorrent.md
