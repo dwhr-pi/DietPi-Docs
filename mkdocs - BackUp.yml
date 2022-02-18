@@ -1,0 +1,234 @@
+site_name: DietPi.com Docs
+site_url: https://dietpi.com/docs/
+site_description: Official documentation pages for DietPi OS
+site_author: DietPi.com Team
+copyright: Copyright © 2021 DietPi.com | Documentation Distributed under <a target="_blank"
+           href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+
+repo_name: DietPi-Docs
+repo_url: https://github.com/MichaIng/DietPi-Docs
+edit_uri: edit/dev/docs/
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: overrides # https://www.mkdocs.org/user-guide/styling-your-docs/#using-the-theme-custom_dir
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+  features:
+  - navigation.tabs
+  #logo: assets/images/logo.png
+  favicon: https://dietpi.com/favicon.ico
+
+markdown_extensions:
+- markdown.extensions.admonition # Highlighted warning/info blocks
+- markdown.extensions.attr_list # Set custom HTML attributes {: }
+- markdown.extensions.codehilite: # Highlight syntax in code blocks
+    guess_lang: false # Language must always be defined for syntax highlighting
+- markdown.extensions.footnotes # Footnotes [^1]
+- markdown.extensions.meta # Define meta data (page title and description) at the top of the Markdown document
+- markdown.extensions.smarty # Automatically convert dashes, underscore, three-dots and quotes to text symbols
+- markdown.extensions.tables # Tables
+- markdown.extensions.toc: # Add HTML id attribute to headers
+    permalink: true # Headers are links to themselves
+- pymdownx.betterem: # More intuitive emphasis handling
+    smart_enable: all # Even smarter for both (asterisk and underscore) syntax => GitHub-like
+- pymdownx.details # Collapsible details blocks
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+- pymdownx.keys # Keyboard key symbols
+- pymdownx.magiclink: # Auto-links non angle bracket URLs and email addresses and allows to shorten and visualise Git repo links
+    repo_url_shortener: true
+    repo_url_shorthand: true
+- pymdownx.superfences # Indended code blocks, e.g. within lists, admonition, details or tabbed blocks
+- pymdownx.tabbed # Tabbed content blocks
+
+#  Markdown extensions which could be used in the future
+#
+#- markdown.extensions.abbr # Abbreviations <abbr>
+#- markdown.extensions.def_list # Definition lists
+#- markdown.markdown.md_in_html # Allow Markdown syntax inside of HTML tags
+#- pymdownx.arithmatex # LaTeX math term support
+#- pymdownx.caret # Superscript <sup> and insert <ins> via caret ^
+#- pymdownx.critic # Comment, highlight, add or strikethrough text
+#- pymdownx.highlight # Configure code highlighting for all code definitions, fenced, inline and blocked by indentation
+#- pymdownx.inlinehilite # Highlight syntax in inline code
+#- pymdownx.mark # Mark text <mark> via ==text==
+#- pymdownx.smartsymbols # Easy symbols syntax (trademark, copyright, arrows, ...)
+#- pymdownx.snippets # Insert Markdown files into others
+#- pymdownx.tilde # Subscript <sub> and strikethrough <del> text via tilde ~
+
+plugins:
+- search
+- minify:
+    minify_html: true
+    htmlmin_opts:
+      # https://htmlmin.readthedocs.io/en/latest/reference.html#main-functions
+      remove_comments: true
+      remove_all_empty_space: true
+      reduce_boolean_attributes: true
+      remove_optional_attribute_quotes: true
+      convert_charrefs: true
+    minify_css: true
+    css_files:
+    - assets/stylesheets/custom.css
+    #minify_js: true
+    #js_files:
+    #- assets/javascripts/custom.js
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/MichaIng/DietPi
+  - icon: fontawesome/solid/home
+    link: https://dietpi.com/
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/DietPi_
+
+extra_css:
+- assets/stylesheets/custom.css
+
+nav:
+- Deutsch:
+  - Start:
+    - Overview: index.md
+    - Installation: install.md
+    - Getting started: getting_started.md
+    - Software options: software.md
+    - DietPi tools: dietpi_tools.md
+    - Usage hints / HowTo: usage.md
+    - Supported hardware: hardware.md
+    - Releases: releases.md
+    - References: references.md
+  - OPTIMISED SOFTWARE:
+    - Overview: software.md
+    - Advanced Networking: software/advanced_networking.md
+    - BitTorrent & Download Tools: software/bittorrent.md
+    - Camera & Surveillance: software/camera.md
+    - Cloud & Backup Systems: software/cloud.md
+    - Databases & Data Stores: software/databases.md
+    - Desktops & Utilities: software/desktop.md
+    - Development & Programming: software/programming.md
+    - Distributed Projects: software/distributed_projects.md
+    - DNS Servers: software/dns_servers.md
+    - File Servers: software/file_servers.md
+    - Gaming & Emulation: software/gaming.md
+    - Hardware Projects: software/hardware_projects.md
+    - Home Automation: software/home_automation.md
+    - Logging Systems: software/log_system.md
+    - Media Systems: software/media.md
+    - Printing Servers: software/printing.md
+    - Remote Desktop & Remote Access: software/remote_desktop.md
+    - Social & Search: software/social.md
+    - SSH Servers: software/ssh.md
+    - System Security: software/system_security.md
+    - System Stats & Management: software/system_stats.md
+    - VPN: software/vpn.md
+    - Web Development: software/webserver_stack.md
+  - RELEASES:
+    - Overview: releases.md
+    - v8.0 January 2022: releases/v8_0.md
+    - v7.9 December 2021: releases/v7_9.md
+    - v7.8 November 2021: releases/v7_8.md
+    - v7.7 October 2021: releases/v7_7.md
+    - v7.6 September 2021: releases/v7_6.md
+    - v7.5 August 2021: releases/v7_5.md
+    - v7.4 July 2021: releases/v7_4.md
+    - v7.3 June 2021: releases/v7_3.md
+    - v7.2 May 2021: releases/v7_2.md
+    - v7.1 April 2021: releases/v7_1.md
+    - v7.0 February 2021: releases/v7_0.md
+    - v6.34 December 2020: releases/v6_34.md
+    - v6.33 October 2020: releases/v6_33.md
+    - v6.32 August 2020: releases/v6_32.md
+    - v6.31 July 2020: releases/v6_31.md
+    - v6.30 May 2020: releases/v6_30.md
+    - v6.29 May 2020: releases/v6_29.md
+    - v6.28 January 2020: releases/v6_28.md
+    - v6.27 January 2020: releases/v6_27.md
+    - Earlier: https://dietpi.com/phpbb/viewforum.php?f=10
+  - COMMUNITY:
+    # The first file "socialmedia.md" is added, otherwise in some browsers klicking on "Community" jumps directly to the first entry
+    # That was the case that a klick directly jumped to the github page. (Then you leave our genious dietpi.com/docs site...) :-)
+    - Social media: socialmedia.md
+    - DietPi GitHub page: https://github.com/MichaIng/DietPi
+    - DietPi Blog page: https://dietpi.com/blog/
+    - Report issues: https://github.com/MichaIng/DietPi/issues
+    - Request features: https://github.com/MichaIng/DietPi/issues/new/choose
+    - DietPi Forum: https://dietpi.com/phpbb/
+    - Community tutorials: https://dietpi.com/phpbb/viewforum.php?f=15
+    - Troubleshooting: https://dietpi.com/phpbb/viewforum.php?f=11
+   - English:
+     - HOME:
+      - Overview: index-en.md
+      - Installation: install-en.md
+      - Getting started: getting_started-en.md
+      - Software options: software-en.md
+      - DietPi tools: dietpi_tools-en.md
+      - Usage hints / HowTo: usage-en.md
+      - Supported hardware: hardware-en.md
+      - Releases: releases-en.md
+      - References: references-en.md
+    - OPTIMISED SOFTWARE:
+      - Overview: software-en.md
+      - Advanced Networking: software/advanced_networking-en.md
+      - BitTorrent & Download Tools: software/bittorrent-en.md
+      - Camera & Surveillance: software/camera-en.md
+      - Cloud & Backup Systems: software/cloud-en.md
+      - Databases & Data Stores: software/databases-en.md
+      - Desktops & Utilities: software/desktop-en.md
+      - Development & Programming: software/programming-en.md
+      - Distributed Projects: software/distributed_projects-en.md
+      - DNS Servers: software/dns_servers-en.md
+      - File Servers: software/file_servers-en.md
+      - Gaming & Emulation: software/gaming-en.md
+      - Hardware Projects: software/hardware_projects-en.md
+      - Home Automation: software/home_automation-en.md
+      - Logging Systems: software/log_system-en.md
+      - Media Systems: software/media-en.md
+      - Printing Servers: software/printing-en.md
+      - Remote Desktop & Remote Access: software/remote_desktop-en.md
+      - Social & Search: software/social-en.md
+      - SSH Servers: software/ssh-en.md
+      - System Security: software/system_security-en.md
+      - System Stats & Management: software/system_stats-en.md
+      - VPN: software/vpn-en.md
+      - Web Development: software/webserver_stack-en.md
+  - RELEASES:
+    - Overview: releases-en.md
+    - v8.0 January 2022: releases/v8_0-en.md
+    - v7.9 December 2021: releases/v7_9-en.md
+    - v7.8 November 2021: releases/v7_8-en.md
+    - v7.7 October 2021: releases/v7_7-en.md
+    - v7.6 September 2021: releases/v7_6-en.md
+    - v7.5 August 2021: releases/v7_5-en.md
+    - v7.4 July 2021: releases/v7_4-en.md
+    - v7.3 June 2021: releases/v7_3-en.md
+    - v7.2 May 2021: releases/v7_2-en.md
+    - v7.1 April 2021: releases/v7_1-en.md
+    - v7.0 February 2021: releases/v7_0-en.md
+    - v6.34 December 2020: releases/v6_34-en.md
+    - v6.33 October 2020: releases/v6_33-en.md
+    - v6.32 August 2020: releases/v6_32-en.md
+    - v6.31 July 2020: releases/v6_31-en.md
+    - v6.30 May 2020: releases/v6_30-en.md
+    - v6.29 May 2020: releases/v6_29-en.md
+    - v6.28 January 2020: releases/v6_28-en.md
+    - v6.27 January 2020: releases/v6_27-en.md
+    - Earlier: https://dietpi.com/phpbb/viewforum.php?f=10
+  - COMMUNITY:
+    # The first file "socialmedia.md" is added, otherwise in some browsers klicking on "Community" jumps directly to the first entry
+    # That was the case that a klick directly jumped to the github page. (Then you leave our genious dietpi.com/docs site...) :-)
+    - Social media: socialmedia-en.md
+    - DietPi GitHub page: https://github.com/MichaIng/DietPi
+    - DietPi Blog page: https://dietpi.com/blog/
+    - Report issues: https://github.com/MichaIng/DietPi/issues
+    - Request features: https://github.com/MichaIng/DietPi/issues/new/choose
+    - DietPi Forum: https://dietpi.com/phpbb/
+    - Community tutorials: https://dietpi.com/phpbb/viewforum.php?f=15
+    - Troubleshooting: https://dietpi.com/phpbb/viewforum.php?f=11
