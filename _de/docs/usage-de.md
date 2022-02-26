@@ -14,7 +14,7 @@ Wenn Sie mit dem Flashen eines neuen Images zufrieden sind, befolgen Sie die kur
 
 Wenn zu viele Anpassungen vorgenommen wurden, ohne dass dies gut dokumentiert oder in Skripten festgehalten wurde, kann ein Upgrade des laufenden Systems einfacher sein. Führen Sie die folgenden Befehle Schritt für Schritt aus, um in einem ersten Schritt das Upgrade von Stretch auf Buster durchzuführen. Wenn Sie auf Fehler stoßen und sich nicht sicher sind, wie Sie sie beheben können, kontaktieren Sie uns bitte über unser [Community-Forum](https://dietpi.com/phpbb/viewforum.php?f=11) oder [GitHub-Problem](https:// github.com/MichaIng/DietPi/issues), um Hilfe zu finden.
 
-„Sch
+```sh
 dietpi-backup 1
 sed -i 's/stretch/buster/g' /etc/apt/sources.list{,.d/*.list}
 rm -f /etc/apt/sources.list.d/dietpi-php.list
@@ -22,35 +22,35 @@ rm -f /etc/apt/trusted.gpg.d/dietpi-php.gpg
 rm -f /etc/apt/preferences.d/dietpi-{php,openssl,xrdp}
 rm -f /etc/mysql/mariadb.conf.d/97-dietpi.cnf
 /boot/dietpi/func/dietpi-set_software apt-cache clean
-passendes Update
-passendes Upgrade
-passendes Voll-Upgrade
-passende automatische Bereinigung
+apt update
+apt upgrade
+apt full-upgrade
+apt autopurge
 /boot/dietpi/func/dietpi-obtain_hw_model
 . /boot/dietpi/func/dietpi-globals
 ```
 
 Wenn Sie PHP installiert haben, führen Sie auch die folgenden Befehle aus, um Probleme bei der Installation zusätzlicher PHP-Module zu vermeiden:
 
-„Bash
-mapfile -t Pakete < <(dpkg --get-selections '*php*' | mawk '$2=="install" {print $1}')
-dpkg -r --force-depends "${Pakete[@]}"
-apt -y installiere "${packages[@]}"
-unset -v Pakete
+```bash
+mapfile -t packages < <(dpkg --get-selections '*php*' | mawk '$2=="install" {print $1}')
+dpkg -r --force-depends "${packages[@]}"
+apt -y install "${packages[@]}"
+unset -v packages
 ```
 
-Wenn „dietpi-update“ Sie bereits zum dedizierten Stretch-Update-Zweig migriert hat, können Sie jetzt zurück zum stabilen „Master“-Zweig migrieren, um DietPi-Updates auf v8.0 und höher anzuwenden:
+Wenn `dietpi-update` Sie bereits zum dedizierten Stretch-Update-Zweig migriert hat, können Sie jetzt zurück zum stabilen `master`-Zweig migrieren, um DietPi-Updates auf v8.0 und höher anzuwenden:
 
-„Sch
+```sh
 G_CONFIG_INJECT 'DEV_GITBRANCH=' 'DEV_GITBRANCH=master' /boot/dietpi.txt
 dietpi-update
 ```
 
 Wenn Sie **Python 3** installiert haben, muss es nach dem Upgrade von v3.5 auf v3.7 neu installiert werden und alte Module können zur Bereinigung entfernt werden:
 
-„Sch
+```sh
 rm -Rf /usr/local/lib/python3.5 /usr/local/bin/pip3*
-dietpi-software neu installieren 130
+dietpi-software reinstall 130
 ```
 
 Möglicherweise müssen Sie auch andere Python-basierte Softwaretitel und Module neu installieren, die manuell mit dem Befehl "pip3" installiert wurden. Ihre Daten und Einstellungen bleiben erhalten.
@@ -61,11 +61,11 @@ Möglicherweise müssen Sie auch andere Python-basierte Softwaretitel und Module
 
 ## Wie man den Protokollierungsmechanismus verwendet
 
-DietPi verwendet systemd als System- und Dienstmanager, der den Logging-Daemon „systemd-journald“ enthält.
+DietPi verwendet systemd als System- und Dienstmanager, der den Logging-Daemon `systemd-journald` enthält.
 Ein zusätzlicher Syslog-Daemon, wie `rsyslog`, wird nicht benötigt und ist daher auf DietPi nicht vorinstalliert. Der grundlegende Befehl für den Zugriff auf `systemd-journald`-Protokolle lautet
 
-„Sch
-journalctl [Optionen]
+```sh
+journalctl [options]
 ```
 
 <font size="+2">Grundlegende Ausgabe protokollieren</font>
@@ -86,12 +86,12 @@ Detailliertere Optionen können in den [Manpages von `journalctl`](https://man7.
 | Befehl | Bemerkung |
 | - | - |
 | `journalctl -u UNITNAME` <br>(`--unit UNITNAME`) | Zeigt Meldungen der angegebenen Einheit | an
-| `journalctl _PID=<Prozess-ID>` | Zeigt Meldungen von Prozessen an, deren PID gleich <Prozess-ID\> | ist
+| `journalctl _PID=<process_id>` | Zeigt Meldungen von Prozessen an, deren PID gleich <process_id\> | ist
 | `journalctl -r` <br>(`--reverse`) | Zeigt die Liste in umgekehrter Reihenfolge an, d. h. neueste Nachrichten zuerst |
 | `journalctl -f` <br>(`--follow`) | Zeigt das Ende der Log-Meldungsliste an und zeigt neue Einträge *live* |
 | `journalctl -b` <br>(`--boot`) | Zeigt Meldungen seit dem letzten Start an (d. h. keine älteren Meldungen). Siehe auch Option `--list-boots` |
 | `journalctl -k` <br>(`--dmesg`) | Zeigt Kernelmeldungen an |
-| `journalctl -p PRIORITÄT` <br>(--priority PRIORITÄT) | Zeigt Nachrichten mit der angegebenen Priorität an. PRIORITÄT kann „merg“, „alert“, „crit“, „err“, „warning“, „notice“, „info“ und „debug“ sein. Auch Nummern als PRIORITY sind möglich |
+| `journalctl -p PRIORITY` <br>(--priority PRIORITÄT) | Zeigt Nachrichten mit der angegebenen Priorität an. PRIORITÄT kann „merg“, „alert“, „crit“, „err“, „warning“, „notice“, „info“ und „debug“ sein. Auch Nummern als PRIORITY sind möglich |
 | `journalctl -o verbose` | Zeigt zusätzliche Metadaten an |
 | `journalctl --disk-usage` | Zeigt den von den Logging-Meldungen belegten Speicherplatz an |
 | `journalctl --no-pager | grep <filter>` | Filtert Protokollmeldungen (Filterung mit `grep`) |

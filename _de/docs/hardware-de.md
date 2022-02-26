@@ -5,7 +5,7 @@ Beschreibung: DietPi Unterstützte Hardware: Raspberry Pi 4/3/2/1/Zero, Odroid, 
 
 # Unterstützte Hardware
 
-## Himbeer-Pi
+## Raspberry Pi
 
 Der Raspberry Pi wurde seit seiner Einführung im Jahr 2012 mehr als 31 Millionen Mal verkauft. Jeder Raspberry Pi kann als Zweitcomputer für E-Mails und das Surfen im Internet dienen. Der wahre Spaß beginnt, wenn Sie Ihren Pi für Projekte verwenden, die von Robotern über Retro-Arcade-Automaten bis hin zu Heimmedienservern, Sicherheitskameras und so weiter reichen können.
 
@@ -32,8 +32,8 @@ und sogar auf der kompakten Form **Raspberry Pi Zero**, sowohl **Zero W/WH** als
 <iframe src="https://www.youtube-nocookie.com/embed/V2frBYX62LU?rel=0" frameborder="0" allow="fullscreen" width="560" height="315" loading="lazy" ></iframe>
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -91,7 +91,7 @@ und sogar auf der kompakten Form **Raspberry Pi Zero**, sowohl **Zero W/WH** als
     </table>
 </div>
 
-##Odroid
+## Odroid
 
 ODROID Einplatinencomputer sind leistungsstark, stabil und leistungsfähig. Sie können als Heimkino-Set-Top-Box, als Allzweckcomputer zum Surfen im Internet, zum Spielen und für soziale Kontakte, als kompaktes Werkzeug für die Uni- oder Büroarbeit, als Prototyping-Gerät zum Basteln von Hardware, als Controller für die Heimautomatisierung, als Workstation für Software fungieren Entwicklung und vieles mehr. Weitere Informationen finden Sie unter <a target="_blank" rel="noopener" href="https://www.hardkernel.com/">Hardkernel.com</a>
 
@@ -102,8 +102,8 @@ ODROID-N2 ist eines der unterstützten Boards.
 Es ist ein Einplatinencomputer der neuen Generation, der auf dem Amlogic S922X SoC basiert und der [schnellste](https://dietpi.com/survey/#benchmark), den wir bis zum Zeitpunkt des Schreibens gemessen haben. Die Haupt-CPU des N2 besteht aus einer big.LITTLE Quad-Core-Cortex-A73 + Dual-Core-Cortex-A53-Kombination. Dank der modernen 12-nm-Siliziumtechnologie laufen die A73-Kerne mit bis zu 1,8 GHz (N2) bzw. 2,4 GHz (N2+) ohne thermische Drosselung unter Verwendung des serienmäßigen Kühlkörpers im Metallgehäuse, was einen robusten und leisen Computer ermöglicht.
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -159,8 +159,8 @@ Das Board ist abwärtskompatibel mit vielen der bestehenden PINE64-Peripherieger
 Das ROCKPro64 4 GiB Board wird als LTS (Long Term Support) bezeichnet, was bedeutet, dass PINE64 sich verpflichtet hat, mindestens 5 Jahre lang Support zu leisten – bis zum Jahr 2023 und darüber hinaus.
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -207,7 +207,7 @@ Das ROCKPro64 4 GiB Board wird als LTS (Long Term Support) bezeichnet, was bedeu
     </table>
 </div>
 
-##Radxa
+## Radxa
 
 **Maker-freundlich, IoT-Konnektivität** aktiviert.
 
@@ -218,16 +218,16 @@ Eines der unterstützten Boards ist ROCK Pi 4.
 
 ![Foto Radxa ROCK Pi 4](assets/images/dietpi-rockpi-4b.jpg){: width="500" height="375" loading="lazy"}
 
-**ROCK Pi 4** ist ein Single Board Computer (SBC) in einem ultrakleinen Formfaktor, der erstklassige Leistung bietet und gleichzeitig hervorragende mechanische Kompatibilität nutzt. Der ROCK Pi 4 bietet Makern, IoT-Enthusiasten, Hobbyisten, PC-Heimwerkern und anderen eine zuverlässige und äußerst leistungsfähige Plattform zum Bauen und Basteln ihrer Ideen in die Realität.
+** ROCK Pi 4** ist ein Single Board Computer (SBC) in einem ultrakleinen Formfaktor, der erstklassige Leistung bietet und gleichzeitig hervorragende mechanische Kompatibilität nutzt. Der ROCK Pi 4 bietet Makern, IoT-Enthusiasten, Hobbyisten, PC-Heimwerkern und anderen eine zuverlässige und äußerst leistungsfähige Plattform zum Bauen und Basteln ihrer Ideen in die Realität.
 Es verfügt auch über ein Gbit-LAN ​​für das Netzwerk, mit dediziertem Bus und Controller, es funktioniert ohne Latenz bei Netzwerkanwendungen mit hoher Auslastung.
 
-**Radxa Zero** ist ein ultradünner SBC in kleinem Formfaktor mit starker Leistung basierend auf Amlogic S905Y2. Radxa Zero verfügt über einen Quad Core 64 ARM-Prozessor, 32-Bit-LPDDR4, bis zu 4K bei 60 HDMI, 802.11 ac WIFI, Bluetooth 5.0, USB 3.0, 40-Pin-GPIO-Header. Radxa Zero unterstützt USB 2.0 und Stromversorgung über einen USB-C-Anschluss.
+** Radxa Zero** ist ein ultradünner SBC in kleinem Formfaktor mit starker Leistung basierend auf Amlogic S905Y2. Radxa Zero verfügt über einen Quad Core 64 ARM-Prozessor, 32-Bit-LPDDR4, bis zu 4K bei 60 HDMI, 802.11 ac WIFI, Bluetooth 5.0, USB 3.0, 40-Pin-GPIO-Header. Radxa Zero unterstützt USB 2.0 und Stromversorgung über einen USB-C-Anschluss.
 
 ![Foto von Radxa Zero](assets/images/dietpi-radxa-zero.jpg){: width="500" loading="lazy"}
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -263,8 +263,8 @@ Sparky Single Board Computer (SBC) ist ein scheckkartengroßes Board, das als ei
 ![Allo Sparky SBC-Foto](assets/images/dietpi-sparky-sbc.jpg){: width="500" height="412" loading="lazy"}
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -294,8 +294,8 @@ Tinker Board ist mit einem DSI MIPI-Anschluss für Displays und Touchscreens aus
 Sorgfältige Überlegungen gingen in das Design und die Entwicklung des Tinker Boards ein, um sicherzustellen, dass es sowohl Anfängern als auch erfahrenen Bastlern ein hervorragendes Benutzererlebnis bietet. Bauherren schätzen den farbcodierten GPIO-Header, der das Erkennen der jeweiligen Stiftleisten erleichtert.
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -323,8 +323,8 @@ Weitere Informationen finden Sie auf der Website [**FriendlyARM**](https://www.f
 **NanoPi K2** unterstützt DVFS und kann High-Definition-Videostreams ruckelfrei wiedergeben und eignet sich sehr gut für Anwendungen wie Werbemaschinen, TV-Boxen, Home-Entertainment-Geräte oder Multimedia-Geräte.
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>
@@ -484,8 +484,8 @@ Die virtuelle Maschine von Parallels Desktop für macOS eignet sich hervorragend
 Die virtuelle Hyper-V-Maschine eignet sich hervorragend für Situationen, in denen die SBC-Leistung einfach nicht ausreicht. Führen Sie eines davon auf jedem x86_64-PC/Server aus und erhalten Sie immer noch die gleichen großartigen DietPi-Funktionen und -Erfahrung.
 
 <div class="md-typeset__table">
-    <Tabelle>
-        <Kopf>
+    <table>
+        <thead>
             <tr>
                 <th><strong>Produkt</strong></th>
                 <th><strong>Beschreibung</strong></th>

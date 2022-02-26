@@ -181,7 +181,7 @@ Wenn Sie die Zertifikatsinstallation ausführen, wird es auch für Ihren ausgew�
 
 !!! info "Portweiterleitung auf Ihrem Router"
     Um über das Internet erreichbar zu sein, benötigt Ihr Router normalerweise eine Portweiterleitungskonfiguration, um eingehende HTTP- und HTTPS-Zugriffe an Ihr DietPi-System weiterzuleiten.
-    Obwohl Sie nur eine HTTPS-Protokollweiterleitung (normalerweise Port 433) benötigen, müssen Sie auch das HTTP-Protokoll (normalerweise Port 80) an Ihr DietPi-System weiterleiten, da sonst das Zertifizierungserneuerungsverfahren fehlschlägt (aufgrund der Tatsache, dass das Zertifizierungserneuerungsverfahren dauert Ort einige Monate später haben Sie dieses Problem möglicherweise vergessen).
+    Obwohl Sie nur eine HTTPS-Protokollweiterleitung (normalerweise Port 433) benötigen, müssen Sie auch das HTTP-Protokoll (normalerweise Port 80) an Ihr DietPi-System weiterleiten, da sonst das Zertifizierungserneuerungsverfahren fehlschlägt (aufgrund der Tatsache, dass das Zertifizierungserneuerungsverfahren mehrere Monate später stattfindet, haben Sie dieses Problem möglicherweise vergessen).
 
 ### DietPi-VPN
 

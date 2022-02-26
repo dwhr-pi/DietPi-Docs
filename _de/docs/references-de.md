@@ -11,8 +11,8 @@ Links zu speziellen Softwarepaketen befinden sich am Ende der jeweiligen Softwar
 
 ## Allgemeine Artikel
 
-- Raspberry Pi Foundation: [DietPi | Minimales Bild, stark erweiterbar](https://www.raspberrypi.org/forums/viewtopic.php?t=285096)
-- Hardkernel ODROID: [[Betriebssystem] DietPi | Minimales Bild, stark erweiterbar](https://forum.odroid.com/viewtopic.php?t=40392)
+- Raspberry Pi Foundation: [DietPi | Minimales Image, stark erweiterbar](https://www.raspberrypi.org/forums/viewtopic.php?t=285096)
+- Hardkernel ODROID: [[Betriebssystem] DietPi | Minimales Image, stark erweiterbar](https://forum.odroid.com/viewtopic.php?t=40392)
 - PC Welt (deutschsprachig): [DietPi ist erste Wahl für Headlessplatinen](https://www.pcwelt.de/a/diet-pi-ist-erste-wahl-fuer-headlessplatinen,3452321){:class=" nospellcheck"}
 - Raspberry Pi GEEK (deutschsprachig): [Schlankes Raspbian-Derivat DietPi](https://www.raspberry-pi-geek.de/ausgaben/rpg/2017/10/schlankes-raspbian-derivat-dietpi/){: class="nospellcheck"}
 - `Onkel Jordi` (deutschsprachig): [DietPi: Klein, schlank und schnell (2019)](https://onkeljordi.de/2019/01/dietpi-klein-schlank-und-schnell-2019/){: class="nospellcheck"}
@@ -22,7 +22,7 @@ Links zu speziellen Softwarepaketen befinden sich am Ende der jeweiligen Softwar
 
 - [Erster Blick auf Dietpi Raspberry Pi 4](https://www.youtube.com/watch?v=LoKBZ-a4JNE)
 - [Das BESTE Betriebssystem für Raspberry Pi 4](https://www.youtube.com/watch?v=g8oiM_21gX8)
-- [DietPi-Installationsanleitung - Erstellen Sie in wenigen Minuten einen Raspberry Pi-Server, Apache, Node-Red. MQTT, OctoPrint] (https://www.youtube.com/watch?v=RsyFqvtsBHg)
+- [DietPi-Installationsanleitung - Erstellen Sie in wenigen Minuten einen Raspberry Pi-Server, Apache, Node-Red. MQTT, OctoPrint](https://www.youtube.com/watch?v=RsyFqvtsBHg)
 - Deutsche Tutorial-Videos finden Sie im YouTube-Kanal [LOGIN TechBlog](https://www.youtube.com/channel/UCpq1BGhcC6UZZUH-dst8YMg){:class="nospellcheck"}
 
 ## Artikel über Softwarepakete, die nicht Teil des DietPi-Softwareinstallationssystems sind

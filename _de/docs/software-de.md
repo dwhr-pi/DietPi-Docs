@@ -74,7 +74,7 @@
 
 - [**LXDE - Hochoptimierter ultraleichter Desktop**](desktop/#lxde)
 - [**LXQt - Glatter und optimierter leichter Desktop**](desktop/#lxqt)
-- [**MATE - Beliebter Gnome 2-Desktop**] (Desktop/#mate)
+- [**MATE - Beliebter Gnome 2-Desktop**](Desktop/#mate)
 - [**Xfce - Leichter Desktop**](Desktop/#xfce)
 - [**GNUstep - Alternativer/einzigartiger Desktop**](desktop/#gnustep)
 
