@@ -213,7 +213,7 @@ Die folgenden Zeilen geben ein Beispiel für notwendige Änderungen in der Datei
 
 - Ethernet-Verbindung, DHCP, kein Proxy, kein WLAN
 - Deutsche Lokalisierung
-- Hostname „myDietpiSystem“.
+- Hostname „meinDietPiSystem“.
 
 Dann müssen diese Einträge vor dem ersten Booten in der Datei `dietpi.txt` gesetzt werden:
 
@@ -232,7 +232,7 @@ Die folgenden Zeilen geben ein Beispiel für notwendige Änderungen in der Datei
 - Automatische Updates
 - Ethernet-Verbindung, DHCP, kein Proxy, kein WLAN
 - Deutsche Lokalisierung
-- Hostname „myDietpiSystem“.
+- Hostname „meinDietPiSystem“.
 - X11-Desktop mit XFCE und Chromium
 - Autostart zum X11-Anmeldebildschirm
 
@@ -255,6 +255,6 @@ CONFIG_CHECK_APT_UPDATES=2
 
 ### Verweise
 
-DietPi-Community-Forum: [DietPi-Automatisierung](https://dietpi.com/phpbb/viewtopic.php?t=273)
-Blogeintrag von `Holger Erbe`: [Vollautomatische Installation eines Raspberry Pi unter DietPi – Schritt für Schritt](https://blog.login.gmbh/vollautomatische-installation-eines-raspberry-pi-unter-dietpi- schritt-fuer-schritt/){:class="nospellcheck"}
-Blogeintrag aus `DMW007`: [Raspberry Pi Ersteinrichtung mit DietPi Installation ohne Monitor automatisiert einrichten (Windows + Linux)](https://u-labs.de/portal/raspberry-pi-ersteinrichtung-mit-dietpi -installation-ohne-monitor-automatisiert-einrichten-windows-linux/){:class="nospellcheck"}
+DietPi-Community-Forum: [DietPi-Automatisierung](https://dietpi.com/phpbb/viewtopic.php?t=273)  
+Blogeintrag von `Holger Erbe`: [Vollautomatische Installation eines Raspberry Pi unter DietPi – Schritt für Schritt](https://blog.login.gmbh/vollautomatische-installation-eines-raspberry-pi-unter-dietpi- schritt-fuer-schritt/){:class="nospellcheck"}  
+Blogeintrag aus `DMW007`: [Raspberry Pi Ersteinrichtung mit DietPi Installation ohne Monitor automatisiert einrichten (Windows + Linux)](https://u-labs.de/portal/raspberry-pi-ersteinrichtung-mit-dietpi -installation-ohne-monitor-automatisiert-einrichten-windows-linux/){:class="nospellcheck"}  

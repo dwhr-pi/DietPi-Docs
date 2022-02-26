@@ -144,7 +144,7 @@ Es ist ein Einplatinencomputer der neuen Generation, der auf dem Amlogic S922X S
     </table>
 </div>
 
-## KIEFER64
+## Pine64
 
 Hier begann die Reise von PINE64. Der PINE A64 ist ihr erster Einplatinencomputer, der von Allwinners A64 Quad-Core ARM Cortex A53 64-Bit SOC angetrieben wird. Weitere Informationen finden Sie unter <a target="_blank" rel="noopener" href="https://www.pine64.org/">PINE64.org</a>
 
