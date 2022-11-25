@@ -24,6 +24,7 @@ Es verwendet erweitertes Markdown, wie von [MkDocs](https://www.mkdocs.org/) imp
 
 - Klonen Sie es: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
 - Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
+- Verzeichnis wechseln: `cd DietPi-Docs`
 - Führen Sie im Stammverzeichnis Folgendes aus: `mkdocs serve`
 
 Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8000`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8000`.
