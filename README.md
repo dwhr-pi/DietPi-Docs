@@ -1,63 +1,62 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/MichaIng/DietPi-Website/master/images/dietpi-logo_180x180.png" alt="DietPi logo" width="180" height="180" loading="lazy"></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/MichaIng/DietPi-Website/master/images/dietpi-logo_180x180.png" alt="DietPi-Logo" width="180" height="180" loading="faul"></h1>
 <p align="center">
-    <b>Lightweight justice for your single-board computer!</b>
-    <br><br>
-    optimised â€¢ simplified â€¢ for everyone
-    <br><br>
-    <a href="https://dietpi.com/" target="_blank" rel="noopener">Website</a> â€¢ <a href="https://dietpi.com/#download" target="_blank" rel="noopener">Downloads</a> â€¢ <a href="https://dietpi.com/docs/" target="_blank" rel="noopener">Documentation</a> â€¢ <a href="https://dietpi.com/phpbb/" target="_blank" rel="noopener">Forum</a> â€¢ <a href="https://dietpi.com/blog/" target="_blank" rel="noopener">Blog</a>
+<b>Leichtgewichtige Gerechtigkeit für Ihren Einplatinencomputer!</b>
+<br><br>
+optimiert • vereinfacht • für alle
+<br><br>
+<a href="https://dietpi.com/" target="_blank" rel="noopener">Website</a> • <a href="https://dietpi.com/#download" target=" _blank" rel="noopener">Downloads</a> • <a href="https://dietpi.com/docs/" target="_blank" rel="noopener">Dokumentation</a> • <a href ="https://dietpi.com/phpbb/" target="_blank" rel="noopener">Forum</a> • <a href="https://dietpi.com/blog/" target="_blank "rel="noopener">Blog</a>
 </p>
 <hr>
 <p align="center">
-    <strong>Ready to run</strong> optimised software choices with <a href="https://dietpi.com/dietpi-software.html" target="_blank" rel="noopener"><strong>dietpi-software</strong></a>
-    <br>Feature-rich configuration tool for your device with <strong>dietpi-config</strong>.
+<strong>Ready to run</strong> optimierte Softwareauswahl mit <a href="https://dietpi.com/dietpi-software.html" target="_blank" rel="noopener"><strong>dietpi-software </strong></a>
+<br>Funktionsreiches Konfigurationstool für Ihr Gerät mit <strong>dietpi-config</strong>.
 </p>
 <hr>
 
-## Introduction
+## Einführung
 
-This is the source code repository for the [DietPi Documentation website](https://dietpi.com/docs/).
-It uses extended Markdown, as implemented by [MkDocs](https://www.mkdocs.org/).
+Dies ist das Quellcode-Repository für die [DietPi-Dokumentationswebsite] (https://dietpi.com/docs/).
+Es verwendet erweitertes Markdown, wie von [MkDocs](https://www.mkdocs.org/) implementiert.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/michaing/dietpi-docs/badge)](https://www.codefactor.io/repository/github/michaing/dietpi-docs)
 
-## Building the documentation
+## Erstellen der Dokumentation
 
-- Clone it: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
-- Install/update dependencies: `pip3 install -Ur requirements.txt`
-- change to directory and after run it `cd DietPi-Docs`
-- From this directory, run: `mkdocs serve`
+- Klonen Sie es: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
+- Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
+- Führen Sie im Stammverzeichnis Folgendes aus: `mkdocs serve`
 
-It builds the static HTML pages into a temporary directory and starts a local web server at `http://localhost:8000`. If you have troubles accessing the MkDocs website, you could also listen on a specific IP address or all IP addresses, e.g. `mkdocs serve -a 0.0.0.0:8000`.
+Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8000`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8000`.
 
-## Contributing
+## Mitwirken
 
-There are many ways you could contribute to DietPi project. You could work on the DietPi project, extend the documentation, or just run different tests.
+Es gibt viele Möglichkeiten, wie Sie zum DietPi-Projekt beitragen können. Sie könnten am DietPi-Projekt arbeiten, die Dokumentation erweitern oder einfach verschiedene Tests durchführen.
 
-If you have experience with GitHub, you could either look for existent issue to start with or report a new one. Documentation updates should be done directly on GitHub, using the development branch: **[dev](https://github.com/MichaIng/DietPi-Docs/tree/dev)**, creating a Pull Request (PR).
+Wenn Sie Erfahrung mit GitHub haben, können Sie entweder zunächst nach einem bestehenden Problem suchen oder ein neues melden. Dokumentationsaktualisierungen sollten direkt auf GitHub durchgeführt werden, indem der Entwicklungszweig verwendet wird: **[dev](https://github.com/MichaIng/DietPi-Docs/tree/dev)**, indem ein Pull Request (PR) erstellt wird.
 
-If you need help:
+Wenn du Hilfe brauchst:
 
-- Send an email: micha@dietpi.com
-- Read the documentation: <https://dietpi.com/docs/>
+- Senden Sie eine E-Mail: micha@dietpi.com
+- Lesen Sie die Dokumentation: <https://dietpi.com/docs/>
 
-To see the full list of possibilities, please check our [contribution](https://dietpi.com/contribute.html) page.
+Die vollständige Liste der Möglichkeiten finden Sie auf unserer Seite [Beitrag](https://dietpi.com/contribute.html).
 
 ## Feedback
 
-- Ask a question on our [forum](https://dietpi.com/phpbb/).
-- [File a bug report or request](https://github.com/MichaIng/DietPi-Docs/issues)
-- Follow [@DietPi_](https://twitter.com/DietPi_) and let us know what you think!
+- Stellen Sie eine Frage in unserem [Forum](https://dietpi.com/phpbb/).
+- [Einen Fehlerbericht oder eine Anfrage einreichen](https://github.com/MichaIng/DietPi-Docs/issues)
+- Folgen Sie [@DietPi_](https://twitter.com/DietPi_) und teilen Sie uns Ihre Meinung mit!
 
-### GitHub Projects
+### GitHub-Projekte
 
 - DietPi: <https://github.com/MichaIng/DietPi>
-- Documentation: <https://github.com/MichaIng/DietPi-Docs>
+- Dokumentation: <https://github.com/MichaIng/DietPi-Docs>
 - Website: <https://github.com/MichaIng/DietPi-Website>
 
-## License
+## Lizenz
 
-<a rel="cc:attributionURL" property="dct:title" href="https://dietpi.com/docs/">DietPi-Docs</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://dietpi.com/">DietPi</a> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License - <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+<a rel="cc:attributionURL" property="dct:title" href="https://dietpi.com/docs/">DietPi-Docs</a> von <a rel="cc:attributionURL dct:creator "property="cc:attributionName" href="https://dietpi.com/">DietPi</a> ist lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License - <a rel="license" href="https ://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
 
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0 /88x31.png"></a>
 
-This website shows logos of 3rd party software and providers which are excluded from the above license. They may only be used related to their product, for details, check individual trademark rules and licenses.
+Diese Website zeigt Logos von Software und Anbietern von Drittanbietern, die von der oben genannten Lizenz ausgeschlossen sind. Sie dürfen nur im Zusammenhang mit ihrem Produkt verwendet werden. Einzelheiten finden Sie in den einzelnen Markenregeln und Lizenzen.
