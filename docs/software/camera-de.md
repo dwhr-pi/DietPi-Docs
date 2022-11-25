@@ -1,4 +1,4 @@
-# Kamera & Überwachung
+# Kamera und Überwachung
 
 ## Überblick
 

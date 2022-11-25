@@ -88,11 +88,11 @@
 ## [Entwicklung & Programmierung](Programmierung/)
 
 - [**Python 3 - Hochrangige interpretierte Programmiersprache**](programming-de/#python-3)
-- [**Go - Programmiersprache**](programming-de/#go)
+- [**Go - Programmiersprache**](Programmierung/#go)
 - [**Docker - Verteilte Anwendungen erstellen, versenden und ausführen**](programming-de/#docker)
 - [**Docker-Compose - Multi-Container-Anwendungen auf Docker ausführen**](programming-de/#docker-compose)
-- [**Portainer - Docker-Containerverwaltung**](programming-de/#portainer)
-- [**VSCodium - FLOSS-Version von Microsoft VSCode**](programming-de/#vscodium)
+- [**Portainer - Docker-Containerverwaltung**](Programmierung-de/#portainer)
+- [**VSCodium - FLOSS-Version von Microsoft VSCode**](Programmierung-de/#vscodium)
 
 ## [Verteilte Projekte](distributed_projects/)
 
@@ -117,15 +117,15 @@
 ## [Spiele & Emulation](Spiele/)
 
 - [**OpenTyrian - Open-Source-Portierung des DOS-Spiels Tyrian**](gaming-de/#opentyrian)
-- [**Cuberite - Schneller Minecraft-Server mit Webinterface**](gaming-de/#cuberite)
+- [**Cuberite - Schneller Minecraft-Server mit Webinterface**](Gaming-de/#cuberite)
 - [**MineOS - Mehrere Minecraft-Server mit Webinterface**](gaming-de/#mineos)
 - [**Nukkit - Server für Minecraft Pocket Edition**](gaming-de/#nukkit)
 - [**Amiberry - Optimierter Amiga-Emulator für ARM-basierte SoCs**](gaming-de/#amiberry)
-- [**DXX-Rebirth - Descent 1 und 2 OpenGL-Portierung**](gaming-de/#dxx-rebirth)
-- [**Steam - Steam-Client**](gaming-de/#steam)
+- [**DXX-Rebirth - Descent 1 und 2 OpenGL-Portierung**](Gaming-de/#dxx-rebirth)
+- [**Steam - Steam-Client**](Gaming-de/#steam)
 - [**PaperMC - Schneller und optimierter Minecraft-Server**](gaming-de/#papermc)
-- [**Box86 - i386 Userspace-Emulation für ARMv7**](gaming-de/#box86)
-- [**Box64 - x86_64 Userspace-Emulation für ARMv8**](gaming-de/#box64)
+- [**Box86 - i386 Userspace-Emulation für ARMv7**](Gaming-de/#box86)
+- [**Box64 - x86_64 Userspace-Emulation für ARMv8**](Gaming-de/#box64)
 
 ## [Hardware-Projekte](hardware_projects/)
 
