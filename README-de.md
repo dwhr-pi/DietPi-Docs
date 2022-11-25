@@ -55,7 +55,7 @@ Die vollständige Liste der Möglichkeiten finden Sie auf unserer Seite [Beitrag](
 
 ## Lizenz
 
-<a rel="cc:attributionURL" property="dct:title" href="https://dietpi.com/docs/">DietPi-Docs</a> von <a rel="cc:attributionURL dct:creator "property="cc:attributionName" href="https://dietpi.com/">DietPi</a> ist lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License - <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+<a rel="cc:attributionURL" property="dct:title" href="https://dietpi.com/docs/">DietPi-Docs</a> von <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://dietpi.com/">DietPi</a> ist lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License - <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
 
