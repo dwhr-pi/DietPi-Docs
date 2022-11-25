@@ -7,9 +7,9 @@
     {% set title = title ~ " - " ~ page.title | striptags %}
   {% endif %}
 
-  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="DietPi Dokumentation">
+  <meta property="og:site_name" content="DietPi Documentation">
   <meta property="og:title" content="{{ title }}">
   {% if page and page.meta and page.meta.description %}
     <meta property="og:description" content="{{ page.meta.description }}">
@@ -33,5 +33,5 @@
   <meta name="twitter:image" content="https://dietpi.com/images/dietpi-logo_720x720.png">
 {% endblock %}
 {% block announce %}
-  <a href="https://dietpi.com/contribute.html">Erfahren Sie, wie Sie das DietPi-Projekt unterstützen und dazu beitragen können <span class="twemoji">{% include ".icons/fontawesome/regular/heart.svg" %}</span></a>
+  <a href="https://dietpi.com/contribute.html">Learn how to support and contribute to the DietPi project <span class="twemoji">{% include ".icons/fontawesome/regular/heart.svg" %}</span></a>
 {% endblock %}
