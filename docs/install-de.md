@@ -114,7 +114,7 @@ Wählen Sie die folgenden Registerkarten für die Installationsbeschreibung Ihre
 
     Eine der Optionen einer virtuellen Maschine ist [__Oracle VirtualBox__](https://www.oracle.com/virtualization/virtualbox/).
 
-    ![DietPi-VirtualBox-Programm](assets/images/dietpi-VirtualBox-Programm.png){: width="1593" height="814" loading="lazy"}
+    ![DietPi-VirtualBox-Programm](assets/images/dietpi-VirtualBox-program.png){: width="1593" height="814" loading="lazy"}
 
     <font size="+2">Voraussetzungen</font>
 
@@ -188,7 +188,7 @@ Wählen Sie die folgenden Registerkarten für die Installationsbeschreibung Ihre
     Drücken Sie die Start-Taste (grüner Pfeil), um Ihr System basierend auf dem DietPi-Image hochzufahren.
 
     ??? Achtung „Sie müssen IPv6 deaktivieren, wenn der Host WLAN verwendet“
-        Manchmal hat die VM Schwierigkeiten, sich mit dem Internet zu verbinden. Dies wird in einem Netzwerk-Bridged-Modus gemeldet und wenn sich der Host über WLAN mit dem Internet verbindet: In diesen Fällen schlägt das IPv6-Routing zwischen der VM und dem Internet fehl (z. B. siehe [dort](https://communities.vmware.com/t5 /VMware-Fusion-Discussions/IPv6-Bridged-Wireless/td-p/2038235)).
+        Manchmal hat die VM Schwierigkeiten, sich mit dem Internet zu verbinden. Dies wird in einem Netzwerk-Bridged-Modus gemeldet und wenn sich der Host über WLAN mit dem Internet verbindet: In diesen Fällen schlägt das IPv6-Routing zwischen der VM und dem Internet fehl (z. B. siehe [dort](https://communities.vmware.com/t5/VMware-Fusion-Discussions/IPv6-Bridged-Wireless/td-p/2038235)).
         Ein typisches Ergebnis ist, dass das System den Update-Server nicht findet (z. B. beim allerersten Update-Lauf). Dies wird dann während der "apt update"-Prozedur des ersten Boot-Starts signalisiert.
         Um dies zu umgehen, öffnen Sie eine Subshell (oder ein zusätzliches SSH-Fenster), starten Sie `dietpi-config` und deaktivieren Sie **IPv6** in den Netzwerkoptionen.
 
@@ -258,7 +258,7 @@ Wählen Sie die folgenden Registerkarten für die Installationsbeschreibung Ihre
 
     Eine der Möglichkeiten einer virtuellen Maschine ist [__VMware Workstation Player__](https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html) bzw. [__VMware Fusion__](https://www.vmware.com/de/products/fusion/fusion-evaluation.html) (macOS).
 
-    ![DietPi-VMware-Programm](assets/images/dietpi-VMware-Programm.png){: width="769" height="588" loading="lazy"}
+    ![DietPi-VMware-Programm](assets/images/dietpi-VMware-program.png){: width="769" height="588" loading="lazy"}
 
     !!! info "Getestet mit Windows 10"
         Diese Beschreibung bezieht sich auf VMware Workstation 16 Player auf einem Microsoft Windows-System.
@@ -827,7 +827,7 @@ Das standardmäßige DietPi-Passwort ist öffentlich, daher werden Sie aufgeford
 
 Sie können das Passwort später wieder ändern, indem Sie am Terminal `passwd` eingeben oder auch über das Kommandozeilenskript `dietpi-config` (innerhalb der "Sicherheitsoptionen").
 
-![dietpi-Passwort](assets/images/dietpi-Passwort-01.jpg){: width="643" height="386" loading="lazy"}
+![dietpi-Passwort](assets/images/dietpi-password-01.jpg){: width="643" height="386" loading="lazy"}
 
 ## 5. Weitere Schritte
 

@@ -30,9 +30,9 @@ Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu insta
 
     ![DietPi-Software-Menü-Screenshot](../assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
 
-    Um alle DietPi-Konfigurationsoptionen anzuzeigen, lesen Sie den Abschnitt [DietPi Tools](../../dietpi_tools/).
+    Um alle DietPi-Konfigurationsoptionen anzuzeigen, lesen Sie den Abschnitt [DietPi Tools](../../dietpi_tools-de/).
 
-[Zurück zur **Liste der optimierten Software**](../../software/)
+[Zurück zur **Liste der optimierten Software**](../../software-de/)
 
 ## Transmission
 
@@ -52,7 +52,7 @@ Transmission, die leichtgewichtige Webschnittstelle des BitTorrent-Servers, mit 
 
 === "Auf Downloads zugreifen"
 
-    Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
+    Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers-de/) von DietPi installiert haben.
     Von Transmission verwendete Ordner:
 
     - Ordner, auf den über den Dateiserver zugegriffen wird = `downloads`
