@@ -14,14 +14,14 @@
 
     Um alle DietPi-Konfigurationsoptionen anzuzeigen, lesen Sie den Abschnitt [DietPi-Tools](../dietpi_tools/).
 
-## [Erweiterte Netzwerke](advanced_networking/)
+## [Erweiterte Netzwerke](advanced_networking-de/)
 
 - [**WiFi HotSpot - Verwandeln Sie Ihr Gerät in einen drahtlosen Hotspot/Zugangspunkt**](advanced_networking-de/#wifi-hotspot)
 - [**Tor HotSpot - Optional: Leitet den gesamten WLAN-Hotspot-Verkehr durch das Tor-Netzwerk**](advanced_networking-de/#tor-hotspot)
 - [**HAProxy - Hochleistungs-TCP/HTTP-Load-Balancer**](advanced_networking-de/#haproxy)
 - [**frp - Reverse-Proxy**](advanced_networking-de/#frp)
 
-## [BitTorrent & Download-Tools](bittorrent/)
+## [BitTorrent & Download-Tools](bittorrent-de/)
 
 - [**Transmission - Lightweight BitTorrent-Server mit Webinterface**](bittorrent-de/#transmission)
 - [**Deluge - Alternativer BitTorrent-Server mit Webinterface**](bittorrent-de/#deluge)
@@ -39,13 +39,13 @@
 - [**HTPC Manager - kombiniert all Ihre Lieblingssoftware in einer eleganten Oberfläche**](bittorrent-de/#htpc-manager)
 - [**youtube-dl - Videos von YouTube und anderen Seiten herunterladen**](bittorrent-de/#youtube-dl)
 
-## [Kamera & Überwachung](Kamera/)
+## [Kamera & Überwachung](camera-de/)
 
 - [**RPi Cam Control - Webinterface & Steuerelemente für Ihre RPi-Kamera**](camera-de/#rpi-cam-control)
 - [**MotionEye - Webinterface & Überwachung für Ihre Kamera**](camera-de/#motioneye)
 - [**mjpg-streamer - Einfaches Kamera-Streaming-Tool mit HTML-Plugin**](camera-de/#mjpg-streamer)
 
-## [Cloud & Backup-Systeme](cloud/)
+## [Cloud & Backup-Systeme](cloud-de/)
 
 - [**ownCloud - Ihr eigenes, persönliches Cloud-basiertes Sicherungs-/Datenspeichersystem**](cloud-de/#owncloud)
 - [**Nextcloud – Selbst gehostete Produktivitätsplattform**](cloud-de/#nextcloud)
@@ -61,7 +61,7 @@
 - [**FuguHub - Ihr eigener persönlicher Cloud-Server**](cloud-de/#fuguhub)
 - [**Dateibrowser - Leichter webbasierter Dateimanager mit Freigabefunktionen**](cloud-de/#file-browser)
 
-## [Datenbanken & Datenspeicher](Datenbanken/#Übersicht)
+## [Datenbanken & Datenspeicher](databases-de/#Übersicht)
 
 - [**MariaDB - Open Source relationale Datenbank**](database-de/#mariadb)
 - [**phpMyAdmin - SQL-Administrationstool für MariaDB**](database-de/#phpmyadmin)
@@ -70,7 +70,7 @@
 - [**InfluxDB - Open-Source-Zeitreihendatenbank**](database-de/#influxdb)
 - [**PostgreSQL - Persistente und erweiterte SQL-Datenbank-Engine**](databases-de/#postgresql)
 
-## [Desktops](Desktop/)
+## [Desktops](desktop-de/)
 
 - [**LXDE - Hochoptimierter ultraleichter Desktop**](desktop-de/#lxde)
 - [**LXQt - Glatter und optimierter leichter Desktop**](desktop-de/#lxqt)
@@ -78,56 +78,56 @@
 - [**Xfce - Leichter Desktop**](desktop-de/#xfce)
 - [**GNUstep - Alternativer/einzigartiger Desktop**](desktop-de/#gnustep)
 
-### [Desktop-Dienstprogramme](desktop/)
+### [Desktop-Dienstprogramme](desktop-de/)
 
 - [**Chromium - Webbrowser**](desktop-de/#chromium)
 - [**GIMP - Bildbearbeitung**](desktop-de/#gimp)
 - [**QuiteRSS - Reader für RSS- und Atom-Newsfeeds**](desktop-de/#quiterss)
 - [**Xfce Power Manager - Energiemanager mit Helligkeitssteuerung**](desktop-de/#xfce-power-manager)
 
-## [Entwicklung & Programmierung](Programmierung/)
+## [Entwicklung & Programmierung](programming-de/)
 
 - [**Python 3 - Hochrangige interpretierte Programmiersprache**](programming-de/#python-3)
-- [**Go - Programmiersprache**](programming-de/#go)
+- [**Go - Programmiersprache**](Programmierung/#go)
 - [**Docker - Verteilte Anwendungen erstellen, versenden und ausführen**](programming-de/#docker)
 - [**Docker-Compose - Multi-Container-Anwendungen auf Docker ausführen**](programming-de/#docker-compose)
-- [**Portainer - Docker-Containerverwaltung**](programming-de/#portainer)
-- [**VSCodium - FLOSS-Version von Microsoft VSCode**](programming-de/#vscodium)
+- [**Portainer - Docker-Containerverwaltung**](Programmierung-de/#portainer)
+- [**VSCodium - FLOSS-Version von Microsoft VSCode**](Programmierung-de/#vscodium)
 
-## [Verteilte Projekte](distributed_projects/)
+## [Verteilte Projekte](distributed_projects-de/)
 
 - [**Folding@Home - Nutzung der Rechenleistung zur Unterstützung der Krankheitsforschung**](distributed_projects-de/#foldinghome)
 - [**Tor-Relay - Füge einen Knoten zum Tor-Netzwerk hinzu**](distributed_projects-de/#tor-relay)
 - [**YaCy - Dezentrale Open-Source-Suchmaschine**](distributed_projects-de/#yacy)
 - [**IPFS-Knoten – Beitrag zu einem dezentralisierten Internet**](distributed_projects-de/#ipfs-node)
 
-## [DNS-Server](dns_servers/)
+## [DNS-Server](dns_servers-de/)
 
 - [**Pi-hole - Netzwerkweite Werbeblockierung**](dns_servers-de/#pi-hole)
 - [**Unbound - Ein validierender, rekursiver und zwischenspeichernder DNS-Resolver**](dns_servers-de/#unbound)
 - [**AdGuard Home - Ein leistungsstarker netzwerkweiter Anzeigen- und Tracker-Blocker-DNS-Server**](dns_servers-de/#adguard-home)
 
-## [Dateiserver](file_servers/)
+## [Dateiserver](file_servers-de/)
 
 - [**ProFTPD - Einfacher, effizienter, leichtgewichtiger FTP-Dateiserver**](file_servers-de/#proftpd)
 - [**Samba - Dateiserver mit vielen Funktionen**](file_servers-de/#samba)
 - [**vsftpd - FTP-Dateiserver mit vielen Funktionen**](file_servers-de/#vsftpd)
 - [**NFS - Netzwerk-Dateisystemserver**](file_servers-de/#nfs)
 
-## [Spiele & Emulation](Spiele/)
+## [Spiele & Emulation](gaming-de/)
 
 - [**OpenTyrian - Open-Source-Portierung des DOS-Spiels Tyrian**](gaming-de/#opentyrian)
-- [**Cuberite - Schneller Minecraft-Server mit Webinterface**](gaming-de/#cuberite)
+- [**Cuberite - Schneller Minecraft-Server mit Webinterface**](Gaming-de/#cuberite)
 - [**MineOS - Mehrere Minecraft-Server mit Webinterface**](gaming-de/#mineos)
 - [**Nukkit - Server für Minecraft Pocket Edition**](gaming-de/#nukkit)
 - [**Amiberry - Optimierter Amiga-Emulator für ARM-basierte SoCs**](gaming-de/#amiberry)
-- [**DXX-Rebirth - Descent 1 und 2 OpenGL-Portierung**](gaming-de/#dxx-rebirth)
-- [**Steam - Steam-Client**](gaming-de/#steam)
+- [**DXX-Rebirth - Descent 1 und 2 OpenGL-Portierung**](Gaming-de/#dxx-rebirth)
+- [**Steam - Steam-Client**](Gaming-de/#steam)
 - [**PaperMC - Schneller und optimierter Minecraft-Server**](gaming-de/#papermc)
-- [**Box86 - i386 Userspace-Emulation für ARMv7**](gaming-de/#box86)
-- [**Box64 - x86_64 Userspace-Emulation für ARMv8**](gaming-de/#box64)
+- [**Box86 - i386 Userspace-Emulation für ARMv7**](Gaming-de/#box86)
+- [**Box64 - x86_64 Userspace-Emulation für ARMv8**](Gaming-de/#box64)
 
-## [Hardware-Projekte](hardware_projects/)
+## [Hardware-Projekte](hardware_projects-de/)
 
 - [**Google AIY - Voice-Kit "Ok, Google"!**](hardware_projects-de/#google-aiy)
 - [**Mycroft AI – Open-Source-Sprachassistent**](hardware_projects-de/#mycroft-ai)
@@ -141,18 +141,18 @@
 - [**Audiophonics PI-SPC - Leistungssteuerungsmodul für Raspberry Pi, ermöglicht das Ein-/Ausschalten über physische Tasten**](hardware_projects-de/#audiophonics-pi-spc)
 - [**Grafana - Die offene Plattform für schöne Analysen und Überwachung**](hardware_projects-de/#grafana)
 
-## [Hausautomation](home_automation/)
+## [Hausautomation](home_automation-de/)
 
 - [**Home Assistant – Open-Source-Hausautomatisierungsplattform, die auf Python 3 läuft**](home_automation-de/#home-assistant)
 - [**Domoticz - Multi-Plattform-Hausautomationssystem**](home_automation-de/#domoticz)
 - [**TasmoAdmin - Verwaltungswebsite für Tasmota-Geräte**](home_automation-de/#tasmoadmin)
 
-## [Protokollierungssysteme](log_system/)
+## [Protokollierungssysteme](log_system-de/)
 
 - [**DietPi-RAMlog - Leichte RAM-Protokollierung**](log_system-de/#dietpi-ramlog)
 - [**Full - Vollständiges Protokollierungssystem mit Rsyslog und Logrotate**](log_system-de/#full-logging)
 
-## [Mediensysteme](media/)
+## [Mediensysteme](media-de/)
 
 - [**Kodi - Media Center/Player**](media-de/#kodi)
 - [**ympd - Leichtgewichtiger Webinterface-Audioplayer für MPD**](media-de/#ympd)
@@ -187,26 +187,26 @@
 - [**Snapcast Server - Audioserver für mehrere Räume**](media-de/#snapcast-server)
 - [**Snapcast-Client – ​​Multiroom-Audio-Client**](media-de/#snapcast-client)
 
-## [Druckserver](druckt/)
+## [Druckserver](printing-de/)
 
 - [**OctoPrint - Webinterface zur Steuerung von 3D-Druckern**](printing-de/#octoprint)
 - [**CUPS - Gemeinsames UNIX-Drucksystem**](printing-de/#cups)
 
-## [Remotedesktop & Fernzugriff](remote_desktop/)
+## [Remotedesktop & Fernzugriff](remote_desktop-de/)
 
-### [Remotedesktop](remote_desktop/#remote-desktop)
+### [Remotedesktop](remote_desktop-de/#remote-desktop)
 
 - [**TigerVNC Server - Desktop für Remoteverbindung**](remote_desktop-de/#tigervnc-server)
 - [**RealVNC Server - Desktop für Remote-Verbindung**](remote_desktop-de/#realvnc-server)
 - [**XRDP – Remotedesktopserver für Windows-Remotedesktopclient**](remote_desktop-de/#xrdp)
 - [**NoMachine - Remote-Desktop-Verbindung mit vielen Funktionen**](remote_desktop-de/#nomachine)
 
-### [Fernzugriff](remote_desktop/#remote-access)
+### [Fernzugriff](remote_desktop-de/#remote-access)
 
 - [**Remot3.it - ​​(Weaved) Greifen Sie über das Internet auf Ihr Gerät zu**](remote_desktop-de/#remot3it)
 – [**VirtualHere – Teilen Sie physisch angeschlossene USB-Geräte von Ihrem SBC über das Netzwerk**](remote_desktop-de/#virtualhere)
 
-## [Soziale Netzwerke & Suche](social/)
+## [Soziale Netzwerke & Suche](social-de/)
 
 - [**FreshRSS - Ein selbst gehosteter RSS-Feed-Aggregator**](social-de/#freshrss)
 - [**phpBB - Kostenlose Flat-Forum-Bulletin-Board-Softwarelösung**](social-de/#phpbb)
@@ -216,17 +216,17 @@
 - [**OpenBazaar - Dezentraler Peer-to-Peer-Marktserver mit Bitcoin**](social-de/#openbazaar)
 - [**Synapse - Dezentrale Kommunikation mit dem Matrix-Protokoll**](social-de/#synapse)
 
-## [SSH-Server](ssh/)
+## [SSH-Server](ssh-de/)
 
 - [**Dropbear - Leichtgewichtiger SSH-Server**](ssh-de/#dropbear)
 - [**OpenSSH - Funktionsreicher SSH-Server mit SFTP/SCP-Unterstützung**](ssh-de/#openssh)
 
-## [Systemsicherheit](system_security/)
+## [Systemsicherheit](system_security-de/)
 
 - [**Let’s Encrypt – HTTPS/SSL aktivieren**](system_security-de/#lets-encrypt)
 - [**Fail2Ban - Schützt Ihr System vor Brute-Force-Angriffen**](system_security-de/#fail2ban)
 
-## [Systemstatistiken und -verwaltung](system_stats/)
+## [Systemstatistiken und -verwaltung](system_stats-de/)
 
 - [**DietPi-Dashboard - Offizielle leichte eigenständige DietPi-Weboberfläche**](system_stats-de/#dietpi-dashboard)
 - [**DietPi-CloudShell - Leichtgewichtige Systemstatistiken für Ihr LCD-Display oder Ihren Monitor**](system_stats-de/#dietpi-cloudshell)
@@ -237,13 +237,13 @@
 - [**Webmin - Remote-Systemverwaltung mit Weboberfläche**](system_stats-de/#webmin)
 - [**K3s – Lightweight Kubernetes**](system_stats-de/#k3s)
 
-## [VPN](vpn/)
+## [VPN](vpn-de/)
 
 - [**OpenVPN - Einfach zu verwendender VPN-Server mit minimalem Aufwand**](vpn-de/#openvpn)
 - [**PiVPN - OpenVPN-Serverinstallations- und Verwaltungstool**](vpn-de/#pivpn)
 - [**WireGuard - Ein extrem einfaches, aber schnelles und modernes VPN**](vpn-de/#wireguard)
 
-## [Webentwicklung](webserver_stack/)
+## [Webentwicklung](webserver_stack-de/)
 
 ### [Stacks für die Webentwicklung](webserver_stack/#stacks-for-web-development)
 
@@ -254,14 +254,14 @@
 - [**LLMP-Webstack - Lighttpd / MariaDB / PHP**](webserver_stack-de/#llmp-web-stack)
 - [**LLSP-Webstack - Lighttpd / SQLite / PHP**](webserver_stack-de/#llsp-web-stack)
 
-### [Webserver](webserver_stack/#webserver)
+### [Webserver](webserver_stack-de/#webserver)
 
 - [**Apache - Webserver mit vielen Funktionen**](webserver_stack-de/#apache)
 - [**Nginx - Hochleistungs-Webserver, Load Balancer & Reverse Proxy**](webserver_stack-de/#nginx)
 - [**Lighttpd - Extrem leichter Webserver**](webserver_stack-de/#lighttpd)
 - [**Tomcat8 - Apache Tomcat-Server**](webserver_stack-de/#tomcat)
 
-### [Frameworks für Programmierung und Webentwicklung](webserver_stack/#web-development-programming-frameworks)
+### [Frameworks für Programmierung und Webentwicklung](webserver_stack-de/#web-development-programming-frameworks)
 
 - [**Flask - Micro-Web-Framework powered by Python**](webserver_stack-de/#flask)
 - [**PHP - Skriptsprache besonders geeignet für die Webentwicklung**](webserver_stack-de/#php)
