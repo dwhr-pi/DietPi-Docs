@@ -1,7 +1,7 @@
 # DietPi-Veröffentlichungen
 
 - [v8.0 Januar 2022](v8_0-de/)
-- [v7.9 Dezember 2021](v7_9-de-de/)
+- [v7.9 Dezember 2021](v7_9-de/)
 - [v7.8 November 2021](v7_8/)
 - [v7.7 Oktober 2021](v7_7-de/)
 - [v7.6 September 2021](v7_6-de/)
