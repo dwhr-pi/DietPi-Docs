@@ -8,21 +8,21 @@ Willkommen zur **Ver&ouml;ffentlichung vom Juli 2021** :octicons-heart-16: von *
 
 - [**Synapse**](../../software/social/#synapse)
 
-Synapse ist eine Referenz-Homeserver-Implementierung, die vom Kernteam von Matrix.org in Python/Twisted geschrieben wurde. Es erm&ouml;glicht die dezentrale Kommunikation, das Speichern aller pers&ouml;nlichen Benutzerinformationen, den Chatverlauf, das Erstellen des Raums f&uuml;r den eigenen Gebrauch und viele andere Optionen.
+    Synapse ist eine Referenz-Homeserver-Implementierung, die vom Kernteam von Matrix.org in Python/Twisted geschrieben wurde. Es erm&ouml;glicht die dezentrale Kommunikation, das Speichern aller pers&ouml;nlichen Benutzerinformationen, den Chatverlauf, das Erstellen des Raums f&uuml;r den eigenen Gebrauch und viele andere Optionen.
 
-Matrix Synapse ist eine gro&szlig;artige Alternative f&uuml;r Anwendungen wie Slack, Discord, Rocket.chat und andere.
+    Matrix Synapse ist eine gro&szlig;artige Alternative f&uuml;r Anwendungen wie Slack, Discord, Rocket.chat und andere.
 
-Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `125`.
+    Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `125`.
 
 - [**PostgreSQL**](../../software/databases/#postgresql)
 
-Ein persistenter erweiterter objektrelationaler Datenbankserver wurde hinzugef&uuml;gt. Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `194`.
+    Ein persistenter erweiterter objektrelationaler Datenbankserver wurde hinzugef&uuml;gt. Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `194`.
 
 - [**youtube-dl**](../../software/bittorrent/#youtube-dl)
 
-Das ber&uuml;hmte Kommandozeilenprogramm zum Herunterladen von Videos von YouTube und anderen Videoplattformen wurde hinzugef&uuml;gt.
+    Das ber&uuml;hmte Kommandozeilenprogramm zum Herunterladen von Videos von YouTube und anderen Videoplattformen wurde hinzugef&uuml;gt.
 
-Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `195`.
+    Jetzt verf&uuml;gbar zur Installation mit [`dietpi-software`](../../dietpi_tools/#dietpi-software) oder direkt mit der Software-ID `195`.
 
 ### DietPi Tools (neue / bemerkenswerte Updates) {: #dietpi-tools-74 }
 

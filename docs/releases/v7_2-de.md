@@ -18,25 +18,25 @@ Plus, mehr Verbesserungen und Fehlerbehebungen!
 
 - [Firefox](../../software/desktop/#firefox) :octicons-arrow-right-16: Der Browser Mozilla Firefox ist jetzt eine eigenst&auml;ndige Softwareoption mit der ID **67**. [DietPi-Software](../../dietpi_tools/#dietpi-software) wurde eine Browser-Einstellungsoption hinzugef&uuml;gt.
 
-![DietPi-Browsereinstellung](../assets/images/dietpi-software-browser-preference.jpg){: width="500" height="272" loading="lazy"}
+    ![DietPi-Browsereinstellung](../assets/images/dietpi-software-browser-preference.jpg){: width="500" height="272" loading="lazy"}
 
-Dies kann vor dem ersten Booten eingestellt werden, indem die neue Einstellung verwendet wird, die in der Datei `dietpi.txt` verf&uuml;gbar ist:
+    Dies kann vor dem ersten Booten eingestellt werden, indem die neue Einstellung verwendet wird, die in der Datei `dietpi.txt` verf&uuml;gbar ist:
 
-!!! Hinweis "Konfigurationsoptionen"
+    !!! Hinweis "Konfigurationsoptionen"
 
-Als n&auml;chste Optionen stehen zur Verf&uuml;gung: `0` = Keine | `-1` = [Firefox](../../software/desktop/#firefox) | `-2` = [Chromium](../../software/desktop/#chromium)
+        Als n&auml;chste Optionen stehen zur Verf&uuml;gung: `0` = Keine | `-1` = [Firefox](../../software/desktop/#firefox) | `-2` = [Chromium](../../software/desktop/#chromium)
 
-**Hinweis:** Diese Option legt fest, dass der Browser **nur** installiert wird, wenn ein [Desktop](../../software/#desktops) installiert ist. Es wird nicht installiert, wenn kein Desktop installiert ist und eine manuelle Browserauswahl es au&szlig;er Kraft setzt.
+        **Hinweis:** Diese Option legt fest, dass der Browser **nur** installiert wird, wenn ein [Desktop](../../software/#desktops) installiert ist. Es wird nicht installiert, wenn kein Desktop installiert ist und eine manuelle Browserauswahl es au&szlig;er Kraft setzt.
 
-`Sch
-AUTO_SETUP_BROWSER_INDEX=-1
-```
+        ```sh
+        AUTO_SETUP_BROWSER_INDEX=-1
+        ```
 
-Der Webbrowser wird _nur_ installiert, wenn ein [Desktop](../../software/#desktops) installiert ist. Es &auml;hnelt der Webserver-Einstellung, bei der ein Webserver NUR installiert wird, wenn ein anderer Softwaretitel dies erfordert.
+    Der Webbrowser wird _nur_ installiert, wenn ein [Desktop](../../software/#desktops) installiert ist. Es &auml;hnelt der Webserver-Einstellung, bei der ein Webserver NUR installiert wird, wenn ein anderer Softwaretitel dies erfordert.
 
-**Warum diese &Auml;nderung?** Anstatt **immer** Firefox installiert zu haben, wenn ein Desktop ausgew&auml;hlt wurde (oder als Abh&auml;ngigkeit gezogen wurde, zB ein VNC-Server), k&ouml;nnen Sie jetzt w&auml;hlen, ob Firefox, Chromium oder _kein Browser_ installiert wird.
+    **Warum diese &Auml;nderung?** Anstatt **immer** Firefox installiert zu haben, wenn ein Desktop ausgew&auml;hlt wurde (oder als Abh&auml;ngigkeit gezogen wurde, zB ein VNC-Server), k&ouml;nnen Sie jetzt w&auml;hlen, ob Firefox, Chromium oder _kein Browser_ installiert wird.
 
-Es handelt sich nicht um eine _`diesen Browser jetzt installieren`_-Auswahl, wie bei Dateiservern, SSH-Servern oder Protokollierungssystemen, sondern um eine Einstellungsauswahl.
+    Es handelt sich nicht um eine _`diesen Browser jetzt installieren`_-Auswahl, wie bei Dateiservern, SSH-Servern oder Protokollierungssystemen, sondern um eine Einstellungsauswahl.
 
 ### Neue unterst&uuml;tzte SBCs {: #new-sbc-72 }
 
@@ -56,34 +56,34 @@ Es handelt sich nicht um eine _`diesen Browser jetzt installieren`_-Auswahl, wie
 
 - [**DietPi-DDNS**](../../dietpi_tools/#dietpi-ddns)
 
-Es hat jetzt eine native Unterst&uuml;tzung f&uuml;r [FreeDNS](https://freedns.afraid.org) und [OVH](https://docs.ovh.com/gb/en/domains/hosting_dynhost/), was die Liste von erweitert vorhandene Optionen im `DietPi-DDNS`-Tool.
+    Es hat jetzt eine native Unterst&uuml;tzung f&uuml;r [FreeDNS](https://freedns.afraid.org) und [OVH](https://docs.ovh.com/gb/en/domains/hosting_dynhost/), was die Liste von erweitert vorhandene Optionen im `DietPi-DDNS`-Tool.
 
 - [**DietPi-VPN**](../../dietpi_tools/#dietpi-vpn)
 
-Es enth&auml;lt jetzt native Unterst&uuml;tzung f&uuml;r [IPVanish](https://www.ipvanish.com) und [Private Internet Access (PIA)](https://www.privateinternetaccess.com).
+    Es enth&auml;lt jetzt native Unterst&uuml;tzung f&uuml;r [IPVanish](https://www.ipvanish.com) und [Private Internet Access (PIA)](https://www.privateinternetaccess.com).
 
-Wenn `Zur&uuml;cksetzen` ausgew&auml;hlt wird, wird Ihnen nun angeboten, das OpenVPN-Paket zu l&ouml;schen, solange weder die OpenVPN (Server)-Installationsoption noch PiVPN installiert ist. Vielen Dank an @maartenlangeveld f&uuml;r diesen Vorschlag: <https://github.com/MichaIng/DietPi/issues/4346>.
+    Wenn `Zur&uuml;cksetzen` ausgew&auml;hlt wird, wird Ihnen nun angeboten, das OpenVPN-Paket zu l&ouml;schen, solange weder die OpenVPN (Server)-Installationsoption noch PiVPN installiert ist. Vielen Dank an @maartenlangeveld f&uuml;r diesen Vorschlag: <https://github.com/MichaIng/DietPi/issues/4346>.
 
-Lassen Sie eingehende Pakete von der Loopback-Schnittstelle zu. Es ist erforderlich, mit lokalen Servern (z. B. Pi-Hole) zu kommunizieren, die auf demselben Computer ausgef&uuml;hrt werden, da die Verbindung noch nicht als hergestellt gilt, wenn die Pakete noch nicht vom Server akzeptiert wurden.
+    Lassen Sie eingehende Pakete von der Loopback-Schnittstelle zu. Es ist erforderlich, mit lokalen Servern (z. B. Pi-Hole) zu kommunizieren, die auf demselben Computer ausgef&uuml;hrt werden, da die Verbindung noch nicht als hergestellt gilt, wenn die Pakete noch nicht vom Server akzeptiert wurden.
 
 - [**DietPi-AutoStart**](../../dietpi_tools/#dietpi-autostart)
 
-Es erm&ouml;glicht eine zuverl&auml;ssigere automatische Desktop-Anmeldung f&uuml;r Nicht-Root-Benutzer. Fr&uuml;her wurde der X-Server selbst vom Login-Benutzer gestartet, was oft zus&auml;tzliche Berechtigungen erforderte und manchmal, basierend auf GPU und Treiber, &uuml;berhaupt nicht m&ouml;glich war (ohne weitere Anpassungen).
-Die Methode wurde so ge&auml;ndert, dass LightDM f&uuml;r die automatische Anmeldung ohne Rootberechtigung verwendet wird, genau wie f&uuml;r die manuelle Desktop-Anmeldung, sich jedoch automatisch mit dem ausgew&auml;hlten Benutzer am Desktop anmeldet.
+    Es erm&ouml;glicht eine zuverl&auml;ssigere automatische Desktop-Anmeldung f&uuml;r Nicht-Root-Benutzer. Fr&uuml;her wurde der X-Server selbst vom Login-Benutzer gestartet, was oft zus&auml;tzliche Berechtigungen erforderte und manchmal, basierend auf GPU und Treiber, &uuml;berhaupt nicht m&ouml;glich war (ohne weitere Anpassungen).
+    Die Methode wurde so ge&auml;ndert, dass LightDM f&uuml;r die automatische Anmeldung ohne Rootberechtigung verwendet wird, genau wie f&uuml;r die manuelle Desktop-Anmeldung, sich jedoch automatisch mit dem ausgew&auml;hlten Benutzer am Desktop anmeldet.
 
 - [**DietPi-Software**](../../dietpi_tools/#dietpi-software)
 
-Zusammen mit der Browsereinstellung wurde eine Desktopeinstellungsoption hinzugef&uuml;gt, um auszuw&auml;hlen, welcher Desktop (nur) installiert werden soll, wenn eine andere Softwareauswahl dies erfordert, insbesondere Remote-Desktop-L&ouml;sungen. Dies kann vor dem ersten Booten eingestellt werden, indem die neue Einstellung verwendet wird, die in der Datei `dietpi.txt` verf&uuml;gbar ist:
+    Zusammen mit der Browsereinstellung wurde eine Desktopeinstellungsoption hinzugef&uuml;gt, um auszuw&auml;hlen, welcher Desktop (nur) installiert werden soll, wenn eine andere Softwareauswahl dies erfordert, insbesondere Remote-Desktop-L&ouml;sungen. Dies kann vor dem ersten Booten eingestellt werden, indem die neue Einstellung verwendet wird, die in der Datei `dietpi.txt` verf&uuml;gbar ist:
 
-!!! Hinweis "Konfigurationsoptionen"
+    !!! Hinweis "Konfigurationsoptionen"
 
-Folgende Optionen sind verf&uuml;gbar: `0` = [LXDE](../../software/desktop/#lxde) | `-1` = [Xfce](../../software/desktop/#xfce) | `-2` = [MATE](../../software/desktop/#mate) | `-3` = [LXQt](../../software/desktop/#lxqt) | `-4` = [GNUstep](../../software/desktop/#gnustep)
+        Folgende Optionen sind verf&uuml;gbar: `0` = [LXDE](../../software/desktop/#lxde) | `-1` = [Xfce](../../software/desktop/#xfce) | `-2` = [MATE](../../software/desktop/#mate) | `-3` = [LXQt](../../software/desktop/#lxqt) | `-4` = [GNUstep](../../software/desktop/#gnustep)
 
-**Hinweis:** Diese Option legt fest, dass der Desktop **nur** installiert wird, wenn eine andere ausgew&auml;hlte Software dies erfordert. Es wird nicht installiert, wenn keine andere Software einen Desktop ben&ouml;tigt und eine manuelle Desktop-Auswahl ihn &uuml;berschreibt.
+        **Hinweis:** Diese Option legt fest, dass der Desktop **nur** installiert wird, wenn eine andere ausgew&auml;hlte Software dies erfordert. Es wird nicht installiert, wenn keine andere Software einen Desktop ben&ouml;tigt und eine manuelle Desktop-Auswahl ihn &uuml;berschreibt.
 
-`Sch
-AUTO_SETUP_DESKTOP_INDEX=0
-```
+        ```sh
+        AUTO_SETUP_DESKTOP_INDEX=0
+        ```
 
 oder mit dem neuen Men&uuml;eintrag. Es funktioniert wie die Webserver-Pr&auml;ferenz, spielt also nur eine Rolle, wenn ein Desktop als Abh&auml;ngigkeit installiert ist und ein manuell ausgew&auml;hlter Desktop aus der vollst&auml;ndigen Softwareliste oder der Softwaresuchliste die Pr&auml;ferenz &uuml;berschreibt.
 
@@ -97,11 +97,11 @@ oder mit dem neuen Men&uuml;eintrag. Es funktioniert wie die Webserver-Pr&auml;f
 - [DietPi-Software | **RPi Cam Control**](../../software/camera/#rpi-cam-control) :octicons-arrow-right-16: Diese Installationsoption wurde f&uuml;r 64-Bit-Systeme deaktiviert. Es verwendet eine `32-bit/armhf` `raspimjpeg`-Bin&auml;rdatei, die von der `32-bit/armhf` C-Bibliothek abh&auml;ngt. Es wird wieder aktiviert, sobald der Projektbetreuer oder wir eine native `64-bit/arm64` `raspimjpeg`-Bin&auml;rdatei bereitstellen.
 - [DietPi-Software | **Roon Extension Manager**](../../software/media/#roon-extension-manager) :octicons-arrow-right-16: Nach einem gr&ouml;&szlig;eren Upgrade auf v1.0 ist es jetzt als Docker implementiert Container, und nicht als Node.js-Modul. Das Upgrade kann angewendet werden, indem Sie Folgendes manuell ausf&uuml;hren:
 
-`Sch
-dietpi-software neu installieren 86
-```
+    ```sh
+    dietpi-software reinstall 86
+    ```
 
-Vielen Dank an @JanKoudijs f&uuml;r die Entwicklung von Roon Extension Manager und die Implementierung der erforderlichen &Auml;nderungen in `DietPi-Software`: <https://github.com/MichaIng/DietPi/pull/4399>.
+    Vielen Dank an @JanKoudijs f&uuml;r die Entwicklung von Roon Extension Manager und die Implementierung der erforderlichen &Auml;nderungen in `DietPi-Software`: <https://github.com/MichaIng/DietPi/pull/4399>.
 - [DietPi-Software | **Pi-hole**](../../software/dns_servers/#pi-hole) :octicons-arrow-right-16: Bei Neuinstallationen und Neuinstallationen wird die Dauer der DNS-Abfrageprotokollierung auf 2 Tage reduziert. Eine interne Diskussion ergab, dass niemand von uns Protokolle verwendet, die &auml;lter als ein paar Stunden sind, w&auml;hrend diese standardm&auml;&szlig;ig ein Jahr lang aufbewahrt werden, was zu Datenbankgr&ouml;&szlig;en von Hunderten von MiB bis GiB f&uuml;hrt. Wir belassen es bei 2 Tagen, damit Dashboard-Grafiken/Diagramme beim Pi-Hole (Neu-)Start nicht leer sind. Benutzer, die langfristige DNS-Abfragedaten f&uuml;r Statistiken oder &auml;hnliches ben&ouml;tigen, k&ouml;nnen die TTL problemlos erh&ouml;hen, was auch in unseren Dokumenten angezeigt wird.
 
 ### Fehlerbehebungen {: #bug-fixes-72 }
@@ -111,24 +111,24 @@ Vielen Dank an @JanKoudijs f&uuml;r die Entwicklung von Roon Extension Manager u
 - [DietPi-Banner](../../dietpi_tools/#dietpi-banner) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem DietPi-VPN-Statistiken aufgrund eines falschen Dateipfads nicht angezeigt werden konnten. Vielen Dank an @sl002 f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4354>.
 - [DietPi-Banner](../../dietpi_tools/#dietpi-banner) und [DietPi-VPN](../../dietpi_tools/#dietpi-vpn) :octicons-arrow-right-16: Gel&ouml;st ein Problem, bei dem die WAN-IP nicht abgeleitet werden konnte, da der von uns verwendete externe API-Dienst zeitweise Serverprobleme hatte. Wir haben auch auf ein (hoffentlich) zuverl&auml;ssigeres mit h&ouml;herem Ratenlimit umgestellt, bis wir Zeit finden, eine eigene `GeoIP-API` zu hosten. Vielen Dank an @maartenlangeveld f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4393>.
 - [DietPi-Update](../../dietpi_tools/#dietpi-update) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem die Aktualisierung von DietPi v6.16 oder &auml;lter nicht wie beabsichtigt abgeschlossen wurde. Vielen Dank an @orotarobas f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4385>.
-- [DietPi-Drive_Manager](../../dietpi_tools/#dietpi-drive-manager) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem NTFS (und m&ouml;glicherweise andere) Dateisysteme nicht korrekt erkannt wurden, was zu einem Fehler f&uuml;hrte Mount-Versuche beim Booten. Vielen Dank an [phpBB:NoLifer](https://dietpi.com/phpbb/memberlist.php?username=NoLifer){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [Externe Festplatte beim Neustart nicht eingebunden]( https://dietpi.com/phpbb/viewtopic.php?t=8971)
+- [DietPi-Drive_Manager](../../dietpi_tools/#dietpi-drive-manager) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem NTFS (und m&ouml;glicherweise andere) Dateisysteme nicht korrekt erkannt wurden, was zu einem Fehler f&uuml;hrte Mount-Versuche beim Booten. Vielen Dank an [phpBB:NoLifer](https://dietpi.com/phpbb/memberlist.php?username=NoLifer){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [Externe Festplatte beim Neustart nicht eingebunden](https://dietpi.com/phpbb/viewtopic.php?t=8971)
 - [DietPi-Drive_Manager](../../dietpi_tools/#dietpi-drive-manager) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem Informationen f&uuml;r Laufwerke mit einer `systemd.automount`-Unit nicht korrekt erkannt wurden , was zu ung&uuml;ltigen `fstab`-Eintr&auml;gen f&uuml;hrt. Vielen Dank an @cocoflan und @BillyCorgan1 f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4339>.
-- [DietPi-JustBoom](../../dietpi_tools/#dietpi-justboom) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem der Equalizer in einigen F&auml;llen keine Wirkung hatte. Vielen Dank an [phpBB:zackdvd](https://dietpi.com/phpbb/memberlist.php?username=zackdvd){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb /viewtopic.php?t=8992>.
+- [DietPi-JustBoom](../../dietpi_tools/#dietpi-justboom) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem der Equalizer in einigen F&auml;llen keine Wirkung hatte. Vielen Dank an [phpBB:zackdvd](https://dietpi.com/phpbb/memberlist.php?username=zackdvd){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb/viewtopic.php?t=8992>.
 - [DietPi-LetsEncrypt](../../dietpi_tools/#dietpi-letsencrypt) :octicons-arrow-right-16: Es wurde ein Problem mit Lighttpd behoben, bei dem `lighty-enable-mod` oder `lighty-disable-mod ` schlug fehl, wenn die zugeh&ouml;rige Konfiguration bereits aktiviert bzw. deaktiviert war. Vielen Dank an @staxfax f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4336>.
 - [DietPi-Config](../../dietpi_tools/#dietpi-configuration) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem das &Auml;ndern des Gebietsschemas dieses generierte, aber nicht als neuen Systemstandard anwendete. Vielen Dank an @bamyasi f&uuml;r die Meldung des Problems: [MichaIng/DietPi#3515](https://github.com/MichaIng/DietPi/issues/3515#issuecomment-840751875)
 - [DietPi-Software | Python 3](../../software/programming/#python-3) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem die Installation von pip auf Stretch-Systemen aufgrund einer ge&auml;nderten Download-URL fehlschlug. Vielen Dank an @tfmeier f&uuml;r die Meldung dieses Problems: [docker-compose failed to install on Pine A64 on DietPi 7.1.2](https://dietpi.com/phpbb/viewtopic.php?t=8968)
-- [DietPi-Software | Webmin](../../software/system_stats/#webmin) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem Neustarts von der Weboberfl&auml;che nur den Dienst beendeten. Vielen Dank an @Burgess85 und [phpBB:Keridos](https://dietpi.com/phpbb/memberlist.php?username=Keridos){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [Webmin](https:/ /dietpi.com/phpbb/viewtopic.php?t=8839), <https://github.com/MichaIng/DietPi/pull/4331>.
+- [DietPi-Software | Webmin](../../software/system_stats/#webmin) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem Neustarts von der Weboberfl&auml;che nur den Dienst beendeten. Vielen Dank an @Burgess85 und [phpBB:Keridos](https://dietpi.com/phpbb/memberlist.php?username=Keridos){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [Webmin](https://dietpi.com/phpbb/viewtopic.php?t=8839), <https://github.com/MichaIng/DietPi/pull/4331>.
 - [DietPi-Software | Docker Compose](../../software/programming/#docker-compose) :octicons-arrow-right-16: Es wurde ein Problem auf ARMv8-Debian-Stretch-Systemen behoben, bei dem die Installation aufgrund fehlender Entwicklungsheader fehlschlug. Vielen Dank an [phpBB:tfmeier](https://dietpi.com/phpbb/memberlist.php?username=tfmeier){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [docker-compose failed to install on Pine A64 auf DietPi 7.1.2](https://dietpi.com/phpbb/viewtopic.php?p=34293#p34293)
 - [DietPi-Software | rTorrent](../../software/bittorrent/#rtorrent) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem Neuinstallationen vor v7.1 mit Lighttpd die Webserverkonfiguration nicht aktualisierten, um den neuen RPC-Socket-Proxy bereitzustellen . Vielen Dank an @bbsixzz f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4330>.
 - [DietPi-Software | rTorrent](../../software/bittorrent/#rtorrent) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem die Neuinstallation von v7.1 fehlschlug. Vielen Dank an @Joulinar f&uuml;r die Behebung.
 - [DietPi-Software | Radarr](../../software/bittorrent/#radarr) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem eine &auml;ltere Fallback-Version statt der neuesten installiert wurde. Vielen Dank an @Takerman f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4350>.
-- [DietPi-Software | Node.js](../../software/webserver_stack/#nodejs) :octicons-arrow-right-16: Behebung eines Problems auf ARMv6, bei dem die Installation weiterer Module &uuml;ber die Weboberfl&auml;che fehlschlug, da eine inkompatible Node.js-Version installiert wurde . Die neueste Node.js-Version wird jetzt &uuml;ber inoffizielle Builds installiert (siehe &Auml;nderungen oben). Vielen Dank an [phpBB:torwan](https://dietpi.com/phpbb/memberlist.php?username=torwan){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb /viewtopic.php?t=8944>
+- [DietPi-Software | Node.js](../../software/webserver_stack/#nodejs) :octicons-arrow-right-16: Behebung eines Problems auf ARMv6, bei dem die Installation weiterer Module &uuml;ber die Weboberfl&auml;che fehlschlug, da eine inkompatible Node.js-Version installiert wurde . Die neueste Node.js-Version wird jetzt &uuml;ber inoffizielle Builds installiert (siehe &Auml;nderungen oben). Vielen Dank an [phpBB:torwan](https://dietpi.com/phpbb/memberlist.php?username=torwan){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb/viewtopic.php?t=8944>
 - [DietPi-Software | RPi Cam Control](../../software/camera/#rpi-cam-control) :octicons-arrow-right-16: Zwei Probleme behoben: Neuinstallationen schlugen fehl, wenn bestimmte Dateien in der Weboberfl&auml;che bereits vorhanden waren und das Herunterfahren und Schaltfl&auml;chen zum Neustarten der Weboberfl&auml;che sind aufgrund unzureichender Webserver-Berechtigungen fehlgeschlagen.
 - [DietPi-Software | Kodi](../../software/media/#kodi) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem w&auml;hrend der Installation versucht wurde, einen Desktop-Eintrag zu erstellen, selbst wenn keine Desktop-Umgebung installiert war. Vielen Dank an [phpBB:sidgeg](https://dietpi.com/phpbb/memberlist.php?username=sidgeg){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: [Kodi Install Issues](https:// dietpi.com/phpbb/viewtopic.php?t=8995).
 - [DietPi-Software | Bitwarden_RS](../../software/cloud/#bitwarden_rs) :octicons-arrow-right-16: Dieses Projekt wurde von seinem Autor in `vaultwarden` umbenannt, um Verwechslungen und potenzielle rechtliche Probleme mit der urspr&uuml;nglichen Bitwarden-Software zu vermeiden. Dies f&uuml;hrte dazu, dass unsere Installationsoption fehlschlug. Um diese wichtige &Auml;nderung auf alle Bitwarden_RS-Instanzen anzuwenden, wird sie w&auml;hrend der DietPi-Aktualisierung per Neuinstallation migriert. Da das Kompilieren bis zu mehreren Stunden dauern kann, werden die Nutzer zu Beginn des DietPi-Updates informiert, mit der M&ouml;glichkeit, es abzubrechen und zu einem sp&auml;teren Zeitpunkt anzuwenden. Alle Daten und Konfigurationen bleiben w&auml;hrend der Neuinstallation erhalten. Vielen Dank an @math-gout f&uuml;r die Information &uuml;ber diese &Auml;nderung: <https://github.com/MichaIng/DietPi/issues/4325>.
 - [DietPi-Software | Home Assistant](../../software/home_automation/#home-assistant) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem die Installation fehlschlug, da das Ausf&uuml;hren von `pyenv init -` die PATH-Variable nicht mehr erg&auml;nzt .
 - [DietPi-Software | Mosquitto](../../software/hardware_projects/#mosquitto) :octicons-arrow-right-16: Es wurde ein Problem behoben, bei dem die Installation auf ARMv8-Systemen fehlschlug. Vielen Dank an @fra87 f&uuml;r die Meldung dieses Problems: <https://github.com/MichaIng/DietPi/issues/4424>
-- [DietPi-Software | Kodi](../../software/media/#kodi) :octicons-arrow-right-16: Es wurde ein Problem auf 64-Bit-RPi-Systemen behoben, bei dem das Starten von Kodi au&szlig;erhalb einer Desktop-Sitzung (z -autostart](../../dietpi_tools/#dietpi-autostart) Option) ist fehlgeschlagen, da unser Skript versucht hat, es ohne X-Server zu starten (vorgesehen auf 32-Bit-RPi-Systemen). Vielen Dank an [phpBB:Milemar](https://dietpi.com/phpbb/memberlist.php?username=Milemar){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb /viewtopic.php?t=9030>
+- [DietPi-Software | Kodi](../../software/media/#kodi) :octicons-arrow-right-16: Es wurde ein Problem auf 64-Bit-RPi-Systemen behoben, bei dem das Starten von Kodi au&szlig;erhalb einer Desktop-Sitzung (z -autostart](../../dietpi_tools/#dietpi-autostart) Option) ist fehlgeschlagen, da unser Skript versucht hat, es ohne X-Server zu starten (vorgesehen auf 32-Bit-RPi-Systemen). Vielen Dank an [phpBB:Milemar](https://dietpi.com/phpbb/memberlist.php?username=Milemar){: class="nospellcheck"} f&uuml;r die Meldung dieses Problems: <https://dietpi.com/phpbb/viewtopic.php?t=9030>
 
 ### Entfernte Software {: #removed-software-72 }
 
