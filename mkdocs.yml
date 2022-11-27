@@ -1,8 +1,8 @@
 site_name: DietPi.com-Dokumentation
 site_url:  https://dietpi.de/docs/
 site_description: Offizielle Dokumentationsseiten f&uuml;r DietPi OS
-site_author: DietPi.com-Team
-copyright: Copyright © 2022 DietPi.com | Dokumentation Verteilt unter <a target="_blank"
+site_author: DietPi.com Team
+copyright: Copyright © 2022 DietPi.com | Dokumentation verteilt unter <a target="_blank"
            href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 
 repo_name: DietPi-Docs
