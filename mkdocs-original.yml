@@ -11,7 +11,7 @@ edit_uri: edit/dev/docs/
 docs_dir: docs
 
 theme:
-  name: material
+  name: material # Die verfuegbaren installierten Designs sind: mkdocs, readthedocs, material
   custom_dir: overrides # https://www.mkdocs.org/user-guide/styling-your-docs/#using-the-theme-custom_dir
 
   # Don't include MkDocs' JavaScript
