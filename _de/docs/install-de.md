@@ -847,7 +847,7 @@ Ein Video-Tutorial zum Thema _Installation und Erstkonfiguration von DietPi_ von
 Weitere Videos:
 
 - YouTube-Video Nr. 1: [DietPi installieren: Schnelles Linux für jeden Raspberry Pi!!!](https://www.youtube.com/watch?v=U-UXenzA2m8){:class="nospellcheck"}  
-– YouTube-Video Nr. 2: [How Install Diet Pi Raspberry Pi 4 or Any SBC – Install Setup Configure](https://www.youtube.com/watch?v=qH0YsFNIyFo){:class="nospellcheck"}  
-- YouTube-Video Nr. 3: [Headless Installation von Dietpi | Kein Monitor, kein LAN, kein Router-Login | WLAN vorkonfigurieren](https://www.youtube.com/watch?v=vlMpn9u0Y4o){:class="nospellcheck"}  
+– YouTube-Video Nr. 2: [So installieren Sie DietPi Raspberry Pi 4 oder einen beliebigen SBC - Installieren, Einrichten, Konfigurieren](https://www.youtube.com/watch?v=qH0YsFNIyFo){:class="nospellcheck"}  
+- YouTube-Video Nr. 3: [Headless Installation von DietPi | Kein Monitor, kein LAN, kein Router-Login | WLAN vorkonfigurieren](https://www.youtube.com/watch?v=vlMpn9u0Y4o){:class="nospellcheck"}  
 - YouTube-Video Nr. 4: [Installieren von DietPi auf Raspberry Pi, Erster Start und Konfiguration](https://www.youtube.com/watch?v=LzJpAUufyy0){:class="nospellcheck"}  
 - YouTube-Video Nr. 5 (deutschsprachig): [Raspberry Pi 4 & DietPi - die schnelle Alternative - Grundinstallation einfach erklärt](https://www.youtube.com/watch?v=J5yPeJFLSO0&list=PLQIL7cyHMGboXtOzwAcX4hGPW6ECbVinp&index=7){:class= "nospellcheck"}  
