@@ -233,7 +233,7 @@ Synapse ist ein in Python geschriebener Server für die Kommunikation über das 
 
 === "F&ouml;deration"
 
-    Synapse ist standardmä&szlig;ig als privater Server ohne Verbindung zu anderen Servern eingerichtet. ??? Information "rmationen zum Verbinden mit anderen Servern (Federate) finden Sie unter https://github.com/matrix-org/synapse/blob/develop/docs/federate.md. Beachten Sie, dass frp derzeit nicht mit Synapse funktioniert.
+    Synapse ist standardmä&szlig;ig als privater Server ohne Verbindung zu anderen Servern eingerichtet. So verbinden Sie sich mit anderen Servern (Federate), finden Sie unter https://github.com/matrix-org/synapse/blob/develop/docs/federate.md. Beachten Sie, dass frp derzeit nicht mit Synapse funktioniert.
 
 === "Konfiguration"
 
