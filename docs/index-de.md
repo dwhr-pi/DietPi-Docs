@@ -31,7 +31,7 @@ Wenn Sie **neu bei DietPi** sind, bietet [_Install_](install/) ein Tutorial für
 
 Wenn Sie **Hilfe benötigen** und [_Getting Started_](getting_started/) gelesen haben, sehen Sie sich [_Troubleshooting_](https://dietpi.com/phpbb/viewforum.php?f=11) an.
 
-Weitere Einzelheiten finden Sie im [_DietPi Community Forum_] (https://dietpi.com/phpbb/viewforum.php?f=5).
+Weitere Einzelheiten finden Sie im [_DietPi Community Forum_](https://dietpi.com/phpbb/viewforum.php?f=5).
 
 ## Einfach zu installierende beliebte Software
 

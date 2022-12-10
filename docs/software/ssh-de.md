@@ -1,34 +1,34 @@
 # SSH-Serverauswahl
 
-## &Uuml;berblick
+## Ü;berblick
 
 - [**Dropbear - Leichtgewichtiger SSH-Server**](#dropbear)
-- [**OpenSSH - SSH-Server mit vielen Funktionen und SFTP/SCP-Unterst&uuml;tzung**](#openssh)
+- [**OpenSSH - SSH-Server mit vielen Funktionen und SFTP/SCP-Unterstützung**](#openssh)
 
-??? Information "Wie f&uuml;hre ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
-    Um eines der unten aufgef&uuml;hrten **DietPi-optimierten Softwareelemente** zu installieren, f&uuml;hren Sie es &uuml;ber die Befehlszeile aus:
+??? Information "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
+    Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu installieren, führen Sie es über die Befehlszeile aus:
 
     ```sh
     dietpi-software
     ```
 
-    W&auml;hlen Sie **Software durchsuchen** und w&auml;hlen Sie einen oder mehrere Artikel aus. W&auml;hlen Sie abschlie&szlig;end `Installieren`.
-    DietPi f&uuml;hrt alle notwendigen Schritte aus, um diese Softwareelemente zu installieren und zu starten.
+    Wählen Sie **Software durchsuchen** und wählen Sie einen oder mehrere Artikel aus. Wählen Sie abschlie&szlig;end `Installieren`.
+    DietPi führt alle notwendigen Schritte aus, um diese Softwareelemente zu installieren und zu starten.
 
-    ![DietPi-Software-Men&uuml;-Screenshot](../assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
+    ![DietPi-Software-Menü-Screenshot](../assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
 
     Um alle DietPi-Konfigurationsoptionen anzuzeigen, lesen Sie den Abschnitt [DietPi Tools](../../dietpi_tools/).
 
-[Zur&uuml;ck zur **Liste der optimierten Software**](../../software/)
+[Zurück zur **Liste der optimierten Software**](../../software/)
 
-## Fallb&auml;r
+## Fallbär
 
-Dropbear ist ein leichtgewichtiger SSH-Server, der standardm&auml;&szlig;ig auf DietPi-Systemen installiert ist.
+Dropbear ist ein leichtgewichtiger SSH-Server, der standardmä&szlig;ig auf DietPi-Systemen installiert ist.
 Hinweis: Sie k&ouml;nnen Ihren SSH-Server jederzeit mit der *DietPi-Software* austauschen oder wechseln.
 
 ![Dropbear-Logo](../assets/images/dietpi-software-sshserver-dropbear.jpg){: width="150" height="121" loading="lazy"}
 
-=== "Zugriff auf die Weboberfl&auml;che"
+=== "Zugriff auf die Weboberfläche"
 
     Der SSH-Server kann direkt von Unix mit dem `ssh`-Kommandozeilenprogramm oder anderen SSH-Client-Programmen verbunden werden:
 
@@ -48,7 +48,7 @@ Wikipedia: <https://wikipedia.org/wiki/Dropbear_(Software)>
 
 ## OpenSSH
 
-OpenSSH bietet einen funktionsreichen SSH-Server mit SFTP/SCP-Unterst&uuml;tzung.
+OpenSSH bietet einen funktionsreichen SSH-Server mit SFTP/SCP-Unterstützung.
 Hinweis: Sie k&ouml;nnen Ihren SSH-Server jederzeit mit der *DietPi-Software* austauschen oder wechseln.
 
 ![OpenSSH-Logo](../assets/images/dietpi-software-sshserver-openssh.gif){: width="300" height="99" loading="lazy"}
@@ -68,11 +68,11 @@ Hinweis: Sie k&ouml;nnen Ihren SSH-Server jederzeit mit der *DietPi-Software* au
 
 === "Windows SFTP/SCP-Client"
 
-    Mit WinSCP k&ouml;nnen Sie Dateien und Ordner auf Ihr DietPi-Ger&auml;t &uuml;bertragen ([WinSCP-Downloadseite](https://winscp.net/eng/download.php)).
+    Mit WinSCP k&ouml;nnen Sie Dateien und Ordner auf Ihr DietPi-Gerät übertragen ([WinSCP-Downloadseite](https://winscp.net/eng/download.php)).
 
 ***
 
 Website: <https://www.openssh.com>
 Wikipedia: <https://wikipedia.org/wiki/OpenSSH>
 
-[Zur&uuml;ck zur **Liste der optimierten Software**](../../software/)
+[Zurück zur **Liste der optimierten Software**](../../software/)
