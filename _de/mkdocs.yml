@@ -131,26 +131,26 @@ nav:
   - Webentwicklung: software/webserver_stack-de.md
 - VEROEFFENTLICHUNGEN:
   - Uebersicht: releases-de.md
-  - v8.1 Februar 2022: releases/v8_1-de.md
-  - v8.0 Januar 2022: releases/v8_0-de.md
-  - v7.9 Dezember 2021: releases/v7_9-de.md
-  - v7.8 November 2021: releases/v7_8-de.md
-  - v7.7 Oktober 2021: releases/v7_7-de.md
-  - v7.6 September 2021: releases/v7_6-de.md
-  - v7.5 August 2021: releases/v7_5-de.md
-  - v7.4 Juli 2021: releases/v7_4-de.md
-  - v7.3 Juni 2021: releases/v7_3-de.md
-  - v7.2 Mai 2021: releases/v7_2-de.md
-  - v7.1 April 2021: releases/v7_1-de.md
-  - v7.0 Februar 2021: releases/v7_0-de.md
-  - v6.34 Dezember 2020: releases/v6_34-de.md
-  - v6.33 Oktober 2020: releases/v6_33-de.md
-  - v6.32 August 2020: releases/v6_32-de.md
-  - v6.31 Juli 2020: releases/v6_31-de.md
-  - v6.30 Mai 2020: releases/v6_30-de.md
-  - v6.29 Mai 2020: releases/v6_29-de.md
-  - v6.28 Januar 2020: releases/v6_28-de.md
-  - v6.27 Januar 2020: releases/v6_27-de.md
+  - v8.1 Februar 2022: releases-de/v8_1-de.md
+  - v8.0 Januar 2022: releases-de/v8_0-de.md
+  - v7.9 Dezember 2021: releases-de/v7_9-de.md
+  - v7.8 November 2021: releases-de/v7_8-de.md
+  - v7.7 Oktober 2021: releases-de/v7_7-de.md
+  - v7.6 September 2021: releases-de/v7_6-de.md
+  - v7.5 August 2021: releases-de/v7_5-de.md
+  - v7.4 Juli 2021: releases-de/v7_4-de.md
+  - v7.3 Juni 2021: releases-de/v7_3-de.md
+  - v7.2 Mai 2021: releases-de/v7_2-de.md
+  - v7.1 April 2021: releases-de/v7_1-de.md
+  - v7.0 Februar 2021: releases-de/v7_0-de.md
+  - v6.34 Dezember 2020: releases-de/v6_34-de.md
+  - v6.33 Oktober 2020: releases-de/v6_33-de.md
+  - v6.32 August 2020: releases-de/v6_32-de.md
+  - v6.31 Juli 2020: releases-de/v6_31-de.md
+  - v6.30 Mai 2020: releases-de/v6_30-de.md
+  - v6.29 Mai 2020: releases-de/v6_29-de.md
+  - v6.28 Januar 2020: releases-de/v6_28-de.md
+  - v6.27 Januar 2020: releases-de/v6_27-de.md
   - Fr&uuml;her: https://dietpi.com/phpbb/viewforum.php?f=10
 - GEMEINSCHAFT:
   # Die erste Datei "socialmedia-de.md" wird hinzugefuegt, ansonsten springt in manchen Browsern ein Klick auf "Community" direkt zum ersten Eintrag
