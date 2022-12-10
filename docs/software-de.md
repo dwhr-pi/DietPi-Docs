@@ -136,7 +136,7 @@
 - [**WiringPi - GPIO-Schnittstellenbibliothek**](hardware_projects-de/#wiringpi)
 - [**WebIOPi - Webinterface zur Steuerung von RPi GPIO**](hardware_projects-de/#webiopi)
 - [**Node-RED - Visuelles Tool zum Verbinden von Hardwaregeräten, APIs und Onlinediensten**](hardware_projects-de/#node-red)
-- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](hardware_projects-de/#Mosquitto)
+- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](hardware_projects-de/#mosquitto)
 - [**Blynk Server - iOS- und Android-Apps zur Steuerung von Arduino, ESP8266, Raspberry Pi und ähnlichen Mikrocontroller-Boards über das Internet**](hardware_projects-de/#blynk-server)
 - [**Audiophonics PI-SPC - Leistungssteuerungsmodul für Raspberry Pi, ermöglicht das Ein-/Ausschalten über physische Tasten**](hardware_projects-de/#audiophonics-pi-spc)
 - [**Grafana - Die offene Plattform für schöne Analysen und Überwachung**](hardware_projects-de/#grafana)
