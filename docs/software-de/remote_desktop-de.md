@@ -177,7 +177,7 @@ XRDP ist eine Remote-Desktop-Anwendung, die den *Windows Remote Desktop Client* 
 
 ## NoMachine
 
-    NoMachine ist ein Remote-Desktop-Server mit erweiterten Funktionen wie Bildschirmaufzeichnung. Der Client scannt auch nach allen verfügbaren NoMachine-Servern in Ihrem Netzwerk, was eine einfache Verbindung und Wartung Ihrer Remote-Desktops erm&ouml;glicht.
+NoMachine ist ein Remote-Desktop-Server mit erweiterten Funktionen wie Bildschirmaufzeichnung. Der Client scannt auch nach allen verfügbaren NoMachine-Servern in Ihrem Netzwerk, was eine einfache Verbindung und Wartung Ihrer Remote-Desktops erm&ouml;glicht.
 
 ![NoMachine-Client- und Desktop-Screenshot](../assets/images/dietpi-software-remotedesktop-nomachine.png){: width="600" height="299" loading="lazy"}
 
@@ -199,7 +199,7 @@ XRDP ist eine Remote-Desktop-Anwendung, die den *Windows Remote Desktop Client* 
 
     Sie werden nun mit Ihrem Gerät verbunden.
 
-##Remot3.it
+## Remot3.it
 
 Remot3.it erm&ouml;glicht Ihnen den einfachen Zugriff auf Ihr DietPi-Gerät über das Internet.
 

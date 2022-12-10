@@ -10,7 +10,7 @@
 - [**OpenBazaar - Dezentraler Peer-to-Peer-Marktserver mit Bitcoin**](#openbazaar)
 - [**Synapse - Dezentrale Kommunikation mit dem Matrix-Protokoll**](#synapse)
 
-??? ??? Information " "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
+??? Information " "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
     Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu installieren, führen Sie es über die Befehlszeile aus:
 
     ```sh

@@ -9,7 +9,7 @@
 - [**WiringPi - GPIO-Schnittstellenbibliothek**](#wiringpi)
 - [**WebIOPi - Webinterface zur Steuerung von RPi GPIO**](#webiopi)
 - [**Node-RED - Visuelles Tool zum Verbinden von Hardwaregeräten, APIs und Onlinediensten**](#node-red)
-- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](#mosquitto)
+- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](#Mosquitto)
 - [**Blynk Server - Blynk-Server mit Web- und MQTT-Schnittstelle zur Steuerung von IoT-Geräten, geschrieben in Java**](#blynk-server)
 - [**Audiophonics PI-SPC - Leistungssteuerungsmodul für Raspberry Pi, erm&ouml;glicht das Ein-/Ausschalten über physische Tasten**](#audiophonics-pi-spc)
 - [**Grafana - Die offene Plattform für sch&ouml;ne Analysen und Ü;berwachung**](#grafana)
@@ -269,7 +269,7 @@ Node-RED ist ein visuelles Tool zum Verbinden von Hardwaregeräten, APIs und Onl
 Website: <https://nodered.org>
 Bibliotheken bzw. Flows: <https://flows.nodered.org>
 
-## Mücke
+## Mosquitto
 
 Eclipse Mosquitto™ ist ein Open-Source-Message-Broker (EPL/EDL-lizenziert), der die MQTT-Protokollversionen 3.1 und 3.1.1 implementiert.
 MQTT bietet eine einfache Methode zur Durchführung von Messaging mit einem Publish/Subscribe-Modell. Dadurch eignet es sich für IoT-Messaging (Internet of Things), z. B. mit Low-Power-Sensoren oder mobilen Geräten wie Telefonen, eingebetteten Computern oder Mikrocontrollern wie dem Arduino.
