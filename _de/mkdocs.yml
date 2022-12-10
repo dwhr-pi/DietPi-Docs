@@ -131,7 +131,7 @@ nav:
   - Webentwicklung: software/webserver_stack-de.md
 - VEROEFFENTLICHUNGEN:
   - Uebersicht: releases-de.md
-  - v8.1 Februar 2022: releases-de/v8_1-de.md
+
   - v8.0 Januar 2022: releases-de/v8_0-de.md
   - v7.9 Dezember 2021: releases-de/v7_9-de.md
   - v7.8 November 2021: releases-de/v7_8-de.md
