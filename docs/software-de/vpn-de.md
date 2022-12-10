@@ -1,6 +1,6 @@
 # VPN
 
-## Ü;berblick
+## Überblick
 
 - [**OpenVPN - Einfach zu verwendender VPN-Server mit minimalem Aufwand**](#openvpn)
 - [**PiVPN - OpenVPN-Serverinstallations- und Verwaltungstool**](#pivpn)
@@ -184,7 +184,7 @@ Bei der Installation mit `dietpi-software` k&ouml;nnen Sie wählen, ob Sie WireG
     Wenn Sie sich mit einem anderen DietPi-Rechner verbinden m&ouml;chten, verwenden Sie die generierte `/etc/wireguard/wg0-client.conf` wie oben erwähnt.
     Wenn keine WireGuard (Auto-)Startanleitung enthalten ist, Sie diese aber ben&ouml;tigen, gehen Sie bitte wie folgt vor:
 
-    - Ü;berprüfen Sie die erstellte Konfigurationsdatei/den Schnittstellennamen: `ls -Al /etc/wireguard/`
+    - Überprüfen Sie die erstellte Konfigurationsdatei/den Schnittstellennamen: `ls -Al /etc/wireguard/`
     - Es hat eine `.conf` Dateiendung, nehmen wir an: `wg0-client.conf`
     - Führen Sie zum Starten der VPN-Schnittstelle Folgendes aus: `systemctl start wg-quick@wg0-client`
     - Um die VPN-Schnittstelle beim Booten automatisch zu starten, führen Sie Folgendes aus: `systemctl enable wg-quick@wg0-client`

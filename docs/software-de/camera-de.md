@@ -1,9 +1,9 @@
-# Kamera & Ü;berwachung
+# Kamera & Überwachung
 
-## Ü;berblick
+## Überblick
 
 - [**RPi Cam Control - Webinterface & Steuerelemente für Ihre RPi-Kamera**](#rpi-cam-control)
-- [**MotionEye - Webinterface & Ü;berwachung für Ihre Kamera**](#motioneye)
+- [**MotionEye - Webinterface & Überwachung für Ihre Kamera**](#motioneye)
 - [**mjpg-streamer - Einfaches Kamera-Streaming-Tool mit HTML-Plugin**](#mjpg-streamer)
 
 ??? Information "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
@@ -74,7 +74,7 @@ Lizenz: [MIT](https://github.com/silvanmelchior/RPi_Cam_Web_Interface/blob/maste
 
 ## MotionEye
 
-Das Paket *MotionEye* bietet Ü;berwachung für Ihre Kamera.
+Das Paket *MotionEye* bietet Überwachung für Ihre Kamera.
 Es konzentriert sich hauptsächlich auf die Verwendung der Bewegungserkennung. Es enthält ein Webinterface.
 
 Die Software kann

@@ -1,6 +1,6 @@
 # Heimautomatisierung
 
-## Ü;berblick
+## Überblick
 
 - [**Home Assistant - Open-Source-Hausautomatisierungsplattform, die auf Python 3 läuft**](#home-assistant)
 - [**Domoticz - Multi-Plattform-Hausautomationssystem**](#domoticz)
@@ -38,7 +38,7 @@ Home Assistant ist eine Open-Source-Hausautomatisierungsplattform, die auf Pytho
     - Führen Sie `htop` aus und warten Sie, bis die CPU-Auslastung der `homeassistant`-Prozesse auf nahezu Null gesunken ist.
     - Führen Sie `systemctl restart home-assistant` aus
     - Führen Sie `htop` aus und warten Sie, bis die CPU-Auslastung der `homeassistant`-Prozesse auf nahezu Null gesunken ist.
-    - &Ouml;ffnen Sie die HA-Weboberfläche (siehe Registerkarte `Zugriff auf die Weboberfläche`). Beim ersten Zugriff werden wieder einige Python-Module installiert, was wiederum eine Weile dauern kann. Ü;berprüfen Sie immer `htop`, wenn Sie sich nicht sicher sind, was einen aktuell laufenden Python/pip-Modul-Installationsprozess anzeigt.
+    - &Ouml;ffnen Sie die HA-Weboberfläche (siehe Registerkarte `Zugriff auf die Weboberfläche`). Beim ersten Zugriff werden wieder einige Python-Module installiert, was wiederum eine Weile dauern kann. Überprüfen Sie immer `htop`, wenn Sie sich nicht sicher sind, was einen aktuell laufenden Python/pip-Modul-Installationsprozess anzeigt.
 
 === "Zugriff auf die Weboberfläche"
 

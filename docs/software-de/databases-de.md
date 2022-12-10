@@ -1,6 +1,6 @@
 # Datenbanken und Datenspeicher
 
-## Ü;berblick
+## Überblick
 
 - [**MariaDB** - relationale Open-Source-Datenbank](#mariadb)
 - [**phpMyAdmin** - SQL-Administrationstool für MariaDB](#phpmyadmin)
@@ -110,7 +110,7 @@ Befehle: <https://redis.io/commands>
 
 ## InfluxDB
 
-**InfluxDB** ist eine _Zeitreihen_-Datenbank und für hohe Schreib- und Abfragelasten optimiert. Zu diesem Zweck eignet es sich sehr gut, um Sensordaten oder Zeitreiheninformationen aus verschiedenen Protokollen zu speichern. InfluxDB ist nicht nur eine Zeitreihenplattform, sondern bietet auch eine Web-Benutzeroberfläche und Dashboard-Tools, Hintergrundverarbeitung und einen Ü;berwachungsagenten.
+**InfluxDB** ist eine _Zeitreihen_-Datenbank und für hohe Schreib- und Abfragelasten optimiert. Zu diesem Zweck eignet es sich sehr gut, um Sensordaten oder Zeitreiheninformationen aus verschiedenen Protokollen zu speichern. InfluxDB ist nicht nur eine Zeitreihenplattform, sondern bietet auch eine Web-Benutzeroberfläche und Dashboard-Tools, Hintergrundverarbeitung und einen Überwachungsagenten.
 
 Die Hauptschnittstelle zur Datenbank für die Verwaltung und Datenübertragung sind HTTP-Anforderungen, die direkt vom Dienst `influxdb` verarbeitet werden (der verwendete Standardport ist `8086`).
 
@@ -203,7 +203,7 @@ PostgreSQL ist ein persistenter, fortschrittlicher objektrelationaler Datenbanks
 
 === "Implementierungsdetails"
 
-    Während das Debian-Paket PostgreSQL mit einem aktiven TCP/IP-Listener ausliefert, allerdings nur auf localhost, ist dieser bei der Installation über die DietPi-Software standardmä&szlig;ig deaktiviert. Wir empfehlen die Verwendung des UNIX-Domain-Sockets in `/run/postgresql`, um eine Verbindung zur Datenbank herzustellen, was Leistungsvorteile bietet. Wenn TCP/IP-Verbindungen erforderlich sind, empfiehlt es sich, eine Ü;berschreibungskonfiguration wie `/etc/postgresql/*/main/conf.d/99local.conf` zu erstellen und die Listening-Adresse festzulegen:
+    Während das Debian-Paket PostgreSQL mit einem aktiven TCP/IP-Listener ausliefert, allerdings nur auf localhost, ist dieser bei der Installation über die DietPi-Software standardmä&szlig;ig deaktiviert. Wir empfehlen die Verwendung des UNIX-Domain-Sockets in `/run/postgresql`, um eine Verbindung zur Datenbank herzustellen, was Leistungsvorteile bietet. Wenn TCP/IP-Verbindungen erforderlich sind, empfiehlt es sich, eine Überschreibungskonfiguration wie `/etc/postgresql/*/main/conf.d/99local.conf` zu erstellen und die Listening-Adresse festzulegen:
 
     ```
     listen_addresses = 'localhost'
@@ -276,6 +276,6 @@ Lizenz: [PostgreSQL-Lizenz](https://www.postgresql.org/about/licence/)
 
 [Zurück zur **Liste der optimierten Software**](../../software/)
 
-[^1]: [Ü;ber MariaDB Server und MariaDB Foundation](https://mariadb.org/about/)
+[^1]: [Über MariaDB Server und MariaDB Foundation](https://mariadb.org/about/)
 
-[^2]: [Ü;ber SQLite](https://www.sqlite.com/about.html)
+[^2]: [Über SQLite](https://www.sqlite.com/about.html)

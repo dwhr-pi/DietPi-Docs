@@ -1,6 +1,6 @@
 # Mediensysteme
 
-## Ü;berblick
+## Überblick
 
 - [**Kodi - Media Center/Player**](#kodi)
 - [**ympd - Leichtgewichtiger Webinterface-Audioplayer für MPD**](#ympd)
@@ -16,7 +16,7 @@
 - [**Ampache - Media-Streaming-Server der Webschnittstelle**](#ampache)
 - [**Emby - Media-Streaming-Server der Webschnittstelle**](#emby)
 - [**Plex Media Server - Medien-Streaming-Server der Webschnittstelle**](#plex-media-server)
-- [**Tautulli - Ü;berwachungs- und Tracking-Tool für Plex Media Server**](#tautulli)
+- [**Tautulli - Überwachungs- und Tracking-Tool für Plex Media Server**](#tautulli)
 - [**Murmeln - Mumble VoIP Server**](#Murmeln)
 - [**Roon Bridge - Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer**](#roon-bridge)
 - [**Roon Server - Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Roon-Core**](#roon-server)
@@ -688,7 +688,7 @@ YouTube-Video-Tutorial: `Raspberry Pi 4 - Plex TV Media Server unter DietPi inst
 
 ##Tautulli
 
-Ein Python-basiertes Ü;berwachungs- und Tracking-Tool für Plex Media Server.
+Ein Python-basiertes Überwachungs- und Tracking-Tool für Plex Media Server.
 
 ![Screenshot der Tautulli-Weboberfläche](../assets/images/dietpi-software-media-tautulli.png){: width="400" height="273" loading="lazy"}
 
@@ -839,7 +839,7 @@ YouTube-Videos von `David Snyder`: <https://www.youtube.com/c/dsnyder0cnn/search
 
 ## Roon-Erweiterungsmanager
 
-Beim Start greift der Roon Extension Manager auf ein Repository zu, das die von der Community entwickelten Erweiterungen enthält. Ü;ber `Einstellungen` \> `Erweiterungen` innerhalb von Roon kann das Repository eingesehen und eine Erweiterung ausgewählt werden, um eine bestimmte Aktion auszuführen.
+Beim Start greift der Roon Extension Manager auf ein Repository zu, das die von der Community entwickelten Erweiterungen enthält. Über `Einstellungen` \> `Erweiterungen` innerhalb von Roon kann das Repository eingesehen und eine Erweiterung ausgewählt werden, um eine bestimmte Aktion auszuführen.
 
 ![Roon-Logo](../assets/images/dietpi-software-media-roon.png){: width="150" height="81" loading="lazy"}
 
@@ -1358,7 +1358,7 @@ Ein Befehlszeilen-Musikorganisator und -manager. Einige der wichtigsten Funktion
 
 - Flexibler automatischer Metadatenkorrektor und Dateiumbenenner
 - Albumcover-Downloader, Songtext-Abrufer und Genre-Identifikator
-- Instrument zur Ü;berprüfung und Änderung von Musikmetadaten für viele Audiodateitypen
+- Instrument zur Überprüfung und Änderung von Musikmetadaten für viele Audiodateitypen
 
 ![Beets-Logo](../assets/images/dietpi-software-media-beets.png){: width="144" height="144" loading="lazy"}
 
@@ -1430,7 +1430,7 @@ Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konf
     }
     ```
 
-    Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMPD` genannt. Ü;berprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
+    Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMPD` genannt. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
 
     ```
     source = pipe:///tmp/mpd.fifo?name=myMPD&mode=read
@@ -1447,7 +1447,7 @@ Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konf
     output = audioresample ! audioconvert ! audio/x-raw,rate=48000,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/mopidy.fifo
     ```
 
-Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMopidy` genannt. Ü;berprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
+Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMopidy` genannt. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
 
     ```
     source = pipe:///tmp/mopidy.fifo?name=myMopidy&mode=read
@@ -1457,7 +1457,7 @@ Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unt
 
     Wenn Sie Raspotify installiert haben, k&ouml;nnen Sie es als Eingabequelle verwenden.
 
-    Fügen Sie die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier angezeigt wird. Ich habe ihn `mySpotify` genannt. Der `Gerätename` ist der Name, der beim Verbinden in Spotify angezeigt wird. Ü;berprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#librespot>. Ich habe den Audio-Cache deaktiviert, um die SD-Karte zu schützen.
+    Fügen Sie die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier angezeigt wird. Ich habe ihn `mySpotify` genannt. Der `Gerätename` ist der Name, der beim Verbinden in Spotify angezeigt wird. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#librespot>. Ich habe den Audio-Cache deaktiviert, um die SD-Karte zu schützen.
 
     ```
     source = librespot:///usr/bin/librespot?name=mySpotify&devicename=SnapcastSpotify&disable_audio_cache=true
@@ -1478,7 +1478,7 @@ Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unt
 
     Vergessen Sie nicht, `make` und `make install` auszuführen.
 
-    Fügen Sie dann die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier erscheint, ich habe ihn `myAirport` genannt. Der `Gerätename` ist der Name, der bei der Suche nach Airport-Geräten angezeigt wird. Ü;berprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
+    Fügen Sie dann die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier erscheint, ich habe ihn `myAirport` genannt. Der `Gerätename` ist der Name, der bei der Suche nach Airport-Geräten angezeigt wird. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
 
     ```
     source = airplay:///usr/local/bin/shairport-sync?name=myAirport&devicename=SnapcastAirport&params=--configfile=/usr/local/etc/shairport-sync.conf

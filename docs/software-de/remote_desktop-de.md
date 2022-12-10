@@ -2,7 +2,7 @@
 
 Führen Sie eine **Desktop-Umgebung** auf Ihrem Gerät aus und greifen Sie remote über das Netzwerk darauf zu. Es ist eine gro&szlig;artige Option für Headless-SBC-Geräte.
 
-## Ü;berblick
+## Überblick
 
 ### Remotedesktop
 
@@ -124,8 +124,8 @@ RealVNC besteht aus dem *VNC-Server* und der Anwendung *VNC Viewer*, um den Desk
     #### Freigegebener Desktop
 
     Wenn Sie `SOFTWARE_VNCSERVER_SHARE_DESKTOP=1` in `/boot/dietpi.txt` setzen oder die automatische Desktop-Anmeldung über `dietpi-autostart` (Index 2) auswählen, wird der RealVNC-Server beim Booten im Shared-Desktop-Modus gestartet und an den zuerst gefundenen angehängt lokale Desktop-Sitzung.
-    Ü;berprüfen Sie den Dienststatus über `systemctl status vncserver-x11-serviced`.
-    Ü;berprüfen Sie alle Protokolle über `journalctl -u vncserver-x11-serviced`.
+    Überprüfen Sie den Dienststatus über `systemctl status vncserver-x11-serviced`.
+    Überprüfen Sie alle Protokolle über `journalctl -u vncserver-x11-serviced`.
 
     #### RealVNC-Unternehmensabonnement
 
@@ -210,7 +210,7 @@ Remot3.it verbindet Sie mit einem bestimmten TCP-Port auf Ihrem Gerät, die alle
 Beispiele für TCP-Ports für Remot3.it:
 
 - SSH-Port **22**. &Ouml;ffnen Sie ein Remote-Terminal für Ihr Gerät.
-- Ü;bertragungsport **9091**. Ü;berwachen Sie Ihre BitTorrent-Downloads.
+- Übertragungsport **9091**. Überwachen Sie Ihre BitTorrent-Downloads.
 - Webserver-Port **80**. Greifen Sie auf Ihre internen Websites zu.
 
 === "Erstlauf-Setup"

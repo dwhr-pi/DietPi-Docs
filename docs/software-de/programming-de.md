@@ -1,6 +1,6 @@
 # Entwicklung & Programmierung
 
-## Ü;berblick
+## Überblick
 
 - [**Python 3 - Hochrangige interpretierte Programmiersprache**](#python-3)
 - [**Go - Programmiersprache**](#go)

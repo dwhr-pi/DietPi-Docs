@@ -1,6 +1,6 @@
 # Cloud- und Backup-Systeme
 
-## Ü;berblick
+## Überblick
 
 - [**ownCloud - Ihr eigenes, pers&ouml;nliches Cloud-basiertes Sicherungs-/Datenspeichersystem**](#owncloud)
 - [**Nextcloud – Selbst gehostete Produktivitätsplattform**](#nextcloud)
@@ -186,13 +186,13 @@ Mit Nextcloud haben Sie überall Zugriff auf alle Ihre Dateien. Speichern Sie Ih
         logpath = /mnt/dietpi_userdata/nextcloud_data/nextcloud.log
         ```
 
-        Ü;berprüfen Sie, ob der `logpath` mit dem Wert in der Nextcloud-Konfigurationsdatei (`config.php`siehe oben) identisch ist.
+        Überprüfen Sie, ob der `logpath` mit dem Wert in der Nextcloud-Konfigurationsdatei (`config.php`siehe oben) identisch ist.
 
     Wie hier nicht angegeben, verwendet Fail2Ban Properties wie `maxretry`, `bantime`, etc. aus `/etc/fail2ban/jail.conf` oder `/etc/fail2ban/jail.local` (falls vorhanden). Beachten Sie die Einstellung `backend = auto`. Standardmä&szlig;ig ist `backend` in `/etc/fail2ban/jail.conf` auf `systemd` gesetzt. Dadurch ignoriert Fail2Ban den `logpath`-Eintrag hier im Jail `nextcloud.conf`, mit der Folge, dass Fail2Ban einen Angriff auf Nextcloud (Port 80, 443) nicht erkennt, obwohl Angriffe in `/mnt/ aufgeführt sind. dietpi_userdata/nextcloud_data/nextcloud.log`.
 
     - Fail2Ban neu starten: `systemctl restart fail2ban`.
     - Testen Sie Ihre Einstellungen, indem Sie mehrmals versuchen, sich von einem Remote-PC mit einem falschen Benutzer oder Passwort anzumelden. Nach `maxretry`-Versuchen muss Ihre IP für `bantime` Sekunden gesperrt werden (DietPi antwortet nicht mehr), da die Standardaktion von Fail2Ban `route` ist, spezifiziert in `/etc/fail2ban/action.d/route.conf`.
-    - Ü;berprüfen Sie den aktuellen Status auf Ihrem DietPi mit `fail2ban-client status nextcloud`.
+    - Überprüfen Sie den aktuellen Status auf Ihrem DietPi mit `fail2ban-client status nextcloud`.
     - Siehe auch:
     - [Fail2Ban](../system_security/#fail2ban-protects-your-system-from-brute-force-attacks)
         - <https://help.nextcloud.com/t/repeated-login-attempts-from-china/6510/11?u=michaing>
@@ -233,7 +233,7 @@ Mit Nextcloud haben Sie überall Zugriff auf alle Ihre Dateien. Speichern Sie Ih
     **Wie kann ich meinen OPcache-Status überprüfen?**
 
     PHP verwendet einen sogenannten *OPcache*, um PHP-Skripte im optimierten *opcode*-Format im RAM zu speichern, was den Browserzugriff beschleunigt, da die rohen PHP-Skripte nicht zuerst von der Festplatte gelesen und geparst werden müssen.
-    Das Nextcloud-Admin-Panel enthält eine Ü;berprüfung auf ausreichende OPcache-Einstellungen und zeigt gegebenenfalls eine Empfehlung für anzuwendende Einstellungen an. Wenn solche erscheinen, empfehlen wir, sie mit einer eigenen Konfigurationsdatei anzuwenden, z.
+    Das Nextcloud-Admin-Panel enthält eine Überprüfung auf ausreichende OPcache-Einstellungen und zeigt gegebenenfalls eine Empfehlung für anzuwendende Einstellungen an. Wenn solche erscheinen, empfehlen wir, sie mit einer eigenen Konfigurationsdatei anzuwenden, z.
 
     ```sh
     echo -e '; Custom Nextcloud OPcache settings\n; priority=99\nopcache.memory_consumption=128' > /etc/php/7.4/mods-available/custom.ini
@@ -520,7 +520,7 @@ Ihr ganz eigener Server im GitHub-Stil mit Webinterface.
 
     - Fail2Ban neu starten: `systemctl restart fail2ban`
     - Versuchen Sie, sich mit einem falschen Passwort bei der Gitea-Weboberfläche anzumelden.
-    - Ü;berprüfen Sie, ob die fehlgeschlagene Anmeldung erkannt wurde: `fail2ban-client status gitea`
+    - Überprüfen Sie, ob die fehlgeschlagene Anmeldung erkannt wurde: `fail2ban-client status gitea`
     - Wenn Sie weiterhin versuchen, sich `maxretry`-mal anzumelden, sollte Ihre IP für `bantime`-Sekunden gesperrt werden, sodass weder die Gitea-Weboberfläche noch SSH oder andere Netzwerkanwendungen auf Anfragen Ihres Clients reagieren. Wenn Fail2Ban über `dietpi-software` installiert wurde, wird standardmä&szlig;ig die `route`/`blackhole`-Blockierung verwendet, sodass `ip r` auf dem Server eine `blackhole`-Route für die IP Ihres Clients anzeigen sollte.
     - Siehe auch:
         - [Fail2Ban](../system_security/#fail2ban)
