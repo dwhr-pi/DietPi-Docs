@@ -201,7 +201,7 @@ Installiert auch:
 
 Mopidy ist eine auf Python basierende, webbasierte Benutzeroberfläche für Musikplayer für MPD.
 
-![Screenshot der Mopidy-Weboberfläche](../assets/images/dietpi-software-media-mopiady.png){: width="400" height="198" loading="lazy"}
+![Screenshot der Mopidy-Weboberfläche](../assets/images/dietpi-software-media-mopidy.png){: width="400" height="198" loading="lazy"}
 
 === "Zugriff auf die Weboberfläche"
 
