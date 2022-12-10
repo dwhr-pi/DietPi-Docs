@@ -49,7 +49,7 @@ Installiert auch:
     - Benutzername = `admin`
     - Passwort = `<Ihr globales Passwort>` (Standard: `dietpi`)
 
-    Wenn Sie Ihre ownCloud von der Befehlszeile aus über den Befehl `occ` konfigurieren m&ouml;chten, lesen Sie das [ownCloud-Admin-Handbuch] (https://doc.owncloud.org/server/10.5/admin_manual/configuration/server/occ_command.html).
+    Wenn Sie Ihre ownCloud von der Befehlszeile aus über den Befehl `occ` konfigurieren m&ouml;chten, lesen Sie das [ownCloud-Admin-Handbuch](https://doc.owncloud.org/server/10.5/admin_manual/configuration/server/occ_command.html).
 
     Um diese Konfiguration zu vereinfachen, hat DietPi dem sonst notwendigen `sudo -u www-data php /var/www/owncloud/occ` einen Shortcut hinzugefügt.
     Verwenden Sie einfach in Ihrem Terminal:
@@ -250,7 +250,7 @@ Mit Nextcloud haben Sie überall Zugriff auf alle Ihre Dateien. Speichern Sie Ih
 
     **Was soll ich tun, wenn die PHP-Module `bcmath`, `gmp` und `imagick` fehlen?**
 
-    Nach einer Neuinstallation über `dietpi-software` zeigt Nextcloud eine Warnung *"In dieser Instanz fehlen einige empfohlene PHP-Module. Für eine verbesserte Leistung und bessere Kompatibilität wird dringend empfohlen, sie zu installieren."*, auch beschrieben [hier](https ://dietpi.com/phpbb/viewtopic.php?p=27383#p27383). Wir schlagen vor, sie zu ignorieren, `imagick` wird überhaupt nicht ben&ouml;tigt und ist ein Diskussionsthema bezüglich Sicherheitsfragen, `bcmath` und `gmp` sind nur erforderlich, wenn Sie die passwortlose WebAuthn-Authentifizierung mit Nextcloud verwenden m&ouml;chten.
+    Nach einer Neuinstallation über `dietpi-software` zeigt Nextcloud eine Warnung *"In dieser Instanz fehlen einige empfohlene PHP-Module. Für eine verbesserte Leistung und bessere Kompatibilität wird dringend empfohlen, sie zu installieren."*, auch beschrieben [hier](https://dietpi.com/phpbb/viewtopic.php?p=27383#p27383). Wir schlagen vor, sie zu ignorieren, `imagick` wird überhaupt nicht ben&ouml;tigt und ist ein Diskussionsthema bezüglich Sicherheitsfragen, `bcmath` und `gmp` sind nur erforderlich, wenn Sie die passwortlose WebAuthn-Authentifizierung mit Nextcloud verwenden m&ouml;chten.
     Wenn Sie diese Warnungen stumm schalten müssen, k&ouml;nnen Sie die Module manuell installieren:
 
     ```sh

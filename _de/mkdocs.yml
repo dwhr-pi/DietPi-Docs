@@ -106,29 +106,29 @@ nav:
   - Referenzen: references-de.md
 - OPTIMIERTE SOFTWARE:
   - Uebersicht: software-de.md
-  - Erweiterte Vernetzung: software/advanced_networking-de.md
-  - BitTorrent & Download-Tools: software/bittorrent-de.md
-  - Kamera & &Uuml;berwachung: software/camera-de.md
-  - Cloud- & Backup-Systeme: software/cloud-de.md
-  - Datenbanken & Datenspeicher: software/databases-de.md
-  - Desktops & Dienstprogramme: software/desktop-de.md
-  - Entwicklung & Programmierung: software/programming-de.md
-  - Verteilte Projekte: software/distributed_projects-de.md
-  - DNS-Server: software/dns_servers-de.md
-  - Dateiserver: software/file_servers-de.md
-  - Gaming & Emulation: software/gaming-de.md
-  - Hardware-Projekte: software/hardware_projects-de.md
-  - Hausautomation: software/home_automation-de.md
-  - Logging-Systeme: software/log_system-de.md
-  - Mediensysteme: software/media-de.md
-  - Druckserver: software/printing-de.md
-  - Remotedesktop & Fernzugriff: software/remote_desktop-de.md
-  - Social & Suche: software/social-de.md
-  - SSH-Server: software/ssh-de.md
-  - Systemsicherheit: software/system_security-de.md
-  - Systemstatistik & Management: software/system_stats-de.md
-  - VPN: software/vpn-de.md
-  - Webentwicklung: software/webserver_stack-de.md
+  - Erweiterte Vernetzung: software-de/advanced_networking-de.md
+  - BitTorrent & Download-Tools: software-de/bittorrent-de.md
+  - Kamera & &Uuml;berwachung: software-de/camera-de.md
+  - Cloud- & Backup-Systeme: software-de/cloud-de.md
+  - Datenbanken & Datenspeicher: software-de/databases-de.md
+  - Desktops & Dienstprogramme: software-de/desktop-de.md
+  - Entwicklung & Programmierung: software-de/programming-de.md
+  - Verteilte Projekte: software-de/distributed_projects-de.md
+  - DNS-Server: software-de/dns_servers-de.md
+  - Dateiserver: software-de/file_servers-de.md
+  - Gaming & Emulation: software-de/gaming-de.md
+  - Hardware-Projekte: software-de/hardware_projects-de.md
+  - Hausautomation: software-de/home_automation-de.md
+  - Logging-Systeme: software-de/log_system-de.md
+  - Mediensysteme: software-de/media-de.md
+  - Druckserver: software-de/printing-de.md
+  - Remotedesktop & Fernzugriff: software-de/remote_desktop-de.md
+  - Social & Suche: software-de/social-de.md
+  - SSH-Server: software-de/ssh-de.md
+  - Systemsicherheit: software-de/system_security-de.md
+  - Systemstatistik & Management: software-de/system_stats-de.md
+  - VPN: software-de/vpn-de.md
+  - Webentwicklung: software-de/webserver_stack-de.md
 - VEROEFFENTLICHUNGEN:
   - Uebersicht: releases-de.md
 
