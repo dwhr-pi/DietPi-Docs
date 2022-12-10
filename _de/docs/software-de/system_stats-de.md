@@ -1,6 +1,6 @@
 # Systemstatistiken und -verwaltung
 
-## Ü;berblick
+## Überblick
 
 - [**DietPi-Dashboard - Offizielles, leichtes, eigenständiges DietPi-Webinterface**](#dietpi-dashboard)
 - [**DietPi-CloudShell - Leichtgewichtige Systemstatistiken für Ihr LCD-Display oder Ihren Monitor**](#dietpi-cloudshell)
@@ -29,7 +29,7 @@ Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu inst
 
 ## DietPi-Dashboard
 
-Das DietPi-Dashboard ist eine sehr leichte und eigenständige Weboberfläche zur Ü;berwachung und Verwaltung Ihres DietPi-Systems mit Ihrem bevorzugten Webbrowser. Es ist in Rust geschrieben. Einen Ü;berblick über seine Funktionen gibt unser Artikel [hier](https://dietpi.com/blog/?p=1137).
+Das DietPi-Dashboard ist eine sehr leichte und eigenständige Weboberfläche zur Überwachung und Verwaltung Ihres DietPi-Systems mit Ihrem bevorzugten Webbrowser. Es ist in Rust geschrieben. Einen Überblick über seine Funktionen gibt unser Artikel [hier](https://dietpi.com/blog/?p=1137).
 
 ![DietPi-Dashboard-Screenshot](../assets/images/dietpi-dashboard.jpg){: width="700" height="346" loading="lazy"}
 
@@ -68,7 +68,7 @@ Das DietPi-Dashboard ist eine sehr leichte und eigenständige Weboberfläche zur
 
 === "Passwortschutz"
 
-Der Passwortschutz ist ab DietPi v7.9 standardmä&szlig;ig aktiviert. Wenn Sie es zuvor installiert haben, müssen Sie es über die Konfigurationsdatei aktivieren. Erstellen Sie dazu einen SHA512-Hash des `PASSWORTS`, das Sie für die Anmeldung bei der Webschnittstelle verwenden m&ouml;chten, und ein zufälliges 64-stelliges Geheimnis, das zum Generieren eines Tokens zum sicheren Ü;bertragen und Speichern in Ihrem Browser verwendet wird. Wenden Sie diese auf die Konfigurationsdatei an und starten Sie den Dienst neu, damit die Änderungen wirksam werden:
+Der Passwortschutz ist ab DietPi v7.9 standardmä&szlig;ig aktiviert. Wenn Sie es zuvor installiert haben, müssen Sie es über die Konfigurationsdatei aktivieren. Erstellen Sie dazu einen SHA512-Hash des `PASSWORTS`, das Sie für die Anmeldung bei der Webschnittstelle verwenden m&ouml;chten, und ein zufälliges 64-stelliges Geheimnis, das zum Generieren eines Tokens zum sicheren Übertragen und Speichern in Ihrem Browser verwendet wird. Wenden Sie diese auf die Konfigurationsdatei an und starten Sie den Dienst neu, damit die Änderungen wirksam werden:
 
     ```sh
     hash=$(echo -n 'PASSWORD' | sha512sum | mawk '{print $1}')
@@ -147,7 +147,7 @@ DietPi-CloudShell verwandelt Ihre Konsole oder Ihren LCD-Bildschirm in eine leic
 
 ### Beispiel-Screenshots
 
-Die folgenden Screenshots sollen einen Ü;berblick über die Anzeigefunktionen von *DietPi-CloudShell* geben.
+Die folgenden Screenshots sollen einen Überblick über die Anzeigefunktionen von *DietPi-CloudShell* geben.
 
 === "CPU-Auslastung"
 

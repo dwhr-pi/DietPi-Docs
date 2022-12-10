@@ -1,6 +1,6 @@
 # BitTorrent / Download-Tools
 
-## Ü;berblick
+## Überblick
 
 - [**Transmission - Lightweight BitTorrent-Server mit Webinterface**](#transmission)
 - [**Deluge - Alternativer BitTorrent-Server mit Webinterface**](#deluge)
@@ -34,13 +34,13 @@
 
 [Zurück zur **Liste der optimierten Software**](../../software/)
 
-## Ü;bertragung
+## Übertragung
 
 Transmission, die leichtgewichtige Webschnittstelle des BitTorrent-Servers, mit der Sie BitTorrent-Dateien herunterladen k&ouml;nnen.
 
 !!! Hinweis "dedizierte USB-Festplatte dringend empfohlen"
 
-![Screenshot der Ü;bertragungs-Webschnittstelle](../assets/images/dietpi-software-download-transmission.png){: width="500" height="334" loading="lazy"}
+![Screenshot der Übertragungs-Webschnittstelle](../assets/images/dietpi-software-download-transmission.png){: width="500" height="334" loading="lazy"}
 
 === "Zugriff auf die Weboberfläche"
 
@@ -63,12 +63,12 @@ Transmission, die leichtgewichtige Webschnittstelle des BitTorrent-Servers, mit 
     DietPi richtet Transmission ein, um die Portweiterleitung auf dem Router zu verwenden.
     In seltenen Fällen funktioniert dies bei einigen Routern nicht und Sie müssen die Portweiterleitung manuell einrichten:
 
-    - Verwenden Sie TCP+UDP mit dem standardmä&szlig;igen DietPi-Ü;bertragungsport von **51413**.
+    - Verwenden Sie TCP+UDP mit dem standardmä&szlig;igen DietPi-Übertragungsport von **51413**.
     - Richten Sie diesen Port auf die IP-Adresse Ihres DietPi-Systems.
 
-    Sobald die Portweiterleitung eingerichtet ist, führen Sie einfach die folgenden Schritte aus, um die Ü;bertragung zu aktualisieren:
+    Sobald die Portweiterleitung eingerichtet ist, führen Sie einfach die folgenden Schritte aus, um die Übertragung zu aktualisieren:
 
-    - Laden Sie das Ü;bertragungs-Webinterface hoch
+    - Laden Sie das Übertragungs-Webinterface hoch
     - Klicken Sie auf die Schaltfläche "Einstellungen" (Schraubenschlüssel unten links)
     - Klicken Sie auf die Registerkarte `Netzwerk`.
     - Wo steht "Use port forwarding on my router", deaktivieren Sie dieses Kästchen.
@@ -375,7 +375,7 @@ Durchsucht sowohl Bit Torrent als auch Usenet und verfügt über eine Funktion z
 
 ??? Notiz "Ein Download-Client ist erforderlich"
 
-    Ü;bertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
+    Übertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
 
 ![Screenshot der Medusa-Weboberfläche](../assets/images/dietpi-software-download-medusa.jpg){: width="400" height="225" loading="lazy"}
 
@@ -426,7 +426,7 @@ Laden Sie Ihre Lieblingsfernsehsendungen automatisch herunter, sobald sie verfü
 
 ??? Notiz "Ein Download-Client ist erforderlich"
 
-    Ü;bertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
+    Übertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
 
 ![Screenshot der Sonarr-Weboberfläche](../assets/images/dietpi-software-download-sonarr.png){: width="400" height="200" loading="lazy"}
 
@@ -496,7 +496,7 @@ Laden Sie Ihre Lieblingsfilme automatisch herunter, sobald sie verfügbar sind.
 
 ??? Notiz "Ein Download-Client ist erforderlich"
 
-    Ü;bertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
+    Übertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
 
 ![Screenshot der Radar-Weboberfläche](../assets/images/dietpi-software-download-radarr.png){: width="400" height="207" loading="lazy"}
 
@@ -609,7 +609,7 @@ Laden Sie Ihre Lieblingsmusik automatisch herunter.
 
 ??? Notiz "Ein Download-Client ist erforderlich"
 
-Ü;bertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
+Übertragung BitTorrent-Server wird empfohlen, um automatische Downloads zu erm&ouml;glichen
 
 ![Screenshot der Lidarr-Weboberfläche](../assets/images/dietpi-software-download-lidarr.jpg){: width="400" height="205" loading="lazy"}
 

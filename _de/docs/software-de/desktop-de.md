@@ -1,6 +1,6 @@
 # Desktop-Umgebungen und Dienstprogramme
 
-## Ü;berblick
+## Überblick
 
 ### Desktops
 

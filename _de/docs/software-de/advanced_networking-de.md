@@ -1,6 +1,6 @@
 # Erweitertes Netzwerk
 
-## Ü;berblick
+## Überblick
 
 - [**WiFi HotSpot - Verwandeln Sie Ihr Gerät in einen drahtlosen Hotspot/Zugangspunkt**](#wifi-hotspot)
 - [**Tor HotSpot - Optional: Leitet den gesamten WLAN-HotSpot-Verkehr durch das Tor-Netzwerk**](#tor-hotspot)
@@ -111,7 +111,7 @@ Es eignet sich am besten für stark frequentierte Websites und betreibt eine gan
 
 === "Schnellstart"
 
-    Nach der Installation müssen Sie die `haproxy.cfg` manuell ändern, damit sie Ihren Netzwerkanforderungen am besten entspricht. Ü;berprüfen Sie das Konfigurationshandbuch [hier](https://www.haproxy.org/#docs).
+    Nach der Installation müssen Sie die `haproxy.cfg` manuell ändern, damit sie Ihren Netzwerkanforderungen am besten entspricht. Überprüfen Sie das Konfigurationshandbuch [hier](https://www.haproxy.org/#docs).
 
     ```sh
     systemctl stop haproxy

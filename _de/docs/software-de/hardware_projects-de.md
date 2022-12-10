@@ -1,6 +1,6 @@
 # Hardware-Projekte
 
-## Ü;berblick
+## Überblick
 
 - [**Google AIY - Voice-Kit "Ok, Google"!**](#google-aiy)
 - [**Mycroft AI - Open-Source-Sprachassistent**](#mycroft-ai)
@@ -9,10 +9,10 @@
 - [**WiringPi - GPIO-Schnittstellenbibliothek**](#wiringpi)
 - [**WebIOPi - Webinterface zur Steuerung von RPi GPIO**](#webiopi)
 - [**Node-RED - Visuelles Tool zum Verbinden von Hardwaregeräten, APIs und Onlinediensten**](#node-red)
-- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](#Mosquitto)
+- [**Mosquitto - Nachrichtenbroker, der das MQTT-Protokoll implementiert**](#mosquitto)
 - [**Blynk Server - Blynk-Server mit Web- und MQTT-Schnittstelle zur Steuerung von IoT-Geräten, geschrieben in Java**](#blynk-server)
 - [**Audiophonics PI-SPC - Leistungssteuerungsmodul für Raspberry Pi, erm&ouml;glicht das Ein-/Ausschalten über physische Tasten**](#audiophonics-pi-spc)
-- [**Grafana - Die offene Plattform für sch&ouml;ne Analysen und Ü;berwachung**](#grafana)
+- [**Grafana - Die offene Plattform für sch&ouml;ne Analysen und Überwachung**](#grafana)
 
 ??? Information "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
     Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu installieren, führen Sie es über die Befehlszeile aus:
@@ -36,7 +36,7 @@
 
     Wir installieren keine Desktop-Umgebung. Der Benutzer muss die Google-API und die Schlüssel auf einem anderen System einrichten (siehe Ersteinrichtung unten).
     Wir empfehlen SSH dringend, um eine schnelle Einrichtung der Google-API und der Geräteverbindung zu erm&ouml;glichen.
-    Wir empfehlen auch einen der [DietPi-Dateiserver](../file_servers/), für die einfache Ü;bertragung von `assistant.json`, die während der Google-API-Einrichtung generiert wurde.
+    Wir empfehlen auch einen der [DietPi-Dateiserver](../file_servers/), für die einfache Übertragung von `assistant.json`, die während der Google-API-Einrichtung generiert wurde.
 
 ![Google AIY-Logo](../assets/images/dietpi-software-hardwareprojects-googleaiy.jpg){: width="400" height="239" loading="lazy"}
 
@@ -51,7 +51,7 @@
       Laden Sie nach Abschluss die Datei `client_secret.json` herunter und speichern Sie sie unter:
     - Bei Verwendung von SSH = `/mnt/dietpi_userdata/voice-recognizer-raspi/assistant.json`
     - Bei Verwendung von File Server = `voice-recognizer-raspi/assistant.json`
-    - Führen Sie den folgenden Befehl aus und folgen Sie dann dem Link/den Anweisungen auf dem Bildschirm, um die Ü;berprüfung einzurichten:
+    - Führen Sie den folgenden Befehl aus und folgen Sie dann dem Link/den Anweisungen auf dem Bildschirm, um die Überprüfung einzurichten:
 
         ```sh
         sudo -u dietpi /mnt/dietpi_userdata/voice-recognizer-raspi/env/bin/python3 -u /mnt/dietpi_userdata/voice-recognizer-raspi/src/main.py
@@ -89,7 +89,7 @@ Mycroft AI ist ein kostenloser Open-Source-Sprachassistent.
     1. Branch-Auswahl: Für unerfahrene Benutzer empfehlen wir auch den Master-Branch: ++y++
     2. Automatische Updates: Es verlangsamt den Startvorgang etwas, aber es dauert sowieso eine Weile, bis alle Skills geladen sind, daher empfehlen wir auch dies: ++y++
     3. Fügen Sie Mycroft-Befehle zu PATH hinzu: Wählen Sie hier *NEIN*, da der Installer als Benutzer `mycroft` ausgeführt wird, der kein Login-Benutzer ist, weshalb dies keine Auswirkung hat: ++n++
-    4. Ü;berprüfen Sie den Code vor dem Absenden: Wenn Sie ein offizieller Mycroft-Entwickler sind, wählen Sie ++y++, sonst: ++n++
+    4. Überprüfen Sie den Code vor dem Absenden: Wenn Sie ein offizieller Mycroft-Entwickler sind, wählen Sie ++y++, sonst: ++n++
 
 === "Ersteinrichtung"
 
@@ -538,7 +538,7 @@ Offizielle Dokumentation: <https://docs.influxdata.com/influxdb>
 
 ##Grafana
 
-Die offene Plattform für sch&ouml;ne Analysen und Ü;berwachung.
+Die offene Plattform für sch&ouml;ne Analysen und Überwachung.
 
 Diese Installation und Dokumentation war m&ouml;glich dank [@marcobrianza](https://github.com/MichaIng/DietPi/issues/1784#issuecomment-390778313).
 Anmerkung: Grafana-Binärdateien sind spezifisch für die CPU-Architektur, daher wird das Austauschen von SD-Karten zwischen RPi 1 <> 2+ nicht empfohlen.
@@ -578,7 +578,7 @@ Anmerkung: Grafana-Binärdateien sind spezifisch für die CPU-Architektur, daher
         - Passwort = `test_password01`
         - Belassen Sie die restlichen Elemente mit den Standardwerten.
     - Klicken Sie auf `Speichern & Testen`.
-    - Ü;ber das Start-Dashboard
+    - Über das Start-Dashboard
         - Klicken Sie auf `Neues Dashboard`.
         - Klicken Sie auf `Grafik`.
         - Klicken Sie auf die Beispielgrafik

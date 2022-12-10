@@ -1,6 +1,6 @@
 # Verteilte Projekte
 
-## Ü;berblick
+## Überblick
 
 - [**Folding@Home - Nutzung der Rechenleistung zur Unterstützung der Krankheitsforschung**](#foldinghome)
 - [**Tor-Relay - Füge einen Knoten zum Tor-Netzwerk hinzu**](#tor-relay)
@@ -96,14 +96,14 @@ Tragen Sie einen Knoten zum Tor-Netzwerk bei, der es Menschen erm&ouml;glicht, i
         Bevor Sie ein Exit-Relay ausführen, sollten Sie einen Reverse-DNS-Eintrag (und, wenn m&ouml;glich, WHOIS) erstellen, um deutlicher zu machen, dass Ihre IP-Adresse ein Tor-Exit-Relay ist.
         Au&szlig;erdem wird empfohlen, ein Exit-Relay auf einem eigenen Server mit eigener IP-Adresse auszuführen.
 
-=== "Ü;berwachung"
+=== "Überwachung"
 
     Der einfachste Weg, das Tor-Relay zu überwachen, ist die Verwendung der DietPi-CloudShell-Szene. Führen Sie dazu "dietpi-cloudshell" von der Befehlszeile aus und wählen Sie die "Tor Relay"-Szene aus. Es verwendet den Tor-Monitor [nyx] (https://nyx.torproject.org/), der im Standalone-Modus aufgerufen werden kann, indem `nyx` von der Befehlszeile ausgeführt wird.
 
     Sie k&ouml;nnen es auch mit der [Tor-Relay-Suche] (https://metrics.torproject.org/rs.html) überwachen. Fügen Sie einfach entweder den Fingerabdruck (zu finden unter `/var/lib/tor/fingerprint`) oder den Spitznamen Ihres Relais ein.
 
     ??? Information "Hinweis für Brückenbetreiber"
-        Die Tor-Relay-Suche funktioniert nicht immer für Bridges und zeigt sie manchmal als ausgefallen an, wenn sie laufen. Verwenden Sie in diesem Fall die spezifische Tor-Bridge-Ü;berwachungs-URL:
+        Die Tor-Relay-Suche funktioniert nicht immer für Bridges und zeigt sie manchmal als ausgefallen an, wenn sie laufen. Verwenden Sie in diesem Fall die spezifische Tor-Bridge-Überwachungs-URL:
         `https://bridges.torproject.org/status?type=obfs4&id=<FINGERABDRUCK>`
 
 === "Bleiben Sie auf dem Laufenden"

@@ -196,6 +196,8 @@ Baïkal ist ein leichtgewichtiger CalDAV + CardDAV-Server.
     - Benutzername = `admin`
     - Passwort = Das, was Sie während der ersten Ausführung oben festgelegt haben.
 
+Eine [deutschsprachige Anleitung zu Baikal](https://github.com/JsBergbau/BaikalAnleitung) ist auf Github zu finden.
+
 ## OpenBazaar
 
 OpenBazaar ist ein kostenloser dezentraler Peer-to-Peer-Marktserver für alle. Keine Gebühren. Verwendung von Bitcoins.

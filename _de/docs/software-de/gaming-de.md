@@ -1,6 +1,6 @@
 # Gaming & Emulation
 
-## Ü;berblick
+## Überblick
 
 - [**OpenTyrian - Open-Source-Portierung des DOS-Spiels Tyrian**](#opentyrian)
 - [**Cuberite - Schneller Minecraft-Server mit Webinterface**](#cuberite)
@@ -286,12 +286,12 @@ Als nächstes müssen Sie den Emulator für das Kickstart- und Disketten-Image e
     - 640 x 256 ist eine hohe Aufl&ouml;sung
     - 320 x 256 ist eine niedrige Aufl&ouml;sung und sollte eine verbesserte Leistung bieten
 
-    Durch ***Ü;bertakten*** Ihres Systems wird die Leistung verbessert. Die Stabilität kann je nach Gerät variieren und Ü;bertaktung wird nicht offiziell unterstützt:
+    Durch ***Übertakten*** Ihres Systems wird die Leistung verbessert. Die Stabilität kann je nach Gerät variieren und Übertaktung wird nicht offiziell unterstützt:
 
     - Führen Sie von einem Terminal aus `dietpi-config` aus
     - Wählen Sie das Menü Leistungsoptionen
-    - Wählen Sie Ü;bertaktungsprofile
-    - Wählen Sie ein Ü;bertaktungsprofil und starten Sie das System neu
+    - Wählen Sie Übertaktungsprofile
+    - Wählen Sie ein Übertaktungsprofil und starten Sie das System neu
 
     #### Wie stelle ich die Geschwindigkeit des Diskettenlaufwerks für Kompatibilität ein?
 
@@ -370,7 +370,7 @@ Steam ist ein Gaming-Client und -Shop von Valve.
 
 ### Steam auf ARM
 
-Steam ist für x86 gemacht, aber es und viele Steam-Spiele mit Linux-Versionen k&ouml;nnen mit Hilfe von [Box86](#box86) auf ARM ausgeführt werden. Beachten Sie, dass 2D-Spiele am besten zu spielen sind und komplexere Spiele m&ouml;glicherweise eine Ü;bertaktung Ihres Geräts erfordern.
+Steam ist für x86 gemacht, aber es und viele Steam-Spiele mit Linux-Versionen k&ouml;nnen mit Hilfe von [Box86](#box86) auf ARM ausgeführt werden. Beachten Sie, dass 2D-Spiele am besten zu spielen sind und komplexere Spiele m&ouml;glicherweise eine Übertaktung Ihres Geräts erfordern.
 
 ??? Warnung `Bekannte Probleme auf ARM`
 

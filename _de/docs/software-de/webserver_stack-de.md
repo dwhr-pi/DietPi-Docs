@@ -1,6 +1,6 @@
 # Web Entwicklung
 
-## Ü;berblick
+## Überblick
 
 [**Stacks für die Webentwicklung**](#stacks-for-web-development)
 
@@ -87,7 +87,7 @@ DietPi bietet eine **Ein-Klick-Installation** der folgenden Webentwicklungs-Stac
 
     !!! Hinweis "DietPi - Webserver Präferenz"
 
-        Auf dem DietPi-Webserver-Einstellungsbildschirm k&ouml;nnen Sie Ihren bevorzugten Webserver für die Verwendung in DietPi-Installationen auswählen. Ü;berprüfen Sie mehr die **Web-Einstellungen** in der [Erweiterten Konfiguration](../../dietpi_tools/#quick-selections).
+        Auf dem DietPi-Webserver-Einstellungsbildschirm k&ouml;nnen Sie Ihren bevorzugten Webserver für die Verwendung in DietPi-Installationen auswählen. Überprüfen Sie mehr die **Web-Einstellungen** in der [Erweiterten Konfiguration](../../dietpi_tools/#quick-selections).
 
     !!! Information ""
 
@@ -161,7 +161,7 @@ LAMP-Stack ist eine beliebte Open-Source-Webplattform, die häufig zum Ausführe
     - APCu = `http://<Ihre.IP>/apc.php`
     - OPcache = `http://<your.IP>/opcache.php`
 
-    Ü;berprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
+    Überprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
 
 === "Gesicherter Zugriff - HTTPS/SSL"
 
@@ -310,7 +310,7 @@ LEMP ist eine Variation des beliebten Open-Source-[LAMP-Webstacks](#lamp-web-sta
     - APCu = `http://<Ihre.IP>/apc.php`
     - OPcache = `http://<your.IP>/opcache.php`
 
-    Ü;berprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
+    Überprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
 
 === "Gesicherter Zugriff - HTTPS/SSL"
 
@@ -413,7 +413,7 @@ LLMP ist eine Variation des beliebten Open-Source-[LAMP-Webstacks](#lamp-web-sta
     - APCu = `http://<Ihre.IP>/apc.php`
     - OPcache = `http://<your.IP>/opcache.php`
 
-    Ü;berprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
+    Überprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
 
 === "Gesicherter Zugriff - HTTPS/SSL"
 
@@ -445,7 +445,7 @@ LLSP ist eine Variante des beliebten Open-Source-[LAMP-Webstacks](#lamp-web-stac
     - APCu = `http://<Ihre.IP>/apc.php`
     - OPcache = `http://<your.IP>/opcache.php`
 
-    Ü;berprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
+    Überprüfen Sie für die Datenbank die Details von **[MariaDB](../databases/#mariadb)**.
 
 === "Gesicherter Zugriff - HTTPS/SSL"
 
@@ -525,7 +525,7 @@ Es wurde entwickelt, um sicher, schnell, standardkonform und flexibel zu sein un
 
 === "Schnellzugriff"
 
-    Ü;berprüfen Sie nach der Installation, ob der Lighttpd-Dienst auf `http://<your.IP>` ausgeführt wird.
+    Überprüfen Sie nach der Installation, ob der Lighttpd-Dienst auf `http://<your.IP>` ausgeführt wird.
 
 === "Auf mehrere CPUs skalieren"
 

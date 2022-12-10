@@ -1,6 +1,6 @@
 # Sozial / Suche
 
-## Ü;berblick
+## Überblick
 
 - [**FreshRSS - Ein selbst gehosteter RSS-Feed-Aggregator**](#freshrss)
 - [**phpBB - Kostenlose Flat-Forum-Bulletin-Board-Softwarel&ouml;sung**](#phpbb)
@@ -195,6 +195,8 @@ Baïkal ist ein leichtgewichtiger CalDAV + CardDAV-Server.
     - URL = `http://<your.IP>/baikal/html/admin`
     - Benutzername = `admin`
     - Passwort = Das, was Sie während der ersten Ausführung oben festgelegt haben.
+
+Eine [deutschsprachige Anleitung zu Baikal](https://github.com/JsBergbau/BaikalAnleitung) ist auf Github zu finden.
 
 ## OpenBazaar
 

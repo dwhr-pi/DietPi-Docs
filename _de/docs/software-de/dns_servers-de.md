@@ -1,6 +1,6 @@
 # DNS-Server
 
-## Ü;berblick
+## Überblick
 
 - [**Pi-hole - Netzwerkweite Werbeblockierung**](#pi-hole)
 - [**Unbound - Ein validierender, rekursiver und zwischenspeichernder DNS-Resolver**](#unbound)
@@ -70,7 +70,7 @@ Pi-hole ist ein DNS-Sinkhole mit Webschnittstelle, das Anzeigen für jedes Gerä
     - Wählen Sie: *Ethernet*
     - Wenn Sie im DHCP-Modus arbeiten, wählen Sie *Change Mode* und dann: *Copy Current address to Static*
     - Wählen Sie *Statisches DNS* aus der Liste und dann einen DNS-Server aus oder geben Sie manuell einen benutzerdefinierten Eintrag ein.
-    - Wenn Sie fertig sind, wählen Sie *Ü;bernehmen*, um die Änderungen zu speichern.
+    - Wenn Sie fertig sind, wählen Sie *Übernehmen*, um die Änderungen zu speichern.
 
 === "DietPi-Unterschiede"
 
@@ -260,7 +260,7 @@ AdGuard Home ist ein DNS-Sinkhole mit Webschnittstelle, das Anzeigen für jedes 
     - Wählen Sie: *Ethernet*
     - Wenn Sie im DHCP-Modus arbeiten, wählen Sie *Change Mode* und dann: *Copy Current address to Static*
     - Wählen Sie *Statisches DNS* aus der Liste und dann einen DNS-Server aus oder geben Sie manuell einen benutzerdefinierten Eintrag ein.
-    - Wenn Sie fertig sind, wählen Sie *Ü;bernehmen*, um die Änderungen zu speichern.
+    - Wenn Sie fertig sind, wählen Sie *Übernehmen*, um die Änderungen zu speichern.
 
 === "Aktualisierung von AdGuard Home"
 
