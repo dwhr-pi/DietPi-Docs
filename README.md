@@ -21,6 +21,7 @@ Es verwendet erweitertes Markdown, wie von [MkDocs](https://www.mkdocs.org/) imp
 [![CodeFactor](https://www.codefactor.io/repository/github/michaing/dietpi-docs/badge)](https://www.codefactor.io/repository/github/michaing/dietpi-docs)
 
 ## Erstellen der Dokumentation
+Hiermit können Sie sich selbst eine Dokumentation als Webseite erstellen, die Sie dann in Ihrem Browser aufrufen können. 
 
 - Klonen Sie es: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
 - Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
