@@ -1,55 +1,55 @@
 # Mediensysteme
 
-## Überblick
+## &Uuml;berblick
 
 - [**Kodi - Media Center/Player**](#kodi)
-- [**ympd - Leichtgewichtiger Webinterface-Audioplayer für MPD**](#ympd)
-- [**myMPD - Leichtgewichtiger Webinterface-Audioplayer für MPD**](#mympd)
-- [**O!MPD - Funktionsreicher Webinterface-Audioplayer für MPD**](#ompd)
-- [**CAVA - Optional: Konsolenbasierter Audiovisualisierer für MPD**](#cava)
+- [**ympd - Leichtgewichtiger Webinterface-Audioplayer f&uuml;r MPD**](#ympd)
+- [**myMPD - Leichtgewichtiger Webinterface-Audioplayer f&uuml;r MPD**](#mympd)
+- [**O!MPD - Funktionsreicher Webinterface-Audioplayer f&uuml;r MPD**](#ompd)
+- [**CAVA - Optional: Konsolenbasierter Audiovisualisierer f&uuml;r MPD**](#cava)
 - [**Mopidy - Webinterface Musik/Radioplayer**](#mopidy)
 - [**Airsonic-Advanced - Feature-Rich-Media-Streaming-Server mit Web-Interface**](#airsonic)
 - [**Logitech Media Server - auch bekannt als LMS, Squeezebox Server**](#logitech-media-server)
-- [**Squeezelite - Audioplayer für Logitech Media Server**](#squeezelite)
+- [**Squeezelite - Audioplayer f&uuml;r Logitech Media Server**](#squeezelite)
 - [**Shairport Sync - AirPlay-Audioplayer mit Multiroom-Synchronisierung**](#shairport-sync)
 - [**ReadyMedia - (MiniDLNA) Media-Streaming-Server (DLNA, UPnP)**](#readymedia)
 - [**Ampache - Media-Streaming-Server der Webschnittstelle**](#ampache)
 - [**Emby - Media-Streaming-Server der Webschnittstelle**](#emby)
 - [**Plex Media Server - Medien-Streaming-Server der Webschnittstelle**](#plex-media-server)
-- [**Tautulli - Überwachungs- und Tracking-Tool für Plex Media Server**](#tautulli)
+- [**Tautulli - &Uuml;berwachungs- und Tracking-Tool f&uuml;r Plex Media Server**](#tautulli)
 - [**Murmeln - Mumble VoIP Server**](#Murmeln)
-- [**Roon Bridge - Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer**](#roon-bridge)
-- [**Roon Server - Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Roon-Core**](#roon-server)
+- [**Roon Bridge - Verwandelt Ihr Ger&auml;t in einen Roon-f&auml;higen Audioplayer**](#roon-bridge)
+- [**Roon Server - Verwandelt Ihr Ger&auml;t in einen Roon-f&auml;higen Audioplayer und Roon-Core**](#roon-server)
 - [**Roon Extension Manager - Verwalten Sie Erweiterungen innerhalb von Roon**](#roon-extension-manager)
 - [**NAA Daemon - Signalyst Network Audio Adapter (NAA)**](#naa-daemon)
 - [**IceCast - Shoutcast-Streaming-Server, einschlie&szlig;lich DarkIce**](#icecast)
 - [**Koel - Webinterface-Streaming-Server**](#koel)
 - [**GMediaRender - Ressourceneffizienter UPnP/DLNA-Renderer**](#gmediarender)
-- [**Ubooquity - Kostenloser Heimserver für Ihre Comic- und E-Book-Bibliothek**](#ubooquity)
+- [**Ubooquity - Kostenloser Heimserver f&uuml;r Ihre Comic- und E-Book-Bibliothek**](#ubooquity)
 - [**Komga - Kostenloser und Open-Source-Comics/Mangas-Medienserver mit Web-UI**](#komga)
 - [**Raspotify - Spotify Connect-Client**](#raspotify)
-- [**Spotify Connect Web - Webinterface, Client und Player für Spotify Premium**](#spotify-connect-web)
+- [**Spotify Connect Web - Webinterface, Client und Player f&uuml;r Spotify Premium**](#spotify-connect-web)
 - [**Spotifyd - Lightweight FOSS Spotify-Client**](#spotifyd)
 - [**Jellyfin - Media-Streaming-Server mit Live-TV**](#jellyfin)
 - [**Beets - Musikorganisator und -manager**](#beets)
-- [**Snapcast Server - Audioserver für mehrere Räume**](#snapcast-server)
-- [**Snapcast Client - Audioclient für mehrere Räume**](#snapcast-client)
+- [**Snapcast Server - Audioserver f&uuml;r mehrere R&auml;ume**](#snapcast-server)
+- [**Snapcast Client - Audioclient f&uuml;r mehrere R&auml;ume**](#snapcast-client)
 
-??? Information "Wie führe ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
-    Um eines der unten aufgeführten **DietPi-optimierten Softwareelemente** zu installieren, führen Sie es über die Befehlszeile aus:
+??? Information "Wie f&uuml;hre ich **DietPi-Software** aus und installiere **optimierte Software**-Elemente?"
+    Um eines der unten aufgef&uuml;hrten **DietPi-optimierten Softwareelemente** zu installieren, f&uuml;hren Sie es &uuml;ber die Befehlszeile aus:
 
     ```sh
     dietpi-software
     ```
 
-    Wählen Sie **Software durchsuchen** und wählen Sie einen oder mehrere Artikel aus. Wählen Sie abschlie&szlig;end `Installieren`.
-    DietPi führt alle notwendigen Schritte aus, um diese Softwareelemente zu installieren und zu starten.
+    W&auml;hlen Sie **Software durchsuchen** und w&auml;hlen Sie einen oder mehrere Artikel aus. W&auml;hlen Sie abschlie&szlig;end `Installieren`.
+    DietPi f&uuml;hrt alle notwendigen Schritte aus, um diese Softwareelemente zu installieren und zu starten.
 
-    ![DietPi-Software-Menü-Screenshot](../assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
+    ![DietPi-Software-Men&uuml;-Screenshot](../assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
 
     Um alle DietPi-Konfigurationsoptionen anzuzeigen, lesen Sie den Abschnitt [DietPi Tools](../../dietpi_tools/).
 
-[Zurück zur **Liste der optimierten Software**](../../software/)
+[Zur&uuml;ck zur **Liste der optimierten Software**](../../software/)
 
 ##Kodi
 
@@ -57,28 +57,28 @@ Das einzige Media Center/Player, das Sie jemals brauchen werden.
 
 ![Kodi-Screenshot](../assets/images/dietpi-software-media-kodi.jpg){: width="400" height="225" loading="lazy"}
 
-Wenn Sie Kodi nicht zum Starten beim Booten ausgewählt haben, k&ouml;nnen Sie die Autostart-Optionen in `dietpi-autostart` ändern:
+Wenn Sie Kodi nicht zum Starten beim Booten ausgew&auml;hlt haben, k&ouml;nnen Sie die Autostart-Optionen in `dietpi-autostart` &auml;ndern:
 
-- Desktop = Kodi ist über das LXDE-Startmenü und Desktop verfügbar.
-- Console = Kodi kann auch durch Eingabe von "startkodi" ausgeführt werden.
+- Desktop = Kodi ist &uuml;ber das LXDE-Startmen&uuml; und Desktop verf&uuml;gbar.
+- Console = Kodi kann auch durch Eingabe von "startkodi" ausgef&uuml;hrt werden.
 
 ## ympd
 
-Ein leichter, schlichter HiFi-Musikplayer ohne Schnickschnack mit webbasierter Benutzeroberfläche. ympd ist ein Frontend für MPD.
+Ein leichter, schlichter HiFi-Musikplayer ohne Schnickschnack mit webbasierter Benutzeroberfl&auml;che. ympd ist ein Frontend f&uuml;r MPD.
 
 Installiert auch:
 
 - MPD (Musik-Player-Daemon)
 
-![Screenshot der ympd-Weboberfläche](../assets/images/dietpi-software-media-ympd.png){: width="400" height="162" loading="lazy"}
+![Screenshot der ympd-Weboberfl&auml;che](../assets/images/dietpi-software-media-ympd.png){: width="400" height="162" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **1337** erreichbar:
+    Das Webinterface ist &uuml;ber Port **1337** erreichbar:
 
     - URL = `http://<Ihre.IP>:1337`
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Verwendete Ordner:
@@ -88,43 +88,43 @@ Installiert auch:
 
 === "Musikdateien / Datenbank aktualisieren"
 
-    Wählen Sie einfach die Schaltfläche `DB aktualisieren` aus dem Einstellungsmenü in ympd.
+    W&auml;hlen Sie einfach die Schaltfl&auml;che `DB aktualisieren` aus dem Einstellungsmen&uuml; in ympd.
 
 === "DietPi-JustBoom-Systemsteuerung"
 
     - Optimieren Sie die Audiooptionen im Handumdrehen mit dem Bedienfeld.
-    - Führen Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
+    - F&uuml;hren Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
 
-        ![Screenshot des DietPi-JustBoom-Menüs](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
+        ![Screenshot des DietPi-JustBoom-Men&uuml;s](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
 
 ## myMPD
 
-Ein leichter, schlichter HiFi-Musikplayer ohne Schnickschnack mit webbasierter Benutzeroberfläche. myMPD ist ein Frontend für MPD und ein neuer Fork von ympd.
+Ein leichter, schlichter HiFi-Musikplayer ohne Schnickschnack mit webbasierter Benutzeroberfl&auml;che. myMPD ist ein Frontend f&uuml;r MPD und ein neuer Fork von ympd.
 
 Installiert auch:
 
 - MPD (Musik-Player-Daemon)
 
-![Screenshot der myMPD-Weboberfläche](../assets/images/dietpi-software-media-mympd.gif){: width="400" height="318" loading="lazy"}
+![Screenshot der myMPD-Weboberfl&auml;che](../assets/images/dietpi-software-media-mympd.gif){: width="400" height="318" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **1333** erreichbar:
+    Das Webinterface ist &uuml;ber Port **1333** erreichbar:
 
     - URL = `http://<Ihre.IP>:1333`
 
 === "Installationshinweise"
 
-    Wir haben SSL und seine Weiterleitung standardmä&szlig;ig bei der DietPi-Installation deaktiviert. Dies dient dazu, Umleitungen auf den Hostnamen zu verhindern.
+    Wir haben SSL und seine Weiterleitung standardm&auml;&szlig;ig bei der DietPi-Installation deaktiviert. Dies dient dazu, Umleitungen auf den Hostnamen zu verhindern.
     So aktivieren Sie die SSL-Verbindung und die Umleitungsoption erneut:
 
     - Bearbeiten Sie `/etc/mympd.conf`
     - Ersetzen Sie `ssl = false` durch `ssl = true`.
-    - Änderungen sichern und beenden
+    - &Auml;nderungen sichern und beenden
     - Dienste mit `systemctl restart mympd` neu starten
-    - Verwenden Sie dieselbe URL-Adresse oben, sie wird während der Verbindung zu HTTPS umgeleitet
+    - Verwenden Sie dieselbe URL-Adresse oben, sie wird w&auml;hrend der Verbindung zu HTTPS umgeleitet
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Verwendete Ordner:
@@ -134,48 +134,48 @@ Installiert auch:
 
 === "Musikdateien / Datenbank aktualisieren"
 
-    Wählen Sie einfach die Option `Datenbank aktualisieren` aus dem Einstellungsmenü in myMPD.
+    W&auml;hlen Sie einfach die Option `Datenbank aktualisieren` aus dem Einstellungsmen&uuml; in myMPD.
 
 === "DietPi-JustBoom-Systemsteuerung"
 
     - Optimieren Sie die Audiooptionen im Handumdrehen mit dem Bedienfeld.
-    - Führen Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
+    - F&uuml;hren Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
 
-![Screenshot des DietPi-JustBoom-Menüs](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
+![Screenshot des DietPi-JustBoom-Men&uuml;s](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
 
 ## O!MPD
 
-Ein funktionsreicher Webinterface-Audioplayer für MPD. Inklusive Song-/Album-Scraping, ideal zum Durchsuchen von Musikkatalogen.
+Ein funktionsreicher Webinterface-Audioplayer f&uuml;r MPD. Inklusive Song-/Album-Scraping, ideal zum Durchsuchen von Musikkatalogen.
 
 Installiert auch:
 
 - MPD (Musik-Player-Daemon)
 - Webserver
 
-![Screenshot der O!MPD-Weboberfläche](../assets/images/dietpi-software-media-ompd.png){: width="400" height="199" loading="lazy"}
+![Screenshot der O!MPD-Weboberfl&auml;che](../assets/images/dietpi-software-media-ompd.png){: width="400" height="199" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
     - URL = `http://<Ihre.IP>/ompd`
     - Benutzername = `admin`
     - Passwort = `admin`.
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
 Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
 Von O!MPD verwendete Ordner:
 
     - Lokal = `/mnt/dietpi_userdata/Music`
-    - Zugriff über Dateiserver = `/Music`
+    - Zugriff &uuml;ber Dateiserver = `/Music`
 
 === "Bibliothek aktualisieren/scannen"
 
-    Klicken Sie auf die Schaltfläche `Einstellungen` (Zahnrad oben rechts).
+    Klicken Sie auf die Schaltfl&auml;che `Einstellungen` (Zahnrad oben rechts).
     Klicken Sie auf `Aktualisieren`.
 
 ## CAVA
 
-Konsolenbasierter Audio Visualizer für MPD. Kann in SSH-Terminals, Konsolen und LCD-HATS angezeigt werden.
+Konsolenbasierter Audio Visualizer f&uuml;r MPD. Kann in SSH-Terminals, Konsolen und LCD-HATS angezeigt werden.
 
 Installiert auch:
 
@@ -185,37 +185,37 @@ Installiert auch:
 
 === "Autostart-Option"
 
-    Wenn Sie CAVA nicht zum Starten beim Booten ausgewählt haben:
+    Wenn Sie CAVA nicht zum Starten beim Booten ausgew&auml;hlt haben:
 
-    - CAVA kann auch durch Eingabe von `cava` ausgeführt werden. Verwenden Sie ++Strg+C++ zum Beenden.
-    - Sie k&ouml;nnen die Autostart-Optionen in `dietpi-autostart` ändern.
+    - CAVA kann auch durch Eingabe von `cava` ausgef&uuml;hrt werden. Verwenden Sie ++Strg+C++ zum Beenden.
+    - Sie k&ouml;nnen die Autostart-Optionen in `dietpi-autostart` &auml;ndern.
 
 === "DietPi-JustBoom-Systemsteuerung"
 
     - Optimieren Sie CAVA-Optionen im Handumdrehen mit dem Panel.
-    - Führen Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
+    - F&uuml;hren Sie einfach `dietpi-justboom` von der Befehlszeile aus, um es zu starten.
 
-![Screenshot des DietPi-JustBoom-Menüs](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
+![Screenshot des DietPi-JustBoom-Men&uuml;s](../assets/images/dietpi-software-media-dietpi-justboom.png){: width="400" height="269" loading="lazy"}
 
 ## Mopidy
 
-Mopidy ist eine auf Python basierende, webbasierte Benutzeroberfläche für Musikplayer für MPD.
+Mopidy ist eine auf Python basierende, webbasierte Benutzeroberfl&auml;che f&uuml;r Musikplayer f&uuml;r MPD.
 
-![Screenshot der Mopidy-Weboberfläche](../assets/images/dietpi-software-media-mopidy.png){: width="400" height="198" loading="lazy"}
+![Screenshot der Mopidy-Weboberfl&auml;che](../assets/images/dietpi-software-media-mopidy.png){: width="400" height="198" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
     Das Webinterface verwendet Port **6680**:
 
     - URL = `http://<your.IP>:6680/musicbox_webclient` oder einfach `http://<your.IP>:6680`
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Mopidy verwendete Ordner:
 
     - Lokal = `/mnt/dietpi_userdata/Music`
-    - Zugriff über Dateiserver = `/Music`
+    - Zugriff &uuml;ber Dateiserver = `/Music`
 
 === "Musikdateien / Datenbank aktualisieren"
 
@@ -225,11 +225,11 @@ Mopidy ist eine auf Python basierende, webbasierte Benutzeroberfläche für Musi
     mopidyctl local scan
     ```
 
-=== "Hinzufügen von Mopidy-Erweiterungen"
+=== "Hinzuf&uuml;gen von Mopidy-Erweiterungen"
 
-Mopidy ist hochgradig anpassbar und unterstützt verschiedene Erweiterungen von alternativen Webclients bis hin zu Backend-Erweiterungen. Siehe [*Erweiterungen*](https://mopidy.com/ext/) für eine Liste.
+Mopidy ist hochgradig anpassbar und unterst&uuml;tzt verschiedene Erweiterungen von alternativen Webclients bis hin zu Backend-Erweiterungen. Siehe [*Erweiterungen*](https://mopidy.com/ext/) f&uuml;r eine Liste.
 
-Diese k&ouml;nnen über `pip` installiert werden, zB:
+Diese k&ouml;nnen &uuml;ber `pip` installiert werden, zB:
 
     ```sh
     pip3 install --no-cache-dir -U Mopidy-Jellyfin
@@ -241,15 +241,15 @@ oder auf Stretch:
     pip2 install --no-cache-dir -U Mopidy-Jellyfin
     ```
 
-=== "Unterstützung von Codecs"
+=== "Unterst&uuml;tzung von Codecs"
 
-Aktivieren Sie die Unterstützung für eine gro&szlig;e Anzahl von Codecs wie .m4a. Führen Sie die folgende Installationsprozedur aus:
+Aktivieren Sie die Unterst&uuml;tzung f&uuml;r eine gro&szlig;e Anzahl von Codecs wie .m4a. F&uuml;hren Sie die folgende Installationsprozedur aus:
 
     ```sh
     apt-get install -y gstreamer1.0-plugins-bad
     ```
 
-    Vielen Dank an Roth für [diesen Hinweis](https://dietpi.com/phpbb/viewtopic.php?t=785).
+    Vielen Dank an Roth f&uuml;r [diesen Hinweis](https://dietpi.com/phpbb/viewtopic.php?t=785).
 
 ## Airsonic-Erweitert {: #airsonic }
 
@@ -265,27 +265,27 @@ Feature-Rich-Media-Streaming-Server mit einer in Java codierten Webschnittstelle
     - Benutzername: `admin`
     - Passwort: `admin`.
 
-    !!! Hinweis "Die Weboberfläche kann sich beim ersten Zugriff träge anfühlen."
+    !!! Hinweis "Die Weboberfl&auml;che kann sich beim ersten Zugriff tr&auml;ge anf&uuml;hlen."
 
-    Dies ist beim ersten Zugriff nach Dienststart normal. Ist eine Seite einmal angesehen bzw. ein Element das erste Mal ausgewählt, werden nachfolgende Zugriffe deutlich schneller ablaufen.
+    Dies ist beim ersten Zugriff nach Dienststart normal. Ist eine Seite einmal angesehen bzw. ein Element das erste Mal ausgew&auml;hlt, werden nachfolgende Zugriffe deutlich schneller ablaufen.
 
-=== "Erste Ausführung einrichten"
+=== "Erste Ausf&uuml;hrung einrichten"
 
-    Sobald Sie zum ersten Mal mit der Weboberfläche verbunden sind, empfehlen wir die folgenden Einrichtungsschritte:
+    Sobald Sie zum ersten Mal mit der Weboberfl&auml;che verbunden sind, empfehlen wir die folgenden Einrichtungsschritte:
 
     Zuerst haken wir die Seite **Erste Schritte** ab und gehen zu **Einstellungen**:
 
     !["Erste Schritte"-Seite](../assets/images/airsonic_setup_1.png){: width="1440" height="900" loading="lazy"}
 
-    Auf der Registerkarte **Medienordner** ändern wir den Pfad zu DietPis Standard-Musikverzeichnis `/mnt/dietpi_userdata/Music`, speichern und scannen das neue Medienverzeichnis:
+    Auf der Registerkarte **Medienordner** &auml;ndern wir den Pfad zu DietPis Standard-Musikverzeichnis `/mnt/dietpi_userdata/Music`, speichern und scannen das neue Medienverzeichnis:
 
     ![Einstellungsseite "Medienordner"](../assets/images/airsonic_setup_2.png){: width="1440" height="900" loading="lazy"}
 
-    Auf der Registerkarte **Credentials** fügen wir ein neues Admin-Passwort hinzu, die Standardkodierung `bcrypt` ist sehr gut für die sichere Speicherung von Passw&ouml;rtern. Dann l&ouml;schen wir das anfängliche Standardpasswort:
+    Auf der Registerkarte **Credentials** f&uuml;gen wir ein neues Admin-Passwort hinzu, die Standardkodierung `bcrypt` ist sehr gut f&uuml;r die sichere Speicherung von Passw&ouml;rtern. Dann l&ouml;schen wir das anf&auml;ngliche Standardpasswort:
 
     ![Einstellungsseite "Anmeldeinformationen"](../assets/images/airsonic_setup_3.png){: width="1440" height="900" loading="lazy"}
 
-    Schlie&szlig;lich müssen wir aufgrund eines [aktuellen Fehlers mit dem Standard-Webplayer](https://github.com/airsonic-advanced/airsonic-advanced/issues/646) zum ersten Klonen auf die Registerkarte **Players** wechseln den Standardplayer und erstelle ihn dann neu. Schlie&szlig;lich k&ouml;nnen wir auf der linken Seite auf **Aktualisieren** klicken, um Mediendateien zur Liste hinzuzufügen, wodurch wir unsere Musik über den Browser abspielen k&ouml;nnen:
+    Schlie&szlig;lich m&uuml;ssen wir aufgrund eines [aktuellen Fehlers mit dem Standard-Webplayer](https://github.com/airsonic-advanced/airsonic-advanced/issues/646) zum ersten Klonen auf die Registerkarte **Players** wechseln den Standardplayer und erstelle ihn dann neu. Schlie&szlig;lich k&ouml;nnen wir auf der linken Seite auf **Aktualisieren** klicken, um Mediendateien zur Liste hinzuzuf&uuml;gen, wodurch wir unsere Musik &uuml;ber den Browser abspielen k&ouml;nnen:
 
     ![Einstellungsseite "Spieler"](../assets/images/airsonic_setup_4.png){: width="1440" height="900" loading="lazy"}
 
@@ -299,7 +299,7 @@ Feature-Rich-Media-Streaming-Server mit einer in Java codierten Webschnittstelle
 
 === "Dienststeuerung"
 
-Da Airsonic-Advanced als Systemdienst läuft, kann es mit folgenden Befehlen gesteuert werden:
+Da Airsonic-Advanced als Systemdienst l&auml;uft, kann es mit folgenden Befehlen gesteuert werden:
 
     ```sh
     systemctl status airsonic
@@ -319,7 +319,7 @@ Da Airsonic-Advanced als Systemdienst läuft, kann es mit folgenden Befehlen ges
 
 === "Protokolle"
 
-    Da Airsonic-Advanced als systemd-Dienst ausgeführt wird, k&ouml;nnen seine Protokolle angezeigt werden über:
+    Da Airsonic-Advanced als systemd-Dienst ausgef&uuml;hrt wird, k&ouml;nnen seine Protokolle angezeigt werden &uuml;ber:
 
     ```sh
     journalctl -u airsonic
@@ -340,48 +340,48 @@ Lizenz: [GPLv3](https://github.com/airsonic-advanced/airsonic-advanced/blob/mast
 
 ## Logitech-Medienserver
 
-Logitech Media Server (alias LMS, Squeezebox Server) ist die Serversoftware, die die Steuerung über die Webschnittstelle erm&ouml;glicht von:
+Logitech Media Server (alias LMS, Squeezebox Server) ist die Serversoftware, die die Steuerung &uuml;ber die Webschnittstelle erm&ouml;glicht von:
 
 - Software-Audioplayer: Squeezelite
 - Hardware-Audioplayer von Logitech: Squeezebox, SlimDevices
 
-Anmerkung: Wenn Sie keinen Hardware-Player besitzen, k&ouml;nnen Sie Ihr DietPi-System in einen Squeezebox-Audio-fähigen Player verwandeln, indem Sie Squeezelite zur Installation in `dietpi-software` auswählen.
+Anmerkung: Wenn Sie keinen Hardware-Player besitzen, k&ouml;nnen Sie Ihr DietPi-System in einen Squeezebox-Audio-f&auml;higen Player verwandeln, indem Sie Squeezelite zur Installation in `dietpi-software` ausw&auml;hlen.
 
-![Screenshot der Logitech Media Server-Weboberfläche](../assets/images/dietpi-software-media-squeezebox.png){: width="400" height="216" loading="lazy"}
+![Screenshot der Logitech Media Server-Weboberfl&auml;che](../assets/images/dietpi-software-media-squeezebox.png){: width="400" height="216" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **9000** erreichbar:
+    Das Webinterface ist &uuml;ber Port **9000** erreichbar:
 
     - URL = `http://<Ihre.IP>:9000`
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Mopidy verwendete Ordner:
 
     - Ordner = `/mnt/dietpi_userdata/Music`
 
-=== "Squeezelite-Befehlszeilenoptionen ändern"
+=== "Squeezelite-Befehlszeilenoptionen &auml;ndern"
 
-    - Führen Sie `dietpi-services` aus
-    - Wählen Sie `Squeezelite` aus
-    - Wählen Sie `Bearbeiten`.
-    - Setzen Sie den Eintrag `ExecStart` zurück und setzen Sie ihn erneut:
+    - F&uuml;hren Sie `dietpi-services` aus
+    - W&auml;hlen Sie `Squeezelite` aus
+    - W&auml;hlen Sie `Bearbeiten`.
+    - Setzen Sie den Eintrag `ExecStart` zur&uuml;ck und setzen Sie ihn erneut:
 
       ```systemd
       ExecStart=
       ExecStart=/usr/bin/squeezelite [<your custom arguments>]
       ```
 
-    Das erste `ExecStart=` wird ben&ouml;tigt, um den vorhandenen `ExecStart`-Eintrag zu ersetzen, anstatt einen zweiten hinzuzufügen.
+    Das erste `ExecStart=` wird ben&ouml;tigt, um den vorhandenen `ExecStart`-Eintrag zu ersetzen, anstatt einen zweiten hinzuzuf&uuml;gen.
 
-    - Änderungen mit ++ctrl+o++ speichern und `dietpi-services` beenden
+    - &Auml;nderungen mit ++ctrl+o++ speichern und `dietpi-services` beenden
     - Starten Sie den Dienst neu: `systemctl restart squeezelite`
 
 === "Aktualisieren"
 
-    Um Logitech Media Server auf die aktuelle Version zu aktualisieren, führen Sie Folgendes aus
+    Um Logitech Media Server auf die aktuelle Version zu aktualisieren, f&uuml;hren Sie Folgendes aus
 
     ```sh
     dietpi-software reinstall 35
@@ -389,72 +389,72 @@ Anmerkung: Wenn Sie keinen Hardware-Player besitzen, k&ouml;nnen Sie Ihr DietPi-
 
 ## Squeezelit
 
-Squeezelite ist der Audioplayer für den Logitech Media Server.
+Squeezelite ist der Audioplayer f&uuml;r den Logitech Media Server.
 
-![Screenshot der Logitech Media Server-Weboberfläche](../assets/images/dietpi-software-media-squeezebox.png){: width="400" height="216" loading="lazy"}
+![Screenshot der Logitech Media Server-Weboberfl&auml;che](../assets/images/dietpi-software-media-squeezebox.png){: width="400" height="216" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **9000** erreichbar:
+    Das Webinterface ist &uuml;ber Port **9000** erreichbar:
 
     - URL = `http://<Ihre.IP>:9000`
 
-=== "Musik übertragen/hinzufügen"
+=== "Musik &uuml;bertragen/hinzuf&uuml;gen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Mopidy verwendete Ordner:
 
     - Ordner = `/mnt/dietpi_userdata/Music`
 
-=== "Squeezelite-Befehlszeilenoptionen ändern"
+=== "Squeezelite-Befehlszeilenoptionen &auml;ndern"
 
-    - Führen Sie `dietpi-services` aus
-    - Wählen Sie `Squeezelite` aus
-    - Wählen Sie `Bearbeiten`.
-    - Setzen Sie den Eintrag `ExecStart` zurück und setzen Sie ihn erneut:
+    - F&uuml;hren Sie `dietpi-services` aus
+    - W&auml;hlen Sie `Squeezelite` aus
+    - W&auml;hlen Sie `Bearbeiten`.
+    - Setzen Sie den Eintrag `ExecStart` zur&uuml;ck und setzen Sie ihn erneut:
 
       ```systemd
       ExecStart=
       ExecStart=/usr/bin/squeezelite [<your custom arguments>]
       ```
 
-      Das erste `ExecStart=` wird ben&ouml;tigt, um den vorhandenen `ExecStart`-Eintrag zu ersetzen, anstatt einen zweiten hinzuzufügen.
+      Das erste `ExecStart=` wird ben&ouml;tigt, um den vorhandenen `ExecStart`-Eintrag zu ersetzen, anstatt einen zweiten hinzuzuf&uuml;gen.
 
-      - Änderungen mit ++ctrl+o++ speichern und `dietpi-services` beenden
+      - &Auml;nderungen mit ++ctrl+o++ speichern und `dietpi-services` beenden
       - Starten Sie den Dienst neu: `systemctl restart squeezelite`
 
 ##Shairport-Sync
 
-Shairport Sync ist ein AirPlay-Audioplayer, der Audio abspielt, das von iTunes, iOS-Geräten und AirPlay-Quellen von Drittanbietern wie ForkedDaapd und Airfoil gestreamt wird.
-Audio, das von einem Shairport Sync-betriebenen Gerät wiedergegeben wird, bleibt mit der Quelle und damit mit ähnlichen Geräten, die dieselbe Quelle wiedergeben, synchronisiert. Dies erm&ouml;glicht synchronisiertes Multiroom-Audio auf mehreren Geräten.
+Shairport Sync ist ein AirPlay-Audioplayer, der Audio abspielt, das von iTunes, iOS-Ger&auml;ten und AirPlay-Quellen von Drittanbietern wie ForkedDaapd und Airfoil gestreamt wird.
+Audio, das von einem Shairport Sync-betriebenen Ger&auml;t wiedergegeben wird, bleibt mit der Quelle und damit mit &auml;hnlichen Ger&auml;ten, die dieselbe Quelle wiedergeben, synchronisiert. Dies erm&ouml;glicht synchronisiertes Multiroom-Audio auf mehreren Ger&auml;ten.
 
 ![Shairport Sync-Verbindungsschema](../assets/images/dietpi-software-media-shairportsync.png){: width="400" height="233" loading="lazy"}
 
-=== "AirPlay-Gerätename"
+=== "AirPlay-Ger&auml;tename"
 
-      Führen Sie bei der Suche nach einem Airplay-Gerät `shairport-sync` auf DietPi aus.
+      F&uuml;hren Sie bei der Suche nach einem Airplay-Ger&auml;t `shairport-sync` auf DietPi aus.
 
 === "Von Android und iPad/iPhone streamen"
 
-      Es gibt viele AirPlay-Player für Android (zB [AirPlay For Android](https://play.google.com/store/apps/details?id=com.screen.mirroring.airplay.streamtotv&hl=de)) und iPad/ iPhone (zB [AirPlay](https://support.apple.com/en-gb/HT204289)).
+      Es gibt viele AirPlay-Player f&uuml;r Android (zB [AirPlay For Android](https://play.google.com/store/apps/details?id=com.screen.mirroring.airplay.streamtotv&hl=de)) und iPad/ iPhone (zB [AirPlay](https://support.apple.com/en-gb/HT204289)).
       Laden Sie den Player Ihrer Wahl herunter und verwenden Sie ihn.
 
 === "Von einem Windows/Mac-PC streamen"
 
-      Airfoil ist eine Anwendung, mit der Sie die Audiowiedergabe direkt auf jedes Shairport Sync-Gerät streamen k&ouml;nnen. Drücken Sie auf Ihrem bevorzugten Musikplayer (z. B. Winamp/Spotify) auf Play und klicken Sie auf den Lautsprecher neben dem DietPi-Gerät.
+      Airfoil ist eine Anwendung, mit der Sie die Audiowiedergabe direkt auf jedes Shairport Sync-Ger&auml;t streamen k&ouml;nnen. Dr&uuml;cken Sie auf Ihrem bevorzugten Musikplayer (z. B. Winamp/Spotify) auf Play und klicken Sie auf den Lautsprecher neben dem DietPi-Ger&auml;t.
 
 === "Audiophile - Meistere Musik in Echtzeit"
 
-      Wenn Sie einen PC + [Airfoil] (https://www.rogueamoeba.com/airfoil/) verwenden, k&ouml;nnen Sie die Musik mithilfe der PC-CPU in Echtzeit mastern. Dadurch k&ouml;nnen alle Ihre Shairport Sync-Geräte noch besser klingen, ohne dass die Leistung des Geräts beeinträchtigt wird.
+      Wenn Sie einen PC + [Airfoil] (https://www.rogueamoeba.com/airfoil/) verwenden, k&ouml;nnen Sie die Musik mithilfe der PC-CPU in Echtzeit mastern. Dadurch k&ouml;nnen alle Ihre Shairport Sync-Ger&auml;te noch besser klingen, ohne dass die Leistung des Ger&auml;ts beeintr&auml;chtigt wird.
 
-=== "Mehrere Shairport-Geräte / Shairport Sync-Namen ändern"
+=== "Mehrere Shairport-Ger&auml;te / Shairport Sync-Namen &auml;ndern"
 
-      Wenn Sie vorhaben, mehrere Shairport-Geräte im selben Netzwerk zu verwenden, stellen Sie bitte sicher, dass der Hostname jedes Geräts eindeutig ist. Der Hostname wirkt sich auch auf den `shairport-sync`-Namen aus.
+      Wenn Sie vorhaben, mehrere Shairport-Ger&auml;te im selben Netzwerk zu verwenden, stellen Sie bitte sicher, dass der Hostname jedes Ger&auml;ts eindeutig ist. Der Hostname wirkt sich auch auf den `shairport-sync`-Namen aus.
       Dies kann in `dietpi-config` \> `Security Options` \> `Change Hostname` abgeschlossen werden.
 
 === "Soxr-Interpolation"
 
-      Die Soxr-Interpolation verbessert die Audioausgabequalität auf Shairport. Allerdings ist es extrem CPU-intensiv.
+      Die Soxr-Interpolation verbessert die Audioausgabequalit&auml;t auf Shairport. Allerdings ist es extrem CPU-intensiv.
       Soxr aktivieren:
 
     ```sh
@@ -470,30 +470,30 @@ Audio, das von einem Shairport Sync-betriebenen Gerät wiedergegeben wird, bleib
     ```
 
     Bei abgehackter Wiedergabe mit Soxr:
-    Das Erh&ouml;hen der `shairplay-sync`-Prozesspriorität (nice) kann das Problem l&ouml;sen.
+    Das Erh&ouml;hen der `shairplay-sync`-Prozesspriorit&auml;t (nice) kann das Problem l&ouml;sen.
 
-    - Führen Sie `dietpi-services` vom Terminal aus
-    - Wählen Sie `shairport-sync` über die Auf-/Ab-Tasten und drücken Sie dann ++enter++
-    - Wählen Sie `CPU Nice` über die Auf-/Ab-Tasten und drücken Sie dann ++enter++
-    - Wählen Sie "-20: (H&ouml;chste Priorität)" über die Aufwärtstaste und drücken Sie dann ++enter++
+    - F&uuml;hren Sie `dietpi-services` vom Terminal aus
+    - W&auml;hlen Sie `shairport-sync` &uuml;ber die Auf-/Ab-Tasten und dr&uuml;cken Sie dann ++enter++
+    - W&auml;hlen Sie `CPU Nice` &uuml;ber die Auf-/Ab-Tasten und dr&uuml;cken Sie dann ++enter++
+    - W&auml;hlen Sie "-20: (H&ouml;chste Priorit&auml;t)" &uuml;ber die Aufw&auml;rtstaste und dr&uuml;cken Sie dann ++enter++
 
     DietPi wird sich dann automatisch bewerben und das Nice-Level einstellen.
 
-    Wenn die abgehackte Wiedergabe fortgesetzt wird, reicht die CPU h&ouml;chstwahrscheinlich nicht für die Verarbeitung aus, die für Soxr erforderlich ist. Dann sollte Soxr deaktiviert werden.
+    Wenn die abgehackte Wiedergabe fortgesetzt wird, reicht die CPU h&ouml;chstwahrscheinlich nicht f&uuml;r die Verarbeitung aus, die f&uuml;r Soxr erforderlich ist. Dann sollte Soxr deaktiviert werden.
 
 ## ReadyMedia
 
-Streamen Sie Ihre freigegebenen Medien auf jedes DLNA/UPnP-fähige Gerät.
+Streamen Sie Ihre freigegebenen Medien auf jedes DLNA/UPnP-f&auml;hige Ger&auml;t.
 
 ![ReadyMedia-Logo](../assets/images/dietpi-software-media-readymedia.jpg){: width="351" height="341" loading="lazy"}
 
 === "Zugriff auf ReadyMedia-Status"
 
-    Das Webinterface ist über Port **8200** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8200** erreichbar:
 
     - URL = `http://<Ihre.IP>:8200`
 
-=== "Mediendateien auf ReadyMedia übertragen"
+=== "Mediendateien auf ReadyMedia &uuml;bertragen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von ReadyMedia verwendete Ordner:
@@ -512,25 +512,25 @@ Die Datenbank kann mit diesem Befehl aktualisiert werden:
 
 ***
 
-Verfügbare UPnP-Clients: <https://www.wikipedia.org/wiki/List_of_UPnP_AV_media_servers_and_clients#UPnP_AV_clients>
+Verf&uuml;gbare UPnP-Clients: <https://www.wikipedia.org/wiki/List_of_UPnP_AV_media_servers_and_clients#UPnP_AV_clients>
 
 ## Ampache
 
-Eine webbasierte Audio-/Video-Streaming-Anwendung und ein Dateimanager, mit dem Sie von überall und mit fast jedem internetfähigen Gerät auf Ihre Musik und Videos zugreifen k&ouml;nnen.
+Eine webbasierte Audio-/Video-Streaming-Anwendung und ein Dateimanager, mit dem Sie von &uuml;berall und mit fast jedem internetf&auml;higen Ger&auml;t auf Ihre Musik und Videos zugreifen k&ouml;nnen.
 
 Installiert auch:
 
 - Webserver-Stack
 
-![Screenshot der Ampache-Weboberfläche](../assets/images/dietpi-software-media-ampacheinterface.png){: width="400" height="202" loading="lazy"}
+![Screenshot der Ampache-Weboberfl&auml;che](../assets/images/dietpi-software-media-ampacheinterface.png){: width="400" height="202" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
     - URL = `http://<your.IP>/ampache`
     - Benutzername = `admin`
     - Passwort = `dietpi`
 
-=== "Mediendateien auf ReadyMedia übertragen"
+=== "Mediendateien auf ReadyMedia &uuml;bertragen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Ampache verwendete Ordner:
@@ -540,31 +540,31 @@ Installiert auch:
 
 === "Nach Medien suchen, Ampache-Datenbank aktualisieren"
 
-    DietPi fügt während der Installation automatisch verschiedene Katalogverzeichnisse zu Ampache hinzu. Sie k&ouml;nnen diese Verzeichnisse nach Bedarf ändern, bevor Sie Ihren ersten Scan ausführen.
+    DietPi f&uuml;gt w&auml;hrend der Installation automatisch verschiedene Katalogverzeichnisse zu Ampache hinzu. Sie k&ouml;nnen diese Verzeichnisse nach Bedarf &auml;ndern, bevor Sie Ihren ersten Scan ausf&uuml;hren.
     So starten Sie den Scan und importieren Ihre Medien in Ampache:
 
-    - Wählen Sie die Schaltfläche `Admin`.
-    - Wählen Sie auf der linken Seite `Kataloge anzeigen`.
-    - Wählen Sie `Alle aktualisieren`.
+    - W&auml;hlen Sie die Schaltfl&auml;che `Admin`.
+    - W&auml;hlen Sie auf der linken Seite `Kataloge anzeigen`.
+    - W&auml;hlen Sie `Alle aktualisieren`.
 
-![Screenshot der Ampache-Weboberfläche mit Anweisungen zum Datenbank-Update](../assets/images/dietpi-software-media-ampacheupdatecatalogue.png){: width="400" height="193" loading="lazy"}
+![Screenshot der Ampache-Weboberfl&auml;che mit Anweisungen zum Datenbank-Update](../assets/images/dietpi-software-media-ampacheupdatecatalogue.png){: width="400" height="193" loading="lazy"}
 
-=== "Benutzerdefinierte Medienordner hinzufügen"
+=== "Benutzerdefinierte Medienordner hinzuf&uuml;gen"
 
-    - Wählen Sie die Schaltfläche `Admin`.
-    - Wählen Sie auf der linken Seite `Katalog hinzufügen`.
-    - Geben Sie die Details Ihres Pfads ein (siehe Bildbeispiel unten, um den Musikordner Ihres USB-Laufwerks zu Ampache hinzuzufügen).
-    - Wählen Sie die Schaltfläche `Katalog hinzufügen`.
+    - W&auml;hlen Sie die Schaltfl&auml;che `Admin`.
+    - W&auml;hlen Sie auf der linken Seite `Katalog hinzuf&uuml;gen`.
+    - Geben Sie die Details Ihres Pfads ein (siehe Bildbeispiel unten, um den Musikordner Ihres USB-Laufwerks zu Ampache hinzuzuf&uuml;gen).
+    - W&auml;hlen Sie die Schaltfl&auml;che `Katalog hinzuf&uuml;gen`.
 
-Anmerkung: Damit Ampache auf benutzerdefinierte Verzeichnisse zugreifen kann, müssen Sie den Lesezugriff auf den Ordner sicherstellen, z. B. durch:
+Anmerkung: Damit Ampache auf benutzerdefinierte Verzeichnisse zugreifen kann, m&uuml;ssen Sie den Lesezugriff auf den Ordner sicherstellen, z. B. durch:
 
     ```sh
     chmod -R 775 /my/directory
     ```
 
-![Screenshot der Ampache-Weboberfläche mit Anweisungen zum Hinzufügen von Medien](../assets/images/dietpi-software-media-ampacheaddcatalogue.png){: width="400" height="180" loading="lazy"}
+![Screenshot der Ampache-Weboberfl&auml;che mit Anweisungen zum Hinzuf&uuml;gen von Medien](../assets/images/dietpi-software-media-ampacheaddcatalogue.png){: width="400" height="180" loading="lazy"}
 
-=== "Zusätzliche Dateiformate per Transkodierung aktivieren"
+=== "Zus&auml;tzliche Dateiformate per Transkodierung aktivieren"
 
     - <https://github.com/ampache/ampache/wiki/Transcoding>
     - Um zB die Wiedergabe von .m4a zu erm&ouml;glichen:
@@ -575,7 +575,7 @@ Anmerkung: Damit Ampache auf benutzerdefinierte Verzeichnisse zugreifen kann, m�
 
 === "Ampache aktualisieren"
 
-    Führen Sie aus, um Ampache auf die aktuelle Version zu aktualisieren
+    F&uuml;hren Sie aus, um Ampache auf die aktuelle Version zu aktualisieren
 
     ```sh
     dietpi-software reinstall 40
@@ -583,27 +583,27 @@ Anmerkung: Damit Ampache auf benutzerdefinierte Verzeichnisse zugreifen kann, m�
 
 ## Emby
 
-Ein Webinterface-Media-Streaming-Server. Denken Sie an Kodi, aber verwenden Sie jedes Gerät mit einem Webbrowser.
+Ein Webinterface-Media-Streaming-Server. Denken Sie an Kodi, aber verwenden Sie jedes Ger&auml;t mit einem Webbrowser.
 
 ??? Hinweis `Transkodierleistung auf SBC`
 
-    Die Leistung der Videotranskodierung auf SBC-Geräten ist träge und kann sogar auf dem RPi 3 stottern:
+    Die Leistung der Videotranskodierung auf SBC-Ger&auml;ten ist tr&auml;ge und kann sogar auf dem RPi 3 stottern:
     <https://github.com/MichaIng/DietPi/issues/310#issuecomment-216262850>
-    SBCs sollten nur für Musik in Ordnung sein.
-    Eine virtuelle Maschine wird für die Videotranscodierung dringend empfohlen:
+    SBCs sollten nur f&uuml;r Musik in Ordnung sein.
+    Eine virtuelle Maschine wird f&uuml;r die Videotranscodierung dringend empfohlen:
     <https://github.com/MichaIng/DietPi/issues/310#issuecomment-219067830>
 
-![Screenshot der Emby-Weboberfläche](../assets/images/dietpi-software-media-embyserver.png){: width="400" height="199" loading="lazy"}
+![Screenshot der Emby-Weboberfl&auml;che](../assets/images/dietpi-software-media-embyserver.png){: width="400" height="199" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **8096** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8096** erreichbar:
 
     URL = `http://<Ihre.IP>:8096`
 
-=== "Erste Ausführung einrichten"
+=== "Erste Ausf&uuml;hrung einrichten"
 
-    Sobald Sie mit der Weboberfläche verbunden sind, folgen Sie einfach den Anweisungen auf dem Bildschirm.
+    Sobald Sie mit der Weboberfl&auml;che verbunden sind, folgen Sie einfach den Anweisungen auf dem Bildschirm.
     Wenn Sie Ihre Medienbibliotheken einrichten erreichen:
 
     ```sh
@@ -611,9 +611,9 @@ Ein Webinterface-Media-Streaming-Server. Denken Sie an Kodi, aber verwenden Sie 
     /mnt/dietpi_userdata/Video
     ```
 
-    Sie k&ouml;nnen auch Samba/NFS-Freigaben mounten, indem Sie `dietpi-drive_manager` ausführen und `Mount network drive` aus dem Menü auswählen.
+    Sie k&ouml;nnen auch Samba/NFS-Freigaben mounten, indem Sie `dietpi-drive_manager` ausf&uuml;hren und `Mount network drive` aus dem Men&uuml; ausw&auml;hlen.
 
-=== `Mediendateien auf Ihr Gerät übertragen`
+=== `Mediendateien auf Ihr Ger&auml;t &uuml;bertragen`
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Emby verwendete Ordner:
@@ -623,7 +623,7 @@ Ein Webinterface-Media-Streaming-Server. Denken Sie an Kodi, aber verwenden Sie 
 
 === "Protokolle anzeigen"
 
-    Um Emby-Serverprotokolle anzuzeigen, führen Sie den folgenden Befehl von der Konsole aus:
+    Um Emby-Serverprotokolle anzuzeigen, f&uuml;hren Sie den folgenden Befehl von der Konsole aus:
 
     ```sh
     journalctl -u emby-server
@@ -631,7 +631,7 @@ Ein Webinterface-Media-Streaming-Server. Denken Sie an Kodi, aber verwenden Sie 
 
 === "Aktualisieren"
 
-    Um die Emby Server-Version zu aktualisieren, installieren Sie einfach Emby Server neu, um ihn auf die neueste Version zu aktualisieren. Es behält alle vorhandenen Daten und Einstellungen bei:
+    Um die Emby Server-Version zu aktualisieren, installieren Sie einfach Emby Server neu, um ihn auf die neueste Version zu aktualisieren. Es beh&auml;lt alle vorhandenen Daten und Einstellungen bei:
 
     ```sh
     dietpi-software reinstall 41
@@ -647,15 +647,15 @@ YouTube-Video-Tutorial: *DietPi Emby Media Server Setup auf Raspberry Pi 3 B Plu
 
 Plex organisiert Ihre Video-, Musik- und Fotosammlungen und streamt sie auf alle Ihre Bildschirme. Auch bekannt als "Webinterface Media Streaming Server".
 
-![Screenshot der Plex Media Server-Weboberfläche](../assets/images/dietpi-software-media-plexmediaserver.png){: width="400" height="199" loading="lazy"}
+![Screenshot der Plex Media Server-Weboberfl&auml;che](../assets/images/dietpi-software-media-plexmediaserver.png){: width="400" height="199" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
     Das Webinterface verwendet Port **32400**:
 
     URL = `http://<Ihre.IP>:32400/web`
 
-=== "Erste Ausführung einrichten"
+=== "Erste Ausf&uuml;hrung einrichten"
 
     Bitte befolgen Sie die Anweisungen auf dem Bildschirm, um den Einrichtungsassistenten abzuschlie&szlig;en:
 
@@ -668,9 +668,9 @@ Plex organisiert Ihre Video-, Musik- und Fotosammlungen und streamt sie auf alle
         /mnt/dietpi_userdata/Video
         ```
 
-    Sie k&ouml;nnen auch Samba/NFS-Freigaben mounten, indem Sie `dietpi-drive_manager` ausführen und `Mount network drive` aus dem Menü auswählen.
+    Sie k&ouml;nnen auch Samba/NFS-Freigaben mounten, indem Sie `dietpi-drive_manager` ausf&uuml;hren und `Mount network drive` aus dem Men&uuml; ausw&auml;hlen.
 
-=== `Mediendateien auf Ihr Gerät übertragen`
+=== `Mediendateien auf Ihr Ger&auml;t &uuml;bertragen`
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Plex Media Server verwendete Ordner:
@@ -680,7 +680,7 @@ Plex organisiert Ihre Video-, Musik- und Fotosammlungen und streamt sie auf alle
 
 ***
 
-Tutorial: [Einrichtungsanleitung für Plex auf Raspberry Pi](https://blog.barnettjones.com/2020/11/26/dietpi-plex-setup/)
+Tutorial: [Einrichtungsanleitung f&uuml;r Plex auf Raspberry Pi](https://blog.barnettjones.com/2020/11/26/dietpi-plex-setup/)
 
 YouTube-Video-Tutorial: `Raspberry Pi 4 - Plex TV Media Server unter DietPi installieren und Zugriff von aussen (FritzBox)`.
 
@@ -688,13 +688,13 @@ YouTube-Video-Tutorial: `Raspberry Pi 4 - Plex TV Media Server unter DietPi inst
 
 ##Tautulli
 
-Ein Python-basiertes Überwachungs- und Tracking-Tool für Plex Media Server.
+Ein Python-basiertes &Uuml;berwachungs- und Tracking-Tool f&uuml;r Plex Media Server.
 
-![Screenshot der Tautulli-Weboberfläche](../assets/images/dietpi-software-media-tautulli.png){: width="400" height="273" loading="lazy"}
+![Screenshot der Tautulli-Weboberfl&auml;che](../assets/images/dietpi-software-media-tautulli.png){: width="400" height="273" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **8181** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8181** erreichbar:
 
     - URL = `http://<Ihre.IP>:8181`
 
@@ -706,21 +706,21 @@ Ein Python-basiertes Überwachungs- und Tracking-Tool für Plex Media Server.
 
 ## Murmeln
 
-Verwandeln Sie Ihr Gerät in einen leichten Mumble-VoIP-Server.
+Verwandeln Sie Ihr Ger&auml;t in einen leichten Mumble-VoIP-Server.
 
 ![Mumble-Logo](../assets/images/dietpi-software-media-murmur.png){: width="100" height="100" loading="lazy"}
 
 === "Verbindungsdetails zum Murmur-Server"
 
-    Der Server ist über Port **64738** erreichbar:
+    Der Server ist &uuml;ber Port **64738** erreichbar:
 
     - URL = `http://<Ihre.IP>:64738`
     - Passwort = Kein Passwort erforderlich
     - Superuser-Passwort = `dietpi`
 
-=== "Murmur-Server-Einstellungen ändern"
+=== "Murmur-Server-Einstellungen &auml;ndern"
 
-Sie müssen die Murmur-Konfigurationsdatei bearbeiten:
+Sie m&uuml;ssen die Murmur-Konfigurationsdatei bearbeiten:
 
     ```sh
     nano /etc/mumble-server.ini
@@ -729,16 +729,16 @@ Sie müssen die Murmur-Konfigurationsdatei bearbeiten:
 
 ## Roon-Bridge
 
-Verwandelt Ihren SBC in einen Roon-fähigen Audioplayer. Indem Sie die Roon-Hauptanwendung auf einem anderen Gerät verwenden, k&ouml;nnen Sie Ihren Musikkatalog direkt auf die Roon Bridge streamen, die auf Ihrem SBC läuft.
+Verwandelt Ihren SBC in einen Roon-f&auml;higen Audioplayer. Indem Sie die Roon-Hauptanwendung auf einem anderen Ger&auml;t verwenden, k&ouml;nnen Sie Ihren Musikkatalog direkt auf die Roon Bridge streamen, die auf Ihrem SBC l&auml;uft.
 
 ![Roon-Logo](../assets/images/dietpi-software-media-roon.png){: width="150" height="81" loading="lazy"}
 
-![Screenshot der Roon Bridge-Oberfläche](../assets/images/dietpi-software-media-roonbridge.png){: width="400" height="225" loading="lazy"}
+![Screenshot der Roon Bridge-Oberfl&auml;che](../assets/images/dietpi-software-media-roonbridge.png){: width="400" height="225" loading="lazy"}
 
 === "Anforderungen"
 
     Roon auf einem anderen System (zB: Windows-PC), um den Player zu steuern.
-    [Roon-Lizenz](https://roonlabs.com/pricing) (kostenlose Testversion ist ebenfalls verfügbar).
+    [Roon-Lizenz](https://roonlabs.com/pricing) (kostenlose Testversion ist ebenfalls verf&uuml;gbar).
 
 ***
 
@@ -748,7 +748,7 @@ YouTube-Videos von `David Snyder`: <https://www.youtube.com/c/dsnyder0cnn/search
 
 ## Roon-Server
 
-Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Coreserver.
+Verwandelt Ihr Ger&auml;t in einen Roon-f&auml;higen Audioplayer und Coreserver.
 
 ![Roon-Logo](../assets/images/dietpi-software-media-roon.png){: width="150" height="81" loading="lazy"}
 
@@ -760,19 +760,19 @@ Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Coreserver.
 
 === `Empfohlenes Musikspeicherverzeichnis`
 
-    Bei der Konfiguration Ihres Roon Servers empfehlen wir dringend, das DietPi-Benutzerdatenverzeichnis zu verwenden. Auf diese Weise k&ouml;nnen Sie Musik einfach über das Netzwerk übertragen (siehe Musik übertragen unten) und die Musik auf Ihrem Roon Server-System speichern:
+    Bei der Konfiguration Ihres Roon Servers empfehlen wir dringend, das DietPi-Benutzerdatenverzeichnis zu verwenden. Auf diese Weise k&ouml;nnen Sie Musik einfach &uuml;ber das Netzwerk &uuml;bertragen (siehe Musik &uuml;bertragen unten) und die Musik auf Ihrem Roon Server-System speichern:
 
     ```
     /mnt/dietpi_userdata/Music
     ```
 
-=== `Mediendateien auf Ihr Gerät übertragen`
+=== `Mediendateien auf Ihr Ger&auml;t &uuml;bertragen`
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Roon Server verwendete Ordner:
 
     - Musikverzeichnis = `/mnt/dietpi_userdata/Music`
-    - Zugriff über Dateiserver = `/Music`
+    - Zugriff &uuml;ber Dateiserver = `/Music`
 
 === "Verzeichnisse"
 
@@ -790,7 +790,7 @@ Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Coreserver.
 
 === "Dienststeuerung"
 
-    Roon Server wird standardmä&szlig;ig als systemd-Dienst gestartet und kann daher mit den folgenden Befehlen gesteuert werden:
+    Roon Server wird standardm&auml;&szlig;ig als systemd-Dienst gestartet und kann daher mit den folgenden Befehlen gesteuert werden:
 
     ```sh
     systemctl status roonserver
@@ -810,13 +810,13 @@ Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Coreserver.
 
 === "Protokolle anzeigen"
 
-    Dienstprotokolle k&ouml;nnen mit dem folgenden Befehl überprüft werden:
+    Dienstprotokolle k&ouml;nnen mit dem folgenden Befehl &uuml;berpr&uuml;ft werden:
 
     ```sh
     journalctl -u roonserver
     ```
 
-    Ausführlichere Protokolle der einzelnen Roon-Serverkomponenten finden Sie in den folgenden Dateien:
+    Ausf&uuml;hrlichere Protokolle der einzelnen Roon-Serverkomponenten finden Sie in den folgenden Dateien:
 
 - `/mnt/dietpi_userdata/roonserver/RAATServer/Logs/RAATServer_log.txt`
 - `/mnt/dietpi_userdata/roonserver/RoonServer/Logs/RoonServer_log.txt`
@@ -824,7 +824,7 @@ Verwandelt Ihr Gerät in einen Roon-fähigen Audioplayer und Coreserver.
 
 === "Auf neueste Version aktualisieren"
 
-    Der Roon Server wird mit einem internen Updater geliefert, der verwendet werden sollte. Wenn die Installation in irgendeiner Weise beschädigt ist, k&ouml;nnen Sie sie mit den folgenden Befehlen reparieren:
+    Der Roon Server wird mit einem internen Updater geliefert, der verwendet werden sollte. Wenn die Installation in irgendeiner Weise besch&auml;digt ist, k&ouml;nnen Sie sie mit den folgenden Befehlen reparieren:
 
     ```sh
     rm -R /opt/roonserver
@@ -839,7 +839,7 @@ YouTube-Videos von `David Snyder`: <https://www.youtube.com/c/dsnyder0cnn/search
 
 ## Roon-Erweiterungsmanager
 
-Beim Start greift der Roon Extension Manager auf ein Repository zu, das die von der Community entwickelten Erweiterungen enthält. Über `Einstellungen` \> `Erweiterungen` innerhalb von Roon kann das Repository eingesehen und eine Erweiterung ausgewählt werden, um eine bestimmte Aktion auszuführen.
+Beim Start greift der Roon Extension Manager auf ein Repository zu, das die von der Community entwickelten Erweiterungen enth&auml;lt. &Uuml;ber `Einstellungen` \> `Erweiterungen` innerhalb von Roon kann das Repository eingesehen und eine Erweiterung ausgew&auml;hlt werden, um eine bestimmte Aktion auszuf&uuml;hren.
 
 ![Roon-Logo](../assets/images/dietpi-software-media-roon.png){: width="150" height="81" loading="lazy"}
 
@@ -848,26 +848,26 @@ Beim Start greift der Roon Extension Manager auf ein Repository zu, das die von 
 ***
 
 Details und Nutzungsinformationen: <https://community.roonlabs.com/t/roon-extension-manager-v0-11-8/26632>
-Credits: Vielen Dank an @JanKoudijs für den Beitrag zu DietPi
+Credits: Vielen Dank an @JanKoudijs f&uuml;r den Beitrag zu DietPi
 
 ## NAA-Daemon
 
-Mit dem Signalyst Network Audio Adapter (NAA)-Daemon k&ouml;nnen Sie Musik von einer HQPlayer-Quelle (wie Windows) streamen und direkt von Ihrem DietPi-Gerät ausgeben. Verfügt über DRC, hochwertiges Upsampling (wie 192 kHz) und mehr.
+Mit dem Signalyst Network Audio Adapter (NAA)-Daemon k&ouml;nnen Sie Musik von einer HQPlayer-Quelle (wie Windows) streamen und direkt von Ihrem DietPi-Ger&auml;t ausgeben. Verf&uuml;gt &uuml;ber DRC, hochwertiges Upsampling (wie 192 kHz) und mehr.
 Funktioniert auch mit Roon.
 
 ![HQPlayer-Screenshot](../assets/images/dietpi-software-media-naa.png){: width="400" height="300" loading="lazy"}
 
 === "HQPlayer Desktop (Windows)"
 
-Dadurch k&ouml;nnen Sie Audio von Ihrem Windows-PC zum NAA-Daemon auf dem DietPi-Gerät streamen.
+Dadurch k&ouml;nnen Sie Audio von Ihrem Windows-PC zum NAA-Daemon auf dem DietPi-Ger&auml;t streamen.
 
-    - Laden Sie HQPlayer Desktop für Windows herunter und installieren Sie es:
+    - Laden Sie HQPlayer Desktop f&uuml;r Windows herunter und installieren Sie es:
       <https://www.signalyst.eu/consumer.html>
-    - Führen Sie das Programm aus
-    - So konfigurieren Sie HQPlayer für die Verwendung des NAA-Daemons auf dem DietPi-Gerät:
-        - Wählen Sie `Datei` und dann `Einstellungen`.
-        - Wählen Sie unter `Backend` `NetworkAudioAdapter` aus. Das DietPi-Gerät sollte automatisch erkannt werden.
-        - Klicken Sie auf `OK`, um die Änderungen zu speichern
+    - F&uuml;hren Sie das Programm aus
+    - So konfigurieren Sie HQPlayer f&uuml;r die Verwendung des NAA-Daemons auf dem DietPi-Ger&auml;t:
+        - W&auml;hlen Sie `Datei` und dann `Einstellungen`.
+        - W&auml;hlen Sie unter `Backend` `NetworkAudioAdapter` aus. Das DietPi-Ger&auml;t sollte automatisch erkannt werden.
+        - Klicken Sie auf `OK`, um die &Auml;nderungen zu speichern
 
 === "Wie verwende ich Roon und HQPlayer zusammen?"
 
@@ -885,20 +885,20 @@ Website: <https://www.signalyst.eu/consumer.html>
 
 ## IceCast
 
-Shoutcast-Streaming-Server, enthält DarkIce für die Audioeingabe, wie ein Mikrofon.
+Shoutcast-Streaming-Server, enth&auml;lt DarkIce f&uuml;r die Audioeingabe, wie ein Mikrofon.
 
-![Screenshot der IceCast-Weboberfläche](../assets/images/dietpi-software-media-icecast.png){: width="400" height="218" loading="lazy"}
+![Screenshot der IceCast-Weboberfl&auml;che](../assets/images/dietpi-software-media-icecast.png){: width="400" height="218" loading="lazy"}
 
 === "Installationshinweise"
 
-DietPi wird versuchen, während der Installation Mikrofoneingaben zu erkennen und auf DarkIce anzuwenden. Wenn kein Mikrofon verfügbar war oder Probleme auftreten, überprüfen Sie verfügbare Mikrofone mit:
+DietPi wird versuchen, w&auml;hrend der Installation Mikrofoneingaben zu erkennen und auf DarkIce anzuwenden. Wenn kein Mikrofon verf&uuml;gbar war oder Probleme auftreten, &uuml;berpr&uuml;fen Sie verf&uuml;gbare Mikrofone mit:
 
     ```sh
     arecord -l
     ```
 
-    - Bearbeiten Sie dann den Geräteeintrag in `/etc/darkice.cfg`, oder
-    - Einfach kopieren und einfügen:
+    - Bearbeiten Sie dann den Ger&auml;teeintrag in `/etc/darkice.cfg`, oder
+    - Einfach kopieren und einf&uuml;gen:
 
         ```sh
         sed -i "/^device[[:blank:]]/c\device = hw:$(arecord -l | mawk -F'[ :]' '/card/{print $2;exit}'),0" /etc/darkice.cfg
@@ -910,16 +910,16 @@ DietPi wird versuchen, während der Installation Mikrofoneingaben zu erkennen un
         systemctl restart darkice
         ```
 
-    Wir erstellen `systemd`-Dienste für IceCast und DarkIce, die automatisch von DietPi gestartet werden. Sie k&ouml;nnen ihren Status überprüfen, indem Sie den folgenden Befehl ausführen:
+    Wir erstellen `systemd`-Dienste f&uuml;r IceCast und DarkIce, die automatisch von DietPi gestartet werden. Sie k&ouml;nnen ihren Status &uuml;berpr&uuml;fen, indem Sie den folgenden Befehl ausf&uuml;hren:
 
     ```sh
     systemctl status icecast2
     systemctl status darkice
     ```
 
-=== "Zugriff auf die IceCast-Weboberfläche"
+=== "Zugriff auf die IceCast-Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **8000** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8000** erreichbar:
 
     - URL = `http://<Ihre.IP>:8000`
     - Admin-Benutzer = `admin`
@@ -929,7 +929,7 @@ DietPi wird versuchen, während der Installation Mikrofoneingaben zu erkennen un
 
 === `Aufzeichnungsdatei zugreifen`
 
-    Dies ist standardmä&szlig;ig deaktiviert.
+    Dies ist standardm&auml;&szlig;ig deaktiviert.
 
     - Eine Aufzeichnung des Streams kann aktiviert werden, indem `/etc/darkice.cfg` bearbeitet und dann auskommentiert wird
 
@@ -952,18 +952,18 @@ DietPi wird versuchen, während der Installation Mikrofoneingaben zu erkennen un
 
 === "Protokolle anzeigen"
 
-    Führen Sie die folgenden Befehle auf einer Konsole aus, um Protokolle für IceCast und DarkIce anzuzeigen:
+    F&uuml;hren Sie die folgenden Befehle auf einer Konsole aus, um Protokolle f&uuml;r IceCast und DarkIce anzuzeigen:
 
     ```sh
     journalctl -u icecast2
     journalctl -u darkice
     ```
 
-    IceCast erstellt zusätzlich Zugriffs- und Fehlerprotokolldateien unter: `/var/log/icecast2/`
+    IceCast erstellt zus&auml;tzlich Zugriffs- und Fehlerprotokolldateien unter: `/var/log/icecast2/`
 
 === "Auf neueste Version aktualisieren"
 
-    IceCast und DarkIce werden aus dem Debian APT-Repository installiert und k&ouml;nnen daher durch Ausführen der folgenden Befehle aktualisiert werden:
+    IceCast und DarkIce werden aus dem Debian APT-Repository installiert und k&ouml;nnen daher durch Ausf&uuml;hren der folgenden Befehle aktualisiert werden:
 
     ```sh
     apt update
@@ -974,36 +974,36 @@ DietPi wird versuchen, während der Installation Mikrofoneingaben zu erkennen un
 
 Musikstreamer mit Webinterface.
 
-![Screenshot der Koel-Weboberfläche](../assets/images/dietpi-software-media-koel.png){: width="400" height="197" loading="lazy"}
+![Screenshot der Koel-Weboberfl&auml;che](../assets/images/dietpi-software-media-koel.png){: width="400" height="197" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **8003** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8003** erreichbar:
 
     - URL = `http://<Ihre.IP>:8003`
     - E-Mail-Adresse = `admin@koel.dev`
     - Passwort = `KoelIsCool`
 
-=== "Erste Ausführung einrichten"
+=== "Erste Ausf&uuml;hrung einrichten"
 
-    Wir empfehlen dringend, die E-Mail-Adresse und das Passwort des Admin-Benutzers zu ändern:
+    Wir empfehlen dringend, die E-Mail-Adresse und das Passwort des Admin-Benutzers zu &auml;ndern:
 
-    1. Melden Sie sich an der Weboberfläche an
-    2. Wählen Sie unten im Navigationsbereich auf der linken Seite `Benutzer` aus
-    3. Gehen Sie jedoch über die Benutzerkachel und wählen Sie `Profil aktualisieren`
-    4. Ändern Sie den Namen und die Anmeldeinformationen und wählen Sie `Speichern`
+    1. Melden Sie sich an der Weboberfl&auml;che an
+    2. W&auml;hlen Sie unten im Navigationsbereich auf der linken Seite `Benutzer` aus
+    3. Gehen Sie jedoch &uuml;ber die Benutzerkachel und w&auml;hlen Sie `Profil aktualisieren`
+    4. &Auml;ndern Sie den Namen und die Anmeldeinformationen und w&auml;hlen Sie `Speichern`
 
-=== `Mediendateien auf Ihr Gerät übertragen`
+=== `Mediendateien auf Ihr Ger&auml;t &uuml;bertragen`
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Von Koel verwendete Verzeichnisse:
 
     - Lokal = `/mnt/dietpi_userdata/Music`
-    - Zugriff über Dateiserver = `/Music`
+    - Zugriff &uuml;ber Dateiserver = `/Music`
 
 === "Protokolle anzeigen"
 
-    Um Koel-Dienstprotokolle anzuzeigen, führen Sie den folgenden Befehl von der Konsole aus:
+    Um Koel-Dienstprotokolle anzuzeigen, f&uuml;hren Sie den folgenden Befehl von der Konsole aus:
 
     ```sh
     journalctl -u koel
@@ -1026,30 +1026,30 @@ Lizenz: [MIT](https://github.com/koel/koel/blob/master/LICENSE.md)
 
 ## GMediaRender
 
-Ein DLNA-Audio-Renderer/-Endpunkt. Erm&ouml;glicht das Streamen und Abspielen von Musik von einem anderen Gerät wie [BubbleUPnP](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp).
+Ein DLNA-Audio-Renderer/-Endpunkt. Erm&ouml;glicht das Streamen und Abspielen von Musik von einem anderen Ger&auml;t wie [BubbleUPnP](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp).
 
 ![GMediaRender-Logo](../assets/images/dietpi-software-media-gmediarender.png){: width="128" height="128" loading="lazy"}
 
 ## Ubooquity
 
-Ubooquity ist ein kostenloser Heimserver für Ihre Comics- und E-Books-Bibliothek mit Remote-Webschnittstellenanzeige.
+Ubooquity ist ein kostenloser Heimserver f&uuml;r Ihre Comics- und E-Books-Bibliothek mit Remote-Webschnittstellenanzeige.
 
-![Screenshot der Ubooquity-Weboberfläche](../assets/images/dietpi-software-media-ubooquity.jpg){: width="400" height="188" loading="lazy"}
+![Screenshot der Ubooquity-Weboberfl&auml;che](../assets/images/dietpi-software-media-ubooquity.jpg){: width="400" height="188" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
     Das Webinterface verwendet Port **2038** bzw. **2039**:
 
     - Admin-Seite = `http://<your.IP>:2038/admin`
     - Bibliotheksansichtsseite = `http://<your.IP>:2039`
 
-=== `E-Books/Comics auf Ihr Gerät übertragen`
+=== `E-Books/Comics auf Ihr Ger&auml;t &uuml;bertragen`
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
 
     - Verwenden Sie die folgenden Ordner = `/mnt/dietpi_userdata/ebooks` und `/mnt/dietpi_userdata/comics`
-    - Verwenden Sie dann die Admin-Seite, um die oben genannten Speicherorte für E-Books und Comics festzulegen
-    - Führen Sie einen Scan auf der Admin-Seite durch, um die Datenbank zu aktualisieren
+    - Verwenden Sie dann die Admin-Seite, um die oben genannten Speicherorte f&uuml;r E-Books und Comics festzulegen
+    - F&uuml;hren Sie einen Scan auf der Admin-Seite durch, um die Datenbank zu aktualisieren
 
 === "Auf neueste Version aktualisieren"
 
@@ -1065,13 +1065,13 @@ YouTube-Video-Tutorial: *DietPi Ubooquity Comics und Ebook Reader auf Raspberry 
 
 ##Komga
 
-Kostenloser und Open-Source-Comic-/Mangas-Medienserver mit Web-Benutzeroberfläche.
+Kostenloser und Open-Source-Comic-/Mangas-Medienserver mit Web-Benutzeroberfl&auml;che.
 
-![Screenshot der Komga-Weboberfläche](../assets/images/dietpi-software-media-komga.jpg){: width="500" height="306" loading="lazy"}
+![Screenshot der Komga-Weboberfl&auml;che](../assets/images/dietpi-software-media-komga.jpg){: width="500" height="306" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **2037** erreichbar:
+    Das Webinterface ist &uuml;ber Port **2037** erreichbar:
 
     - URL = `http://<Ihre.IP>:2037`
 
@@ -1091,7 +1091,7 @@ Kostenloser und Open-Source-Comic-/Mangas-Medienserver mit Web-Benutzeroberfläc
     /mnt/dietpi_userdata/komga/application.yml
     ```
 
-    Sie müssen den Dienst neu starten, damit die Änderungen wirksam werden:
+    Sie m&uuml;ssen den Dienst neu starten, damit die &Auml;nderungen wirksam werden:
 
     ```sh
     systemctl restart komga
@@ -1099,9 +1099,9 @@ Kostenloser und Open-Source-Comic-/Mangas-Medienserver mit Web-Benutzeroberfläc
 
 === "Datei-Hashing"
 
-    Datei-Hashing ist bei Installationen über DietPi standardmä&szlig;ig deaktiviert, um die CPU-Last für kleine Hardware zu reduzieren. Der Nachteil ist, dass Komga beim Verschieben oder Umbenennen von Mediendateien keine Metadaten und Lesestatus angehängt behalten kann, da der Datenbankeintrag mit dem Dateipfad verknüpft ist. Der ursprüngliche Medieneintrag wird in der Bibliothek weiterhin als `nicht verfügbar` angezeigt, sodass Sie Metadaten manuell in den neuen Eintrag kopieren k&ouml;nnen. Um den alten Eintrag zu entfernen, l&ouml;schen Sie den Papierkorb der Bibliothek.
+    Datei-Hashing ist bei Installationen &uuml;ber DietPi standardm&auml;&szlig;ig deaktiviert, um die CPU-Last f&uuml;r kleine Hardware zu reduzieren. Der Nachteil ist, dass Komga beim Verschieben oder Umbenennen von Mediendateien keine Metadaten und Lesestatus angeh&auml;ngt behalten kann, da der Datenbankeintrag mit dem Dateipfad verkn&uuml;pft ist. Der urspr&uuml;ngliche Medieneintrag wird in der Bibliothek weiterhin als `nicht verf&uuml;gbar` angezeigt, sodass Sie Metadaten manuell in den neuen Eintrag kopieren k&ouml;nnen. Um den alten Eintrag zu entfernen, l&ouml;schen Sie den Papierkorb der Bibliothek.
 
-    Wenn Datei-Hashing aktiviert ist, werden Datenbankeinträge und damit Metadaten und Lesestatus dem Datei-Hash zugeordnet, sodass er intakt bleibt, wenn Dateien nur verschoben oder umbenannt werden, mit dem Nachteil zusätzlicher CPU-Belastung und Ressourcennutzung, insbesondere auf kleinerer Hardware. Um das Datei-Hashing zu aktivieren, setzen Sie den folgenden Eintrag in der Konfigurationsdatei:
+    Wenn Datei-Hashing aktiviert ist, werden Datenbankeintr&auml;ge und damit Metadaten und Lesestatus dem Datei-Hash zugeordnet, sodass er intakt bleibt, wenn Dateien nur verschoben oder umbenannt werden, mit dem Nachteil zus&auml;tzlicher CPU-Belastung und Ressourcennutzung, insbesondere auf kleinerer Hardware. Um das Datei-Hashing zu aktivieren, setzen Sie den folgenden Eintrag in der Konfigurationsdatei:
 
     ```yaml
     file-hashing: true
@@ -1111,13 +1111,13 @@ Kostenloser und Open-Source-Comic-/Mangas-Medienserver mit Web-Benutzeroberfläc
 
 === "Protokolle anzeigen"
 
-    Protokolle werden im Systemjournal gespeichert und k&ouml;nnen durch Ausführen des folgenden Befehls angezeigt werden:
+    Protokolle werden im Systemjournal gespeichert und k&ouml;nnen durch Ausf&uuml;hren des folgenden Befehls angezeigt werden:
 
     ```sh
     journalctl -u komga
     ```
 
-Wenn Sie eine Dateiprotokollierung ben&ouml;tigen, legen Sie einen Pfad über die Konfigurationsdatei fest, z.
+Wenn Sie eine Dateiprotokollierung ben&ouml;tigen, legen Sie einen Pfad &uuml;ber die Konfigurationsdatei fest, z.
 
     ```yaml
     logging:
@@ -1125,11 +1125,11 @@ Wenn Sie eine Dateiprotokollierung ben&ouml;tigen, legen Sie einen Pfad über di
         name: "/var/log/komga/komga.log"
     ```
     
-    Stellen Sie sicher, dass das Verzeichnis existiert und der Benutzer oder die Gruppe `komga` über Schreibberechtigungen verfügt.
+    Stellen Sie sicher, dass das Verzeichnis existiert und der Benutzer oder die Gruppe `komga` &uuml;ber Schreibberechtigungen verf&uuml;gt.
 
 === "Auf neueste Version aktualisieren"
 
-    Um Komga auf die neueste Version zu aktualisieren, installieren Sie es einfach über die DietPi-Software neu:
+    Um Komga auf die neueste Version zu aktualisieren, installieren Sie es einfach &uuml;ber die DietPi-Software neu:
 
     ```sh
     dietpi-software reinstall 179
@@ -1144,15 +1144,15 @@ Lizenz: [MIT](https://github.com/gotson/komga/blob/master/LICENSE)
 
 ##Raspotify
 
-Spotify Connect-Client für den Raspberry Pi that Just Worksâ`¢.
+Spotify Connect-Client f&uuml;r den Raspberry Pi that Just Worksâ`¢.
 
 !!! note `Sie ben&ouml;tigen ein Spotify Premium-Konto, um den Spotify Connect-Client zu verwenden.`
 
 ![Spotify-Logo](../assets/images/dietpi-software-media-raspotify.png){: width="331" height="100" loading="lazy"}
 
-=== "Optionen ändern"
+=== "Optionen &auml;ndern"
 
-    Raspotify sollte direkt nach dem Auspacken funktionieren. Sie k&ouml;nnen die verfügbaren Optionen jedoch ändern in:
+    Raspotify sollte direkt nach dem Auspacken funktionieren. Sie k&ouml;nnen die verf&uuml;gbaren Optionen jedoch &auml;ndern in:
 
     - `/etc/default/raspotify`
 
@@ -1186,7 +1186,7 @@ Spotify Connect-Client für den Raspberry Pi that Just Worksâ`¢.
 
 === "Protokolle anzeigen"
 
-    Zeigen Sie die Dienstprotokolle an über:
+    Zeigen Sie die Dienstprotokolle an &uuml;ber:
 
     ```sh
     journalctl -u raspotify
@@ -1199,22 +1199,22 @@ Quellcode: <https://github.com/dtcooper/raspotify>
 
 ##Spotify Connect Web
 
-Spotify Connect Web ist ein Konsolen-Client und -Player für Spotify Connect, einschlie&szlig;lich eines Web-Frontends.
+Spotify Connect Web ist ein Konsolen-Client und -Player f&uuml;r Spotify Connect, einschlie&szlig;lich eines Web-Frontends.
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **4000** erreichbar:
+    Das Webinterface ist &uuml;ber Port **4000** erreichbar:
 
     - URL: `http://<Ihre.IP>:4000`
 
-=== "Spotify-API-Schlüssel generieren"
+=== "Spotify-API-Schl&uuml;ssel generieren"
 
-    Die Generierung von `spotify_appkey.key` ist erforderlich, um der Anwendung über Ihr Konto Zugriff auf die Spotify-API zu gewähren.
+    Die Generierung von `spotify_appkey.key` ist erforderlich, um der Anwendung &uuml;ber Ihr Konto Zugriff auf die Spotify-API zu gew&auml;hren.
 
-    Füllen Sie das Antragsformular aus <https://developer.spotify.com/documentation/general/guides/authorization/app-settings/>.
+    F&uuml;llen Sie das Antragsformular aus <https://developer.spotify.com/documentation/general/guides/authorization/app-settings/>.
     Warten Sie, bis es "akzeptiert" wird.
 
-=== "Spotify API-Schlüssel übertragen"
+=== "Spotify API-Schl&uuml;ssel &uuml;bertragen"
 
     Stellen Sie sicher, dass Sie einen der [Dateiserver](../file_servers/) von DietPi installiert haben.
     Kopieren Sie die `spotify_appkey.key` in das folgende Verzeichnis:
@@ -1246,7 +1246,7 @@ Der Dienst wird automatisch beim Booten gestartet, aber Sie k&ouml;nnen ihn auch
 
 === "Protokolle anzeigen"
 
-    Zeigen Sie die Dienstprotokolle an über:
+    Zeigen Sie die Dienstprotokolle an &uuml;ber:
 
     ```sh
     journalctl -u spotify-connect-web
@@ -1259,15 +1259,15 @@ Schnellstartdokumentation: <https://developer.spotify.com/documentation/web-api/
 
 ##Spotify
 
-Spotifyd ist ein schlanker FOSS Spotify-Client, der das Spotify Connect-Protokoll unterstützt.
+Spotifyd ist ein schlanker FOSS Spotify-Client, der das Spotify Connect-Protokoll unterst&uuml;tzt.
 
 !!! Hinweis `Sie ben&ouml;tigen ein Spotify Premium-Konto, um Spotifyd zu verwenden.`
 
 ![Spotify-Logo](../assets/images/dietpi-software-media-raspotify.png){: width="331" height="100" loading="lazy"}
 
-=== "Optionen ändern"
+=== "Optionen &auml;ndern"
 
-    Spotifyd sollte sofort funktionieren. Sie k&ouml;nnen die verfügbaren Optionen jedoch ändern in:
+    Spotifyd sollte sofort funktionieren. Sie k&ouml;nnen die verf&uuml;gbaren Optionen jedoch &auml;ndern in:
 
     - `/mnt/dietpi_userdata/spotifyd/spotifyd.conf`
 
@@ -1301,7 +1301,7 @@ Spotifyd ist ein schlanker FOSS Spotify-Client, der das Spotify Connect-Protokol
 
 === "Protokolle anzeigen"
 
-    Zeigen Sie die Dienstprotokolle an über:
+    Zeigen Sie die Dienstprotokolle an &uuml;ber:
 
     ```sh
     journalctl -u spotifyd
@@ -1317,11 +1317,11 @@ Lizenz: [GPLv3](https://github.com/Spotifyd/spotifyd/blob/master/LICENSE)
 
 Ein FOSS-Webinterface-Media-Streaming-Server, einschlie&szlig;lich Live-TV, abgezweigt von Emby.
 
-![Screenshot der Jellyfin-Weboberfläche](../assets/images/dietpi-software-media-jellyfin.jpg){: width="600" height="341" loading="lazy"}
+![Screenshot der Jellyfin-Weboberfl&auml;che](../assets/images/dietpi-software-media-jellyfin.jpg){: width="600" height="341" loading="lazy"}
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Das Webinterface ist über Port **8096** erreichbar:
+    Das Webinterface ist &uuml;ber Port **8096** erreichbar:
 
     - URL = `http://<Ihre.IP>:8096`
 
@@ -1341,7 +1341,7 @@ Ein FOSS-Webinterface-Media-Streaming-Server, einschlie&szlig;lich Live-TV, abge
 
 === "Auf neueste Version aktualisieren"
 
-    Code: Alles auswählen
+    Code: Alles ausw&auml;hlen
 
     ```sh
     apt update
@@ -1358,23 +1358,23 @@ Ein Befehlszeilen-Musikorganisator und -manager. Einige der wichtigsten Funktion
 
 - Flexibler automatischer Metadatenkorrektor und Dateiumbenenner
 - Albumcover-Downloader, Songtext-Abrufer und Genre-Identifikator
-- Instrument zur Überprüfung und Änderung von Musikmetadaten für viele Audiodateitypen
+- Instrument zur &Uuml;berpr&uuml;fung und &Auml;nderung von Musikmetadaten f&uuml;r viele Audiodateitypen
 
 ![Beets-Logo](../assets/images/dietpi-software-media-beets.png){: width="144" height="144" loading="lazy"}
 
 === "Schnellstart"
 
-    Beginnen Sie mit der Eingabe von `Beet` in der Befehlszeile. Alle Optionen und Befehle werden verfügbar gemacht.
+    Beginnen Sie mit der Eingabe von `Beet` in der Befehlszeile. Alle Optionen und Befehle werden verf&uuml;gbar gemacht.
     
-    Sie k&ouml;nnten beginnen, Beets zu verwenden, indem Sie Musik mit `beet import` importieren und dann die Bibliothek mit `beet list` abfragen. Zum Beispiel zeigt die nächste Befehlszeile alle Tangos im Jahr 2010
+    Sie k&ouml;nnten beginnen, Beets zu verwenden, indem Sie Musik mit `beet import` importieren und dann die Bibliothek mit `beet list` abfragen. Zum Beispiel zeigt die n&auml;chste Befehlszeile alle Tangos im Jahr 2010
 
     ```sh
     beet ls year:2010 genre:Tango
     ```
 
-=== "Konfiguration ändern"
+=== "Konfiguration &auml;ndern"
 
-    Sie k&ouml;nnen die Beets-Konfiguration ändern, indem Sie die nächste Datei bearbeiten: `/mnt/dietpi_userdata/beets/config.yaml`.
+    Sie k&ouml;nnen die Beets-Konfiguration &auml;ndern, indem Sie die n&auml;chste Datei bearbeiten: `/mnt/dietpi_userdata/beets/config.yaml`.
 
 ***
 
@@ -1389,19 +1389,19 @@ Eine Multiroom-Audiol&ouml;sung von FOSS – dieser Teil ist die Server-App, die
 
 ![Snapcast-Logo](../assets/images/dietpi-software-media-snapcast.png){: width="300" height="48" loading="lazy"}
 
-Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konfiguriert werden. Weitere Einzelheiten finden Sie in den Snapcast-Dokumenten: <https://github.com/badaix/snapcast#server>
+Die Audioquellen des Snapcast-Servers m&uuml;ssen nach der Installation manuell konfiguriert werden. Weitere Einzelheiten finden Sie in den Snapcast-Dokumenten: <https://github.com/badaix/snapcast#server>
 
-=== "Zugriff auf die Weboberfläche"
+=== "Zugriff auf die Weboberfl&auml;che"
 
-    Der Snapcast-Server bietet eine Webschnittstelle auf Port **1780**, mit der Sie die Lautstärke für alle Clients steuern und optional Audio über Ihren Browser wiedergeben k&ouml;nnen:
+    Der Snapcast-Server bietet eine Webschnittstelle auf Port **1780**, mit der Sie die Lautst&auml;rke f&uuml;r alle Clients steuern und optional Audio &uuml;ber Ihren Browser wiedergeben k&ouml;nnen:
 
     - URL = `http://<Ihre.IP>:1780`
 
 === "Implementierungsdetails"
 
-    DietPi-Software installiert den Snapcast-Server fast mit den Standardkonfigurationen, wie sie mit dem offiziellen Paket geliefert werden. Nur der JSON-RPC, der standardmä&szlig;ig auf Port **1705** lauscht, ist deaktiviert. Um es zu aktivieren und zu konfigurieren, überprüfen Sie den Abschnitt `[tcp]` der Konfigurationsdatei (siehe Registerkarte "Ändern von Optionen").
+    DietPi-Software installiert den Snapcast-Server fast mit den Standardkonfigurationen, wie sie mit dem offiziellen Paket geliefert werden. Nur der JSON-RPC, der standardm&auml;&szlig;ig auf Port **1705** lauscht, ist deaktiviert. Um es zu aktivieren und zu konfigurieren, &uuml;berpr&uuml;fen Sie den Abschnitt `[tcp]` der Konfigurationsdatei (siehe Registerkarte "&Auml;ndern von Optionen").
 
-=== "Optionen ändern"
+=== "Optionen &auml;ndern"
 
     - `/etc/snapserver.conf`
 
@@ -1415,10 +1415,10 @@ Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konf
 
     Wenn Sie MPD installiert haben, k&ouml;nnen Sie es als Eingangsquelle verwenden.
 
-    Zuerst müssen Sie sicherstellen, dass MPD an eine Pipe ausgibt. Sie k&ouml;nnen dies auf zwei Arten tun.
+    Zuerst m&uuml;ssen Sie sicherstellen, dass MPD an eine Pipe ausgibt. Sie k&ouml;nnen dies auf zwei Arten tun.
     1) Installieren Sie CAVA aus der Liste der DietPi-Software.
     ODER
-    2) Fügen Sie Folgendes zu `/etc/mpd.conf` hinzu und starten Sie mit `systemctl restart mpd` neu
+    2) F&uuml;gen Sie Folgendes zu `/etc/mpd.conf` hinzu und starten Sie mit `systemctl restart mpd` neu
 
     ```
     audio_output {
@@ -1430,7 +1430,7 @@ Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konf
     }
     ```
 
-    Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMPD` genannt. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
+    Sobald Sie dies getan haben, m&uuml;ssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzuf&uuml;gen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMPD` genannt. &Uuml;berpr&uuml;fen Sie die Snapcast-Serverdokumentation auf zus&auml;tzliche Parameter, die Sie &uuml;bergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
 
     ```
     source = pipe:///tmp/mpd.fifo?name=myMPD&mode=read
@@ -1440,14 +1440,14 @@ Die Audioquellen des Snapcast-Servers müssen nach der Installation manuell konf
 
     Wenn Sie Mopidy installiert haben, k&ouml;nnen Sie es als Eingabequelle verwenden.
 
-    Zuerst müssen Sie sicherstellen, dass Mopidy in eine Pipe ausgibt. Fügen Sie Folgendes zu `/etc/mopiady/mopidy.conf` hinzu und starten Sie mit `systemctl restart mopidy` neu
+    Zuerst m&uuml;ssen Sie sicherstellen, dass Mopidy in eine Pipe ausgibt. F&uuml;gen Sie Folgendes zu `/etc/mopiady/mopidy.conf` hinzu und starten Sie mit `systemctl restart mopidy` neu
 
     ```
     [audio]
     output = audioresample ! audioconvert ! audio/x-raw,rate=48000,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/mopidy.fifo
     ```
 
-Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzufügen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMopidy` genannt. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
+Sobald Sie dies getan haben, m&uuml;ssen Sie Folgendes zu `/etc/snapserver.conf` unter `[stream]` hinzuf&uuml;gen. Der `Name` ist der Name, wie er Snapcast-Clients erscheint, hier habe ich ihn `myMopidy` genannt. &Uuml;berpr&uuml;fen Sie die Snapcast-Serverdokumentation auf zus&auml;tzliche Parameter, die Sie &uuml;bergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#pipe>
 
     ```
     source = pipe:///tmp/mopidy.fifo?name=myMopidy&mode=read
@@ -1457,7 +1457,7 @@ Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unt
 
     Wenn Sie Raspotify installiert haben, k&ouml;nnen Sie es als Eingabequelle verwenden.
 
-    Fügen Sie die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier angezeigt wird. Ich habe ihn `mySpotify` genannt. Der `Gerätename` ist der Name, der beim Verbinden in Spotify angezeigt wird. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#librespot>. Ich habe den Audio-Cache deaktiviert, um die SD-Karte zu schützen.
+    F&uuml;gen Sie die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier angezeigt wird. Ich habe ihn `mySpotify` genannt. Der `Ger&auml;tename` ist der Name, der beim Verbinden in Spotify angezeigt wird. &Uuml;berpr&uuml;fen Sie die Snapcast-Serverdokumentation auf zus&auml;tzliche Parameter, die Sie &uuml;bergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#librespot>. Ich habe den Audio-Cache deaktiviert, um die SD-Karte zu sch&uuml;tzen.
 
     ```
     source = librespot:///usr/bin/librespot?name=mySpotify&devicename=SnapcastSpotify&disable_audio_cache=true
@@ -1467,30 +1467,30 @@ Sobald Sie dies getan haben, müssen Sie Folgendes zu `/etc/snapserver.conf` unt
 
     Installieren Sie zuerst `shairport-sync`.
 
-    Dann (im Moment - siehe: <https://github.com/MichaIng/DietPi/issues/4470>) müssen wir die Shairport Sync-Binärdatei durch eine ersetzen, die `stdout` unterstützt. Dazu müssen wir eine neue Binärdatei kompilieren - Details finden Sie hier:
+    Dann (im Moment - siehe: <https://github.com/MichaIng/DietPi/issues/4470>) m&uuml;ssen wir die Shairport Sync-Bin&auml;rdatei durch eine ersetzen, die `stdout` unterst&uuml;tzt. Dazu m&uuml;ssen wir eine neue Bin&auml;rdatei kompilieren - Details finden Sie hier:
     <https://github.com/mikebrady/shairport-sync/blob/master/INSTALL.md#build-and-install>
 
-    Sie müssen diese Zeile beim Konfigurieren anstelle der Zeile aus der Dokumentation verwenden:
+    Sie m&uuml;ssen diese Zeile beim Konfigurieren anstelle der Zeile aus der Dokumentation verwenden:
 
     ```sh
     ./configure --sysconfdir=/etc --with-alsa --with-soxr --with-avahi --with-ssl=openssl --with-systemd --with-metadata --with-stdout
     ```
 
-    Vergessen Sie nicht, `make` und `make install` auszuführen.
+    Vergessen Sie nicht, `make` und `make install` auszuf&uuml;hren.
 
-    Fügen Sie dann die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier erscheint, ich habe ihn `myAirport` genannt. Der `Gerätename` ist der Name, der bei der Suche nach Airport-Geräten angezeigt wird. Überprüfen Sie die Snapcast-Serverdokumentation auf zusätzliche Parameter, die Sie übergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
+    F&uuml;gen Sie dann die folgende Konfiguration unter `[stream]` hinzu. Der `Name` ist der Name, wie er Snapcast-Clients hier erscheint, ich habe ihn `myAirport` genannt. Der `Ger&auml;tename` ist der Name, der bei der Suche nach Airport-Ger&auml;ten angezeigt wird. &Uuml;berpr&uuml;fen Sie die Snapcast-Serverdokumentation auf zus&auml;tzliche Parameter, die Sie &uuml;bergeben k&ouml;nnen: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
 
     ```
     source = airplay:///usr/local/bin/shairport-sync?name=myAirport&devicename=SnapcastAirport&params=--configfile=/usr/local/etc/shairport-sync.conf
     ```
 
-    Sie müssen dann entweder den ursprünglichen Shairport Sync-Dienst maskieren
+    Sie m&uuml;ssen dann entweder den urspr&uuml;nglichen Shairport Sync-Dienst maskieren
 
     ```sh
     systemctl mask shairport-sync
     ```
 
-    oder Sie k&ouml;nnen versuchen, einen davon auf einem anderen Port auszuführen – Snapcast-Dokumentation zeigt hier, wie das geht: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
+    oder Sie k&ouml;nnen versuchen, einen davon auf einem anderen Port auszuf&uuml;hren – Snapcast-Dokumentation zeigt hier, wie das geht: <https://github.com/badaix/snapcast/blob/master/doc/configuration.md#airplay>
 
 ***
 
@@ -1498,15 +1498,15 @@ Quellcode: <https://github.com/badaix/snapcast>
 
 ## Snapcast-Client
 
-Eine FOSS-Audiol&ouml;sung für mehrere Räume - dieser Teil ist eine Client-App, die den Server abh&ouml;rt und das gesendete Audio wiedergibt
+Eine FOSS-Audiol&ouml;sung f&uuml;r mehrere R&auml;ume - dieser Teil ist eine Client-App, die den Server abh&ouml;rt und das gesendete Audio wiedergibt
 
 ![Snapcast-Logo](../assets/images/dietpi-software-media-snapcast.png){: width="300" height="48" loading="lazy"}
 
-Der Snapcast-Client fordert Sie bei der Installation zur Eingabe der IP und des Ports des Servers auf und wird so eingerichtet, dass er beim Hochfahren startet. Dies sollte für die meisten Leute funktionieren, aber es gibt zusätzliche Konfigurationsparameter, die in der Snapcast-Dokumentation zu finden sind: <https://github.com/badaix/snapcast#client>
+Der Snapcast-Client fordert Sie bei der Installation zur Eingabe der IP und des Ports des Servers auf und wird so eingerichtet, dass er beim Hochfahren startet. Dies sollte f&uuml;r die meisten Leute funktionieren, aber es gibt zus&auml;tzliche Konfigurationsparameter, die in der Snapcast-Dokumentation zu finden sind: <https://github.com/badaix/snapcast#client>
 
-=== "Optionen ändern"
+=== "Optionen &auml;ndern"
 
-    Es sollte einfach funktionieren, aber Sie k&ouml;nnen die verfügbaren Optionen ändern in:
+    Es sollte einfach funktionieren, aber Sie k&ouml;nnen die verf&uuml;gbaren Optionen &auml;ndern in:
 
     - `/etc/default/snapclient`
 
@@ -1520,4 +1520,4 @@ Der Snapcast-Client fordert Sie bei der Installation zur Eingabe der IP und des 
 
 Quellcode: <https://github.com/badaix/snapcast>
 
-[Zurück zur **Liste der optimierten Software**](../../software/)
+[Zur&uuml;ck zur **Liste der optimierten Software**](../../software/)
