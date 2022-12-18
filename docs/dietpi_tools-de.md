@@ -457,7 +457,7 @@ dietpi-drive_manager
       `+` Gut akzeptiert für große Dateien (typischerweise in einem Fileserver-Einsatz)
       `-` Nicht kompatibel mit einem Windows-System
 
-=== `DietPi-System auf eine größere SD-Karte verschieben`
+=== "DietPi-System auf eine größere SD-Karte verschieben"
 
     Wenn Sie den Speicherplatz Ihrer DietPi SD-Karte erweitern möchten, indem Sie das System auf eine größere Speicherkarte verschieben, können Sie dies durch die folgenden Schritte erreichen:
 
