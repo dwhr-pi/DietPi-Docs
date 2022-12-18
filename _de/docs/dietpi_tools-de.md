@@ -60,7 +60,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
     Hier können Sie Ihren bevorzugten SSH-Server auswählen. Sie können auch jeden SSH-Server deinstallieren, um Speicherplatz zu sparen und jeden externen SSH-basierten Zugriff auszuschließen.
 
     ![DietPi-Software SSH-Server-Menü-Screenshot](assets/images/dietpi-software-ssh-selection.jpg){: width="550" height="320" loading="lazy"}
-<!--
+
 === "Dateiserver"
 
     Mit der DietPi-Software können Sie ganz einfach eine Methode für den **Zugriff auf die Dateien** auf Ihrem DietPi-System auswählen.
@@ -79,7 +79,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
     ![Screenshot des DietPi-Software-Dateiserver-Menüs](assets/images/dietpi-software-fileserver-selection.jpg){: width="550" height="342" loading="lazy"}
 
     Siehe [Dateiserver-Übersicht](../software/file_servers/) für weitere Informationen.
--->
+
 === "Protokollsystem"
 
     Es können verschiedene Protokollierungsmethoden von leicht bis vollständig ausgewählt werden.
@@ -90,7 +90,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
     ![Screenshot des DietPi-Software Log System-Menüs](assets/images/dietpi-software-log-system-selection.jpg){: width="550" height="370" loading="lazy"}
 
     Siehe [Auswahl des Protokollsystems](../software/log_system/) für weitere Details.
-<!--
+
 === "Webserver-Einstellung"
 
     Das System **Webserver Preference** von DietPi ermöglicht es Ihnen, Ihren bevorzugten Webserver für die Verwendung in DietPi-Installationen auszuwählen. Wenn Sie sich nicht entschieden haben, lesen Sie mehr unter [Welchen WEBSERVER WÄHLEN?](../software/webserver_stack/#what-web-application-stack-is-best-for-you)
@@ -102,7 +102,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
         Dadurch müssen Sie keinen Webserver-Stack manuell auswählen/installieren. DietPi erledigt das alles für Sie.
 
     ![Screenshot des DietPi-Software-Webserver-Einstellungsmenüs](assets/images/dietpi-software-webserver-preference.png){: width="550" height="340" loading="lazy"}
--->
+
 === "Speicherort der Benutzerdaten"
 
     In DietPi klassifizieren wir Benutzerdaten wie folgt:
