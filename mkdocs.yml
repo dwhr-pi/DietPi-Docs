@@ -1,6 +1,6 @@
 site_name: DietPi.com-Dokumentation
 site_url:  https://dietpi.de/docs/
-site_description: Offizielle Dokumentationsseiten f&uuml;r DietPi OS
+site_description: Offizielle Dokumentationsseiten für DietPi OS
 site_author: DietPi.com Team
 copyright: Copyright &copy; 2022 DietPi.com | Dokumentation verteilt unter <a target="_blank"
            href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
@@ -11,7 +11,7 @@ edit_uri: edit/dev/docs/
 docs_dir: docs
 
 theme:
-  name: material # Die verfuegbaren installierten Designs sind: mkdocs, readthedocs, material
+  name: material # Die verfügbaren installierten Designs sind: mkdocs, readthedocs, material
   custom_dir: overrides # https://www.mkdocs.org/user-guide/styling-your-docs/#using-the-theme-custom_dir
 
   # JavaScript von MkDocs nicht einschliessen
@@ -28,21 +28,21 @@ markdown_extensions:
 - markdown.extensions.admonition # Hervorgehobene Warn-/Infobloecke
 - markdown.extensions.attr_list # Benutzerdefinierte HTML-Attribute festlegen {: }
 - markdown.extensions.codehilite: # Syntax in Codebloecken hervorheben
-    guess_lang: false # # Sprache muss immer fuer Syntax-Highlighting definiert werden
+    guess_lang: false # # Sprache muss immer für Syntax-Highlighting definiert werden
 - markdown.extensions.footnotes # Fussnoten [^1]
 - markdown.extensions.meta # Metadaten (Seitentitel und Beschreibung) oben im Markdown-Dokument definieren
-- markdown.extensions.smarty # Bindestriche, Unterstriche, drei Punkte und Anfuehrungszeichen automatisch in Textsymbole umwandeln
+- markdown.extensions.smarty # Bindestriche, Unterstriche, drei Punkte und Anführungszeichen automatisch in Textsymbole umwandeln
 - markdown.extensions.tables # Tabellen
-- markdown.extensions.toc: # HTML-ID-Attribut zu Headern hinzufuegen
+- markdown.extensions.toc: # HTML-ID-Attribut zu Headern hinzufügen
     permalink: true # Header sind Links zu sich selbst
 - pymdownx.betterem: # Intuitivere Hervorhebungsbehandlung
-    smart_enable: all # Noch intelligenter fuer beide (Stern und Unterstrich) Syntax => GitHub-like
+    smart_enable: all # Noch intelligenter für beide (Stern und Unterstrich) Syntax => GitHub-like
 - pymdownx.details # Reduzierbare Detailbloecke
 - pymdownx.emoji:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
 - pymdownx.keys # Tastensymbole der Tastatur
-- pymdownx.magiclink: # Verlinkt automatisch URLs und E-Mail-Adressen, die keine spitzen Klammern sind, und ermoeglicht das Kuerzen und Visualisieren von Git-Repo-Links
+- pymdownx.magiclink: # Verlinkt automatisch URLs und E-Mail-Adressen, die keine spitzen Klammern sind, und ermoeglicht das Kürzen und Visualisieren von Git-Repo-Links
     repo_url_shortener: true
     repo_url_shorthand: true
 - pymdownx.superfences # Eingegrenzte Codebloecke, zB innerhalb von Listen, Ermahnungen, Details oder Tabbed-Bloecken
@@ -50,18 +50,18 @@ markdown_extensions:
 
 # Markdown-Erweiterungen, die in Zukunft verwendet werden koennten
 #
-#- markdown.extensions.abbr # Abkuerzungen <abbr>
+#- markdown.extensions.abbr # Abkürzungen <abbr>
 #- markdown.extensions.def_list # Definitionslisten
 #- markdown.markdown-de.md_in_html # Markdown-Syntax innerhalb von HTML-Tags zulassen
-#- pymdownx.arithmatex # Unterstuetzung mathematischer Begriffe in LaTeX
-#- pymdownx.caret # Hochstellen von <sup> und Einfuegen von <ins> ueber Caret ^
-#- pymdownx.critic # Text kommentieren, hervorheben, hinzufuegen oder durchstreichen
-#- pymdownx.highlight # Konfigurieren Sie die Codehervorhebung fuer alle Codedefinitionen, eingez&auml;unt, inline und durch Einrueckung blockiert
+#- pymdownx.arithmatex # Unterstützung mathematischer Begriffe in LaTeX
+#- pymdownx.caret # Hochstellen von <sup> und Einfügen von <ins> über Caret ^
+#- pymdownx.critic # Text kommentieren, hervorheben, hinzufügen oder durchstreichen
+#- pymdownx.highlight # Konfigurieren Sie die Codehervorhebung für alle Codedefinitionen, eingez&auml;unt, inline und durch Einrückung blockiert
 #- pymdownx.inlinehilite # Syntax im Inline-Code hervorheben
 #- pymdownx.mark # Text markieren <mark> via ==text==
 #- pymdownx.smartsymbols # Einfache Symbolsyntax (Warenzeichen, Copyright, Pfeile, ...)
-#- pymdownx.snippets # Fuegen Sie Markdown-Dateien in andere ein
-#- pymdownx.tilde # Tiefgestellter <sub> und durchgestrichener <del> Text ueber Tilde ~
+#- pymdownx.snippets # Fügen Sie Markdown-Dateien in andere ein
+#- pymdownx.tilde # Tiefgestellter <sub> und durchgestrichener <del> Text über Tilde ~
 
 plugins:
 - search
@@ -95,17 +95,17 @@ extra_css:
 
 nav:
 - Heim:
-  - Uebersicht: index.md
+  - Übersicht: index-de.md
   - Installation: install-de.md
   - Erste Schritte: getting_started-de.md
   - Softwareoptionen: software-de.md
   - DietPi-Tools: dietpi_tools-de.md
   - Anwendungshinweise / HowTo: usage-de.md
-  - Unterstuetzte Hardware: hardware-de.md
+  - Unterstützte Hardware: hardware-de.md
   - Ver&ouml;ffentlichungen: releases-de.md
   - Referenzen: references-de.md
 - OPTIMIERTE SOFTWARE:
-  - Uebersicht: software-de.md
+  - Übersicht: software-de.md
   - Erweiterte Vernetzung: software-de/advanced_networking-de.md
   - BitTorrent & Download-Tools: software-de/bittorrent-de.md
   - Kamera & &Uuml;berwachung: software-de/camera-de.md
@@ -129,8 +129,8 @@ nav:
   - Systemstatistik & Management: software-de/system_stats-de.md
   - VPN: software-de/vpn-de.md
   - Webentwicklung: software-de/webserver_stack-de.md
-- VEROEFFENTLICHUNGEN:
-  - Uebersicht: releases-de.md
+- VERÖFFENTLICHUNGEN:
+  - Übersicht: releases-de.md
 
   - v8.0 Januar 2022: releases-de/v8_0-de.md
   - v7.9 Dezember 2021: releases-de/v7_9-de.md
@@ -151,9 +151,9 @@ nav:
   - v6.29 Mai 2020: releases-de/v6_29-de.md
   - v6.28 Januar 2020: releases-de/v6_28-de.md
   - v6.27 Januar 2020: releases-de/v6_27-de.md
-  - Fr&uuml;her: https://dietpi.com/phpbb/viewforum.php?f=10
+  - Früher: https://dietpi.com/phpbb/viewforum.php?f=10
 - GEMEINSCHAFT:
-  # Die erste Datei "socialmedia-de.md" wird hinzugefuegt, ansonsten springt in manchen Browsern ein Klick auf "Community" direkt zum ersten Eintrag
+  # Die erste Datei "socialmedia-de.md" wird hinzugefügt, ansonsten springt in manchen Browsern ein Klick auf "Community" direkt zum ersten Eintrag
   # Das war der Fall, dass ein Klick direkt auf die Github-Seite gesprungen ist. (Dann verlassen Sie unsere geniale Seite dietpi.com/docs...) :-)
   - Soziale Medien: socialmedia-de.md
   - DietPi-GitHub-Seite: https://github.com/MichaIng/DietPi
