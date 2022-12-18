@@ -1,3 +1,6 @@
+---
+Beschreibung: Anleitungen zu den grundlegenden DietPi-Tools
+---
 # DietPi-Tools
 
 ## DietPi-Launcher
@@ -22,7 +25,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
 
 ![Screenshot der DietPi-Software](assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
 
-### Softwareübersicht
+#### Softwareübersicht
 
 === "Software durchsuchen"
 
@@ -30,7 +33,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
 
     - Blättern Sie durch die Liste der verfügbaren Software - für weitere Details sehen Sie in der [DietPi-Softwareliste] (../software/) nach.
 
-    Die Liste optimierter Software ist lang. Sie durchsuchen entweder die Liste oder verwenden die Option **Suchen**.
+    Die Liste optimierter Software ist lang. Sie durchsuchen entweder die Liste oder verwenden die Option **Suchen Software**.
 
     - Um Software auf Ihrem DietPi zu installieren, wählen Sie sie in der Liste aus und drücken Sie ++Leertaste++, um sie zur Installationsliste hinzuzufügen. Wenn Sie Ihre Meinung ändern, drücken Sie erneut ++Leertaste++, um es zu entfernen.
 
@@ -50,14 +53,14 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
 
 ---
 
-### Schnellauswahl
+#### Schnellauswahl
 
 === "SSH-Server"
 
     Hier können Sie Ihren bevorzugten SSH-Server auswählen. Sie können auch jeden SSH-Server deinstallieren, um Speicherplatz zu sparen und jeden externen SSH-basierten Zugriff auszuschließen.
 
     ![DietPi-Software SSH-Server-Menü-Screenshot](assets/images/dietpi-software-ssh-selection.jpg){: width="550" height="320" loading="lazy"}
-
+<!--
 === "Dateiserver"
 
     Mit der DietPi-Software können Sie ganz einfach eine Methode für den **Zugriff auf die Dateien** auf Ihrem DietPi-System auswählen.
@@ -76,7 +79,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
     ![Screenshot des DietPi-Software-Dateiserver-Menüs](assets/images/dietpi-software-fileserver-selection.jpg){: width="550" height="342" loading="lazy"}
 
     Siehe [Dateiserver-Übersicht](../software/file_servers/) für weitere Informationen.
-
+-->
 === "Protokollsystem"
 
     Es können verschiedene Protokollierungsmethoden von leicht bis vollständig ausgewählt werden.
@@ -87,7 +90,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
     ![Screenshot des DietPi-Software Log System-Menüs](assets/images/dietpi-software-log-system-selection.jpg){: width="550" height="370" loading="lazy"}
 
     Siehe [Auswahl des Protokollsystems](../software/log_system/) für weitere Details.
-
+<!--
 === "Webserver-Einstellung"
 
     Das System **Webserver Preference** von DietPi ermöglicht es Ihnen, Ihren bevorzugten Webserver für die Verwendung in DietPi-Installationen auszuwählen. Wenn Sie sich nicht entschieden haben, lesen Sie mehr unter [Welchen WEBSERVER WÄHLEN?](../software/webserver_stack/#what-web-application-stack-is-best-for-you)
@@ -99,7 +102,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
         Dadurch müssen Sie keinen Webserver-Stack manuell auswählen/installieren. DietPi erledigt das alles für Sie.
 
     ![Screenshot des DietPi-Software-Webserver-Einstellungsmenüs](assets/images/dietpi-software-webserver-preference.png){: width="550" height="340" loading="lazy"}
-
+-->
 === "Speicherort der Benutzerdaten"
 
     In DietPi klassifizieren wir Benutzerdaten wie folgt:
@@ -126,7 +129,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
 
 ---
 
-### Software installieren oder entfernen
+#### Software installieren oder entfernen
 
 === "Installieren"
 
@@ -152,7 +155,7 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
       free        Drucken Sie eine unbenutzte Software-ID, kostenlos für eine neue Softwareimplementierung
     ```
 
-    Die anzugebende <software_id\> ist diejenige, die in der Softwareliste innerhalb der `dietpi-software`-Dialoge vorhanden ist:
+    Die anzugebende `<software_id\>` ist diejenige, die in der Softwareliste innerhalb der `dietpi-software`-Dialoge vorhanden ist:
 
     ![DietPi-Tools-Befehlszeileninstallation](assets/images/dietpi-tools-command-line-installation.png){: width="454" height="129" loading="lazy"}
 
@@ -167,7 +170,11 @@ Es ist eines der Kernwerkzeuge, mit dem Sie einen oder mehrere [**DietPi-optimie
 ### DietPi LetsEncrypt
 
 Greifen Sie auf das Frontend für die `Let's Encrypt`-Integration zu.
-Führen Sie „dietpi-letsencrypt“ aus.
+Führen Sie `dietpi-letsencrypt`, mit demn folgenden Befehl aus: 
+
+```sh
+dietpi-letsencrypt
+```
 
 Im Falle eines nicht installierten Certbot-Pakets wird es zuerst installiert:
 
@@ -185,7 +192,13 @@ Wenn Sie die Zertifikatsinstallation ausführen, wird es auch für Ihren ausgew�
 
 ### DietPi-VPN
 
-DietPi-VPN ist eine Kombination aus OpenVPN-Installation und DietPi-Frontend-GUI. Ermöglicht allen VPN-Benutzern, sich schnell und einfach mit jedem NordVPN, ProtonVPN oder jedem anderen Server zu verbinden, der OpenVPN in TCP oder UDP verwendet, wobei nur Open-Source-Software verwendet wird.
+DietPi-VPN ist eine Kombination aus OpenVPN-Installation und DietPi-Frontend-GUI. 
+Ermöglicht allen VPN-Benutzern, sich schnell und einfach mit jedem NordVPN, ProtonVPN oder jedem anderen Server zu verbinden, der OpenVPN in TCP oder UDP verwendet, wobei nur Open-Source-Software verwendet wird.
+Führen Sie `dietpi-vpn`, mit demn folgenden Befehl aus: 
+
+```sh
+dietpi-vpn
+```
 
 ![DietPi-VPN screenshot](assets/images/dietpi-vpn.jpg){: width="642" height="300" loading="lazy"}
 
@@ -206,9 +219,12 @@ DietPi-VPN ist eine Kombination aus OpenVPN-Installation und DietPi-Frontend-GUI
 
 ![OpenVPN-Logo](assets/images/dietpi-software-vpn-openvpn-logo.png){: width="200" height="58" loading="lazy"}
 
+---
 ### DietPi-DDNS
 
-DietPi-DDNS ist ein generischer Dynamic DNS (DDNS)-Client. Es kann verwendet werden, um einen Cron-Job einzurichten, der Ihre sich dynamisch ändernde öffentliche IP-Adresse alle definierten Minuten gegen einen DDNS-Anbieter aktualisiert, sodass Ihre öffentliche Domain gültig bleibt. Es unterstützt No-IP und ersetzt den No-IP-Client, der als Installationsoption auf früheren DietPi-Versionen verfügbar war.
+DietPi-DDNS ist ein generischer Dynamic DNS (DDNS)-Client. 
+Es kann verwendet werden, um einen Cron-Job einzurichten, der Ihre sich dynamisch ändernde öffentliche IP-Adresse alle definierten Minuten gegen einen DDNS-Anbieter aktualisiert, sodass Ihre öffentliche Domain gültig bleibt. 
+Es unterstützt No-IP und ersetzt den No-IP-Client, der als Installationsoption auf früheren DietPi-Versionen verfügbar war.
 
 ![DietPi-DDNS-Hauptmenü-Screenshot](assets/images/dietpi-ddns.jpg){: width="656" height="256" loading="lazy"}
 
@@ -217,6 +233,9 @@ DietPi-DDNS ist ein generischer Dynamic DNS (DDNS)-Client. Es kann verwendet wer
     - DuckDNS: <https://www.duckdns.org/>
     - No-IP: <https://www.noip.com/>
     - Dynu: <https://www.dynu.com/>
+    - FreeDNS: <https://freedns.afraid.org/>
+    - OVH: <https://docs.ovh.com/gb/en/domains/hosting_dynhost/>
+	
     - Alternativ können Sie jeden anderen Anbieter verwenden, der eine API-URL zum Aktualisieren Ihrer dynamischen IP-Adresse hat.
 
 === "CLI"
@@ -233,13 +252,18 @@ DietPi-DDNS ist ein generischer Dynamic DNS (DDNS)-Client. Es kann verwendet wer
         - Wenn Sie DietPi-DDNS bereits zuvor eingerichtet haben, kann der Befehl „Übernehmen“ auch verwendet werden, um eine der obigen Einstellungen zu ändern. Alle anderen Optionen sind dann optional.
     - Verwenden Sie `dietpi-ddns remove`, um alle Cron-Jobs zu entfernen, die zuvor eingerichtet wurden.
 
+---
+
 ## Systemkonfiguration
 
 ### DietPi-Konfiguration
 
 Konfigurieren Sie verschiedene Systemeinstellungen, von Anzeige / Audio / Netzwerk bis hin zu _Autostart_-Optionen.
-Führen Sie „dietpi-config“ aus.
+Führen Sie `dietpi-config`, mit demn folgenden Befehl aus:
 
+```sh
+dietpi-config
+```
 ![DietPi-Config-Screenshot](assets/images/dietpi-config.jpg){: width="643" height="335" loading="lazy"}
 
 === "Anzeigeoptionen"
@@ -333,7 +357,11 @@ Funktionsreiches Dienstprogramm zur Laufwerksverwaltung. Es ist ein leichtes Pro
 - Führen Sie Benchmarks auf Laufwerken aus
 - Netzlaufwerke mounten (NFS und Samba)
 
-Führen Sie „dietpi-drive_manager“ aus.
+Führen Sie `dietpi-drive_manager` aus, verwenden Sie den folgenden Befehl:
+
+```sh
+dietpi-drive_manager
+```
 
 ![DietPi-Drive_Manager Screenshot](assets/images/dietpi-drive-manager.jpg){: width="643" height="327" loading="lazy"}
 
@@ -382,49 +410,49 @@ Führen Sie „dietpi-drive_manager“ aus.
 
     Im letzteren Dialog müssen Sie den Dateisystemtyp auswählen. Folgende Auswahlmöglichkeiten stehen zur Auswahl:
 
-    - „ext4“ (Standard)
+    - `ext4` (Standard)
       Empfohlen für Benutzer, die dieses Laufwerk ausschließlich auf Linux-Systemen verwenden möchten (z. B. dediziertes Laufwerk).
       `+` Der Standard für Linux-Dateisysteme
       `-` Nicht kompatibel mit einem Windows-System
 
-    - „NTFS“.
+    - `NTFS`.
       Empfohlen für Benutzer, die dieses Laufwerk auf einem Windows-System verwenden möchten.
       `+` Kompatibel auf einem Windows-System
       `-` Nur emulierte Unterstützung für UNIX-Berechtigungen
       `-` Unterstützt symbolische Links (Erstellung)
       `-` Hohe CPU-Auslastung während Übertragungen (startet einen Prozess)
 
-    - "FAT32".
+    - `FAT32`.
       Empfohlen für Benutzer, die eine hohe Kompatibilität zwischen mehreren Betriebssystemen wünschen.
       `+` Hohe Kompatibilität mit allen Betriebssystemen
       `-` 4 GiB Dateigrößenbeschränkung
       `-` 2 TiB Laufwerksgrößenbeschränkung
       `-` Unterstützt keine UNIX-Berechtigungen
       `-` Unterstützt keine symbolischen Links
-
-    - „HFS+“.
+	  
+    - `exFAT`  
+       Windows-Dateisystem, vorgesehen für externe Laufwerke, z. USB-Sticks oder SD-Karten.
+       `+` Flash-freundliches Dateisystem: <https://en.m.wikipedia.org/wiki/ExFAT>
+       `+` Kompatibel auf einem Windows-System
+       `-` Unterstützt keine UNIX-Berechtigungen
+       `-` Unterstützt keine symbolischen Links
+	   
+    - `HFS+`.
       Empfohlen für Benutzer, die dieses Laufwerk auf einem macOS-System verwenden möchten.
       `+` macOS-Dateisystem
       `-` Nicht kompatibel mit einem Windows-System
 
-    - "Btrfs".
+    - `Btrfs`.
       Ein modernes Linux-Dateisystem.
-      `+` <https://github.com/MichaIng/DietPi/issues/271#issuecomment-247173250>
-      `-` Nicht kompatibel mit einem Windows-System
+       `+` Vorteile wurden in [dieser DietPi-Ausgabe] beschrieben (https://github.com/MichaIng/DietPi/issues/271#issuecomment-247173250)
+       `-` Kompatibel mit Windows nur über zusätzlichen Windows-Treiber [WinBtrfs](https://github.com/maharmstone/btrfs)
 
-    - "F2FS".
+    - `F2FS`.
       Linux-Dateisystem, das für Flash/NAND-basierte Laufwerke entwickelt wurde.
       `+` Flash-freundliches Dateisystem: <https://en.wikipedia.org/wiki/F2FS>
       `-` Nicht kompatibel mit einem Windows-System
 
-    - "exFAT".
-      Windows-Dateisystem, vorgesehen für externe Laufwerke, z. USB-Sticks oder SD-Karten.
-      `+` Flash-freundliches Dateisystem: <https://en.m.wikipedia.org/wiki/ExFAT>
-      `+` Kompatibel auf einem Windows-System
-      `-` Unterstützt keine UNIX-Berechtigungen
-      `-` Unterstützt keine symbolischen Links
-
-    - „XFS“.
+    - `XFS`.
       Ein modernes Linux-Dateisystem.
       `+` Gut akzeptiert für große Dateien (typischerweise in einem Fileserver-Einsatz)
       `-` Nicht kompatibel mit einem Windows-System
@@ -466,7 +494,11 @@ Führen Sie „dietpi-drive_manager“ aus.
 ### DietPi-Autostart
 
 Definiert Softwarepakete, die beim Hochfahren des DietPi-Betriebssystems gestartet werden sollen. Beispiel: Starten Sie den Desktop, während Kodi ausgeführt wird.
-Führen Sie „dietpi-autostart“ aus.
+Führen Sie `dietpi-autostart`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-autostart
+```
 
 ![DietPi-Autostart-Screenshot](assets/images/dietpi-autostart.jpg){: width="644" height="368" loading="lazy"}
 
@@ -476,10 +508,14 @@ Führen Sie „dietpi-autostart“ aus.
     Für weitere Informationen.
     Die links im Befehl `dietpi-autostart` angezeigten Zahlen entsprechen den Werten in `dietpi.txt`.
 
-### DietPi-Dienste
+### DietPi-Services
 
 Bietet Dienststeuerung, Optimierungen der Prioritätsebene und Statusdruck.
-Führen Sie „dietpi-services“ aus.
+Führen Sie `dietpi-services`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-services
+```
 
 ![Screenshot von DietPi-Services](assets/images/dietpi-services.jpg){: width="644" height="341" loading="lazy"}
 
@@ -489,10 +525,15 @@ Der Dialog zum Optimieren eines Dienstes wird aufgerufen, indem der Dienst marki
 
 !!! warning "Seien Sie vorsichtig beim Optimieren der Dienste."
 
+---
 ### DietPi LED-Steuerung
 
 Ändern Sie die Trigger für die Status-LEDs auf Ihrem SBC/Motherboard.
-Führen Sie „dietpi-led_control“ aus.
+Führen Sie `dietpi-led_control`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-led_control
+```
 
 ![Screenshot von DietPi-LED_control](assets/images/dietpi-ledcontrol.jpg){: width="643" height="269" loading="lazy"}
 
@@ -503,12 +544,20 @@ Abhängig von Ihrer verwendeten Hardware ändert sich die Anzahl der Einträge i
 Ändern Sie die Startzeiten bestimmter Cronjob-Gruppen.
 Führen Sie „dietpi-cron“ aus.
 
+```sh
+dietpi-cron
+```
+
 ![DietPi-Cron-Screenshot](assets/images/dietpi-cron.jpg){: width="643" height="357" loading="lazy"}
 
 ### DietPi JustBoom
 
 Ändern Sie die Audioeinstellungen.
-Führen Sie „dietpi-justboom“ aus.
+Führen Sie `dietpi-justboom`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-justboom
+```
 
 Wenn die Tonausgabe konfiguriert ist, erscheint folgender Dialog:
 
@@ -520,9 +569,15 @@ Wenn keine Tonausgabe konfiguriert ist, erscheint folgender Dialog:
 
 In diesem Fall müssen Sie z.B. über `dietpi-software` ein Soundprogrammpaket installieren oder die Soundausgabe konfigurieren z.B. über `dietpi-config`.
 
-### DietPi-Umfrage
+---
+### DietPi survey
 
 DietPi-Umfrage ermöglicht dem DietPi-Projekt, allgemeine Informationen über Ihr System und die installierte Software zu erhalten.
+Führen Sie `dietpi-survey`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-survey
+```
 
 ???+ wichtig "Datenschutz und Ziele"
 
@@ -619,13 +674,23 @@ DietPi-Umfrage ermöglicht dem DietPi-Projekt, allgemeine Informationen über Ih
 ### DietPi-Update
 
 Aktualisieren Sie die DietPi-Betriebssystemversion auf die neueste verfügbare Version und informieren Sie, wenn Updates für „apt upgrade“ verfügbar sind.
-Führen Sie „dietpi-update“ aus.
+Führen Sie `dietpi-update`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-update
+```
+
+---
 
 ### DietPi-Reiniger
 
 Bereinigen Sie nicht benötigte Dateien aus dem Betriebssystem und geben Sie wertvollen Speicherplatz frei.
 Betrachten Sie es als leichtgewichtigen CCleaner für DietPi und Linux.
-Führen Sie „dietpi-cleaner“ aus.
+Führen Sie `dietpi-cleaner`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-cleaner
+```
 
 ![Screenshot von DietPi-Cleaner](assets/images/dietpi-cleaner.jpg){: width="644" height="284" loading="lazy"}
 
@@ -646,7 +711,11 @@ Mit dem Dateibereiniger können Sie eine Liste mit Dateinamen anpassen, die wäh
 ### DietPi-Protokoll löschen
 
 Protokolldateien in `/var/log/` löschen.
-Führen Sie „dietpi-logclear“ aus.
+Führen Sie `dietpi-logclear`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-logclear
+```
 
 ![DietPi-LogClear Screenshot](assets/images/dietpi-logclear.jpg){: width="643" height="198" loading="lazy"}
 
@@ -659,16 +728,59 @@ Führen Sie „dietpi-logclear“ aus.
 - Anpassung, welche **Dateien und Verzeichnisse** **eingeschlossen** und **ausgeschlossen** sind
 - Aktivierung von **automatischen täglichen Backups**
 - Einstellung einer **Anzahl aufzubewahrender Backups**
-  Backups werden automatisch rotiert und wenn die maximale Anzahl erreicht ist, wird das älteste Backup als Grundlage für die inkrementelle neue Backup-Synchronisierung verwendet
+  Backups werden rotieren automatisch und wenn die maximale Anzahl erreicht ist, wird das älteste Backup als Grundlage für die inkrementelle neue Backup-Synchronisierung verwendet. 
 
-Führen Sie in der Konsole den folgenden Befehl aus:
+Führen Sie `dietpi-backup`, mit demn folgenden Befehl aus:
 
 ```sh
 dietpi-backup
 ```
 
 ![Screenshot des DietPi-Backup-Menüs](assets/images/dietpi-backup_1.png){: width="681" height="330" loading="lazy"}
+=== "Automatisches tägliches Backup"
 
+     `Dietpi-Backup` bietet die Möglichkeit einer automatischen täglichen Backup-Funktion (gesteuert über den Linux-`Cron`-Mechanismus).
+
+     Es enthält diese Optionen (siehe Screenshot oben):
+
+     - „Daily Backup“: Aktiviert das tägliche Backup
+     - „Anzahl“: Legt die Anzahl der aufzubewahrenden Backups fest. Backups werden automatisch rotiert, wenn die maximale Menge erreicht ist, wird das älteste Backup als Grundlage für den inkrementellen neuen Backup-Sync verwendet
+
+     **Tägliche Backup-Ausführungszeit**
+
+     Das automatische tägliche Backup (aktiviert über die Option „Daily Backup“, siehe Screenshot oben) wird über den Linux-Cron-Mechanismus gesteuert. Das Einstellen einer anderen Startzeit kann eine Option sein, z. wenn Sie mehrere Backup-Clients haben, die auf denselben Speicher (Backup-Server) sichern: Die Verschiebung der Backup-Startzeit dieser Systeme kann eine vorübergehende Überlastung des Backup-Servers verringern, indem gleichzeitiger Zugriff auf den Speicher vermieden wird.
+
+     Der Startzeitpunkt wird grundsätzlich über die Datei `/etc/crontab` (die die Backup/Restore-Funktion über das Skript `/etc/cron.daily/dietpi` aufruft) definiert. Sie kann über den Eintrag `cron.daily` innerhalb von [`dietpi-cron`](#dietpi-cron) geändert werden. Es wird durch Ausführen des folgenden Befehls ausgeführt
+
+     Bitte beachten Sie, dass alle anderen täglichen `cron`-basierten Verfahren ebenfalls zu dieser geänderten Zeit gestartet werden.
+
+=== "Auswahl der Sicherungsdatei (Filter)"
+
+     Die Definition, welche Dateien für den Backup-Vorgang verwendet werden, wird über die Option „Filter“ festgelegt (siehe Screenshot oben). Dadurch wird „nano“ geöffnet, um die Einschluss-/Ausschlussdefinitionen für das Backup zu bearbeiten.
+     Die Filterdefinitionssyntax wird in der Datei selbst beschrieben.
+
+     ![Screenshot der DietPi-Backup-Filteroption](assets/images/dietpi-backup_filter-option.jpg){: width="681" height="330" loading="lazy"}
+
+     Die Datei mit den Filterdefinitionen ist `/boot/dietpi/.dietpi-backup_inc_exc`.
+
+=== "Leerzeichenprüfung"
+
+     Eine Speicherplatzprüfung am Zielort vor dem Backup-Vorgang kann aktiviert/deaktiviert werden. Dies kann eine Option sein, wenn sicher genügend Speicherplatz verfügbar ist.
+     Das Aktivieren der Speicherplatzprüfung macht das Backup etwas sicherer, das Deaktivieren beschleunigt es.
+
+=== "Protokollierung"
+
+     Protokollinformationen über den Sicherungsvorgang werden in den Dateien `.dietpi-backup_stats` und `.dietpi-backup.log` gegeben, die sich im Zielverzeichnis der Sicherung befinden (Option "Location"):
+
+     - `.dietpi-backup_stats` gibt eine Liste der abgeschlossenen Operationen mit Uhrzeit und Datum aus
+     - `.dietpi-backup.log` gibt eine Liste aller verarbeiteten Dateien
+
+=== "Einstellungsdateien"
+
+     Im Allgemeinen werden die Einstellungen des DietPi-Backups über die Menüeinträge des Befehls „dietpi-backup“ geändert.
+
+     Das System speichert diese Einstellungen in den Dateien „/boot/dietpi/.dietpi-backup_settings“ und „/boot/dietpi/.dietpi-backup_inc_exc“, die von „dietpi-backup“ automatisch generiert werden. Daher müssen die Dateien nicht manuell vom Benutzer geändert werden.
+	 
 !!! info "DietPi-Benutzerdaten dürfen nicht enthalten sein"
 
     Wenn DietPi-Benutzerdaten auf ein externes Laufwerk verschoben wurden, d.h. `/mnt/dietpi_userdata` ist ein Symlink, wird dessen Inhalt standardmäßig von der Sicherung und Wiederherstellung ausgeschlossen. Sie können dies mit der Option „Filter“ ändern.
@@ -677,23 +789,39 @@ dietpi-backup
 
     Falls das Paket „rsync“ nicht installiert ist, erfolgt dies automatisch, sobald Sie eine Sicherung oder Wiederherstellung starten.
 
+!!! Achtung "Eingeschränkter Systembetrieb während DietPi-Backup läuft"
+
+     Während des Laufs von `dietpi-backup` werden alle Dienste gestoppt. Dies ist z.B. wenn Backups geplant werden.
+
+     - Beispielsweise wird eine Webserver-basierte Anwendung (z. B. Nextcloud oder viele Medienserver wie Plex, Navidrome usw.) nicht ausgeführt, da die Webserver-basierte Benutzeroberfläche angehalten wird.
+     - Außerdem werden viele der entsprechenden Backend-Dienste sowie grundlegende Dienste wie der Samba- oder NFS-Dienst gestoppt.
+
+---
 ### DietPi-Datei-Explorer
 
 Leichter Dateimanager und Explorer.
-Führen Sie „dietpi-explorer“ aus.
+Führen Sie `dietpi-explorer`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-explorer
+```
 
 ![DietPi-Explorer Screenshot](assets/images/dietpi-explorer.jpg){: width="646" height="355" loading="lazy"}
 
-### DietPi-Synchronisation
+---
+### DietPi-sync
 
-Mit DietPi-Sync können Sie ein Verzeichnis von einem Ort (*Quellort*) zu einem anderen (*Zielort*) duplizieren.
-Führen Sie „dietpi-sync“ aus.
-
+Mit DietPi-Synchronisation können Sie ein Verzeichnis von einem Ort (*Quellort*) zu einem anderen (*Zielort*) duplizieren.
+Führen Sie `dietpi-sync`, mit demn folgenden Befehl aus:
+```sh
+dietpi-sync
+```
 ![DietPi-Sync-Screenshot](assets/images/dietpi-sync.jpg){: width="646" height="322" loading="lazy"}
 
 Beispiel: Wenn Sie die Daten auf Ihrer externen USB-Festplatte an einen anderen Speicherort duplizieren (synchronisieren) möchten, wählen Sie einfach die USB-Festplatte als Quelle und dann einen Zielspeicherort aus. Der Zielspeicherort kann ein beliebiger Samba-Dateiserver im Netzwerk oder sogar ein FTP-Server sein.
 Jede Synchronisierung enthält einen führenden Probelauf, nach dem Sie das erwartete Ergebnis überprüfen können, bevor Sie entscheiden, ob Sie mit der eigentlichen Synchronisierung fortfahren möchten.
 
+---
 ## Verschiedene Werkzeuge
 
 ### Nützliche DietPi-Shell-Funktionen
@@ -713,10 +841,15 @@ Die folgenden Befehle sind nicht-interaktive, aber fehlerbehandelte Wrapper für
 - `G_AGUG` - `apt-get upgrade`
 - `G_AGDUG` - `apt-get dist-upgrade`
 
+---
 ### DietPi-Banner
 
 Ermöglicht die Konfiguration des anfänglichen Banners, das bei der Anmeldung angezeigt wird.
-Führen Sie `dietpi-banner` aus.
+Führen Sie `dietpi-banner`, mit demn folgenden Befehl aus:
+
+```sh
+dietpi-banner
+```
 
 ![DietPi-Banner Konfigurationsmenü](assets/images/dietpi-banner_config.jpg){: width="643" height="338" loading="lazy"}
 
@@ -729,15 +862,24 @@ Mit diesen Einstellungen können Sie die anfangs angezeigten Informationen konfi
 Zeigt CPU-Temperatur, Prozessorfrequenz, Drosselungsstufe usw. an.
 Führen Sie `cpu` aus.
 
+```sh
+cpu
+```
 ![Screenshot DietPi-CPU_info](assets/images/dietpi-tools-cpuinfo.png){: width="741" height="299" loading="lazy"}
 
-### DietPi-Morsecode
+### DietPi-Morse-code
 
 Es wandelt eine Textdatei in Morsecode um.
 Führen Sie `dietpi-morsecode` aus.
+```sh
+dietpi-morsecode
+```
 
 ### DietPi-Fehlerbericht
 
 Führen Sie `dietpi-bugreport` aus.
+```sh
+dietpi-bugreport
+```
 
 ![DietPi-Bugreport Screenshot](assets/images/dietpi-bugreport.jpg){: width="646" height="352" loading="lazy"}
