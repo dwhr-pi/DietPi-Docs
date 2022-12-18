@@ -523,7 +523,7 @@ Der Dialog zum Optimieren eines Dienstes wird aufgerufen, indem der Dienst marki
 
 ![Screenshot zur Optimierung der DietPi-Dienste](assets/images/dietpi-services_2.png){: width="644" height="461" loading="lazy"}
 
-!!! warning "Seien Sie vorsichtig beim Optimieren der Dienste."
+!!! Warnung: "Seien Sie vorsichtig beim Optimieren der Dienste."
 
 ---
 ### DietPi LED-Steuerung
@@ -599,11 +599,11 @@ dietpi-survey
 
     Die Datendatei der DietPi-Umfrage wird gesendet, wenn Sie Software mit „dietpi-software“ installieren und DietPi mit „dietpi-update“ aktualisieren.
 
-=== „Hochgeladene Datenmenge“
+=== "Hochgeladene Datenmenge"
 
     Die hochgeladenen Daten sind winzig (ca. 1 KB) und wirken sich nicht auf Ihre Internetbandbreite oder Systemleistung aus.
 
-=== „Übertragene Dateninhalte“
+=== "Übertragene Dateninhalte"
 
     Innerhalb des Kommandozeilenprogramms „dietpi-survey“ kann die exakte Kopie der übermittelten Daten eingesehen werden. Die übertragene Datei ist in Bash-Code geschrieben, um uns eine schnellere Berichtsseitenerstellung zu ermöglichen (z. B. für <https://dietpi.com/survey>).
 
@@ -834,12 +834,12 @@ Es gibt ein paar allgemeine Befehle, die in DietPi eine Abkürzung haben:
 
 Die folgenden Befehle sind nicht-interaktive, aber fehlerbehandelte Wrapper für `apt-get`-Befehle, nützlich für Skripte, die nicht-interaktiv laufen sollen, aber interaktive Wiederholungs- und Lösungsversuche zulassen:
 
-- `G_AGI` - `apt-get install`
-- `G_AGP` - `apt-get bereinigen`
-- `G_AGA` - `apt-get autoremove --purge`
-- `G_AGUP` - `apt-get update`
-- `G_AGUG` - `apt-get upgrade`
-- `G_AGDUG` - `apt-get dist-upgrade`
+- `G_AGI` - `apt-get install` und den Namen der APT angeben. 
+- `G_AGP` - `apt-get purge` bereinigen.
+- `G_AGA` - `apt-get autoremove --purge` automatisches bereinigen.
+- `G_AGUP` - `apt-get update` führt ein Update aus. 
+- `G_AGUG` - `apt-get upgrade` führt ein Upgrade aus. 
+- `G_AGDUG` - `apt-get dist-upgrade` führt ein Distro-Upgrade aus. 
 
 ---
 ### DietPi-Banner
@@ -857,6 +857,7 @@ Mit diesen Einstellungen können Sie die anfangs angezeigten Informationen konfi
 
 ![DietPi-Banner beim Login drucken](assets/images/dietpi-banner.jpg){: width="636" height="359" loading="lazy"}
 
+---
 ### DietPi-CPU-Info
 
 Zeigt CPU-Temperatur, Prozessorfrequenz, Drosselungsstufe usw. an.
@@ -867,6 +868,7 @@ cpu
 ```
 ![Screenshot DietPi-CPU_info](assets/images/dietpi-tools-cpuinfo.png){: width="741" height="299" loading="lazy"}
 
+---
 ### DietPi-Morse-code
 
 Es wandelt eine Textdatei in Morsecode um.
@@ -875,6 +877,7 @@ Führen Sie `dietpi-morsecode` aus.
 dietpi-morsecode
 ```
 
+---
 ### DietPi-Fehlerbericht
 
 Führen Sie `dietpi-bugreport` aus.

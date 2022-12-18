@@ -799,18 +799,27 @@ dietpi-backup
 Lightweight file manager and explorer.  
 Run `dietpi-explorer`.
 
+```sh
+dietpi-explorer
+```
+
 ![DietPi-Explorer screenshot](assets/images/dietpi-explorer.jpg){: width="646" height="355" loading="lazy"}
 
+---
 ### DietPi sync
 
 DietPi-Sync allows you to duplicate a directory from one location (*Source Location*) to another (*Target Location*).  
 Run `dietpi-sync`.
+```sh
+dietpi-sync
+```
 
 ![DietPi-Sync screenshot](assets/images/dietpi-sync.jpg){: width="646" height="322" loading="lazy"}
 
 Example: If you want to duplicate (sync) the data on your external USB HDD to another location, you simply select the USB HDD as the source, then, select a target location. The target location can be anything from a networked samba file server, or even an FTP server.  
 Each sync includes a leading dry run, after which you can check the expected result before deciding if you want to continue with the actual sync.
 
+---
 ## Misc tools
 
 ### Useful DietPi shell functions
@@ -830,28 +839,44 @@ The following commands are non-interactive, but error-handled wrappers for `apt-
 - `G_AGUG` - `apt-get upgrade`
 - `G_AGDUG` - `apt-get dist-upgrade`
 
+---
 ### DietPi Banner
 
 Enables the configuration of the initial banner, displayed on logon.
 Run `dietpi-banner`.
 
-![DietPi-Banner config menu](assets/images/dietpi-banner_config.jpg){: width="643" height="338" loading="lazy"}
+```sh
+dietpi-banner
+```
 
+![DietPi-Banner config menu](assets/images/dietpi-banner_config.jpg){: width="643" height="338" loading="lazy"}
 Using these settings you can configure the information displayed initially, choosing the details displayed initially. See below an example where 4 options are selected:
 
 ![DietPi-Banner print on login](assets/images/dietpi-banner.jpg){: width="636" height="359" loading="lazy"}
 
+---
 ### DietPi CPU info
 
 Displays CPU temperature, processor frequency, throttle level etc.  
 Run `cpu`.
 
+```sh
+cpu
+```
+
 ![DietPi-CPU_info screenshot](assets/images/dietpi-tools-cpuinfo.png){: width="741" height="299" loading="lazy"}
 
+---
 ### DietPi morse code
 
 It converts a text file into morse code.  
 Run `dietpi-morsecode`.
+
+```sh
+dietpi-morsecode
+```
+
+---
 
 ### DietPi bug report
 
