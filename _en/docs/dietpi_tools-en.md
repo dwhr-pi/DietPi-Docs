@@ -490,6 +490,10 @@ Run `dietpi-drive_manager`.
 Defines software packages to start when the DietPi OS boots up. Example, boot into the desktop with Kodi running.  
 Run `dietpi-autostart`.
 
+```sh
+dietpi-autostart
+```
+
 ![DietPi-Autostart screenshot](assets/images/dietpi-autostart.jpg){: width="644" height="368" loading="lazy"}
 
 !!! info "Autostart option in `dietpi.txt` (first initial boot)"
@@ -498,10 +502,14 @@ Run `dietpi-autostart`.
     for further information.  
     The numbers shown on the left in the `dietpi-autostart` command correspond to the values in `dietpi.txt`.
 
+---
 ### DietPi services
 
 Provides service control, priority level tweaks and status print.  
 Run `dietpi-services`.
+```sh
+dietpi-services
+```
 
 ![DietPi-Services screenshot](assets/images/dietpi-services.jpg){: width="644" height="341" loading="lazy"}
 
@@ -511,26 +519,40 @@ The dialog to tweak a service is entered by highlighting the service (keys ++arr
 
 !!! caution "Be careful at tweaking the services."
 
+---
+
 ### DietPi LED control
 
 Change triggers for the status LEDs on your SBC/motherboard.  
 Run `dietpi-led_control`.
 
+```sh
+dietpi-led_control
+```
+
 ![DietPi-LED_control screenshot](assets/images/dietpi-ledcontrol.jpg){: width="643" height="269" loading="lazy"}
 
 Depending on your used hardware, the number of entries in the dialog will change.
 
+---
 ### DietPi cron
 
 Modify the start times of specific cron job groups.  
 Run `dietpi-cron`.
+```sh
+dietpi-cron
+```
 
 ![DietPi-Cron screenshot](assets/images/dietpi-cron.jpg){: width="643" height="357" loading="lazy"}
 
+---
 ### DietPi JustBoom
 
 Change the audio settings.  
 Run `dietpi-justboom`.
+```sh
+dietpi-justboom
+```
 
 If the sound output is configured, the following dialog appears:
 
@@ -542,9 +564,14 @@ If no sound output is configured, the following dialog appears:
 
 In this case you have to e.g. install a sound program package via `dietpi-software` or configure the sound output e.g. via `dietpi-config`.
 
+---
+
 ### DietPi survey
 
 DietPi Survey allows the DietPi project to obtain general information regarding your system and installed software.
+```sh
+dietpi-survey
+```
 
 ???+ important "Privacy and goals"
 
@@ -642,11 +669,20 @@ DietPi Survey allows the DietPi project to obtain general information regarding 
 Update DietPi OS version to the latest version available and informs when updates for `apt upgrade` are available.  
 Run `dietpi-update`.
 
+```sh
+dietpi-update
+```
+
+---
+
 ### DietPi cleaner
 
 Clean up not necessary files from the operating system and free up valuable disk space.  
 Think of it as lightweight CCleaner for DietPi and Linux.  
 Run `dietpi-cleaner`.
+```sh
+dietpi-cleaner
+```
 
 ![DietPi-Cleaner screenshot](assets/images/dietpi-cleaner.jpg){: width="644" height="284" loading="lazy"}
 
@@ -664,10 +700,14 @@ The files cleaner allows you to customize a list of filenames to search and remo
 
 ![DietPi-Cleaner types screenshot](assets/images/dietpi-cleaner_3.png){: width="644" height="388" loading="lazy"}
 
+---
 ### DietPi log clear
 
 Clear log files in `/var/log/`.  
 Run `dietpi-logclear`.
+```sh
+dietpi-logclear
+```
 
 ![DietPi-LogClear screenshot](assets/images/dietpi-logclear.jpg){: width="643" height="198" loading="lazy"}
 
@@ -690,6 +730,54 @@ dietpi-backup
 
 ![DietPi-Backup menu screenshot](assets/images/dietpi-backup_1.png){: width="681" height="330" loading="lazy"}
 
+=== "Automatic daily backup"
+
+    `Dietpi-Backup` gives the option of an automatic daily backup function (controlled via the Linux `cron` mechanism).
+
+    It contains these options (see screenshot above):
+
+    - "Daily Backup": Activates the daily backup
+    - "Amount": Sets the number of backups to be kept. Backups are rotated automatically, if the maximum amount has been reached, the oldest backup is used as basis for the incremental new backup sync
+
+    **Daily backup execution time**
+
+    The automatic daily backup (activated via option "Daily Backup", see screenshot above) is controlled via the Linux `cron` mechanism. Setting a different starting time can be an option, e.g. if you have several backup clients backing up to the same storage (backup server): Shifting the backup starting time of these systems may reduce temporary overload of the backup server by avoiding concurrent access to the storage.
+
+    The starting time is basically defined via the file `/etc/crontab` (which calls the backup/restore function via the `/etc/cron.daily/dietpi` script). It can be changed via the entry `cron.daily` within [`dietpi-cron`](#dietpi-cron). It is executed by running the following command
+
+    ```sh
+    dietpi-cron
+    ```
+
+    Please keep in mind that all other daily `cron` based procedures are also started at this changed time.
+
+=== "Backup file selection (Filter)"
+
+    The definition which files are used for the backup procedure is defined via the option "Filter" (see screenshot above). This opens `nano` to edit the include/exclude definitions for the backup.  
+    The filter definition syntax is described within the file itself.
+
+    ![DietPi-Backup filter option screenshot](assets/images/dietpi-backup_filter-option.jpg){: width="681" height="330" loading="lazy"}
+
+    The file containing the filter definitions is `/boot/dietpi/.dietpi-backup_inc_exc`.
+
+=== "Space check"
+
+    A space check on the target location prior to the backup process can be enabled/disabled. This might be an option if there is surely enough disk space available.  
+    Enabling the space check makes the backup a bit more safe, disabling it speeds it up.
+
+=== "Logging"
+
+    Logging information about the backup procedure is given within the files `.dietpi-backup_stats` and `.dietpi-backup.log` which are located in the backup target directory ("Location" option):
+
+    - `.dietpi-backup_stats` gives a list of completed operations with time and date
+    - `.dietpi-backup.log` gives a list of every processed file
+
+=== "Settings files"
+
+    Generally, the settings of the DietPi-Backup are changed via the `dietpi-backup` command menu entries.
+
+    The system stores these settings in the files `/boot/dietpi/.dietpi-backup_settings` and `/boot/dietpi/.dietpi-backup_inc_exc`, which are generated from `dietpi-backup` automatically. Therefore, the files do not need to be changed manually by the user.
+
 !!! info "DietPi userdata may not be included"
 
     If DietPi userdata have been moved to an external drive, i.e. `/mnt/dietpi_userdata` is a symlink, its content is excluded from backup and restore by default. You can change this with the `Filter` option.
@@ -698,6 +786,14 @@ dietpi-backup
 
     In the case that the `rsync` package is not installed, this is done automatically once you start a backup or restore.
 
+!!! attention "Reduced system operation while DietPi-Backup runs"
+
+    During the run of `dietpi-backup`, all services are stopped. This has to be taken into account e.g. if scheduling backups.
+
+    - For example, a webserver based application (e.g. Nextcloud or many of the media servers, like Plex, Navidrome, etc.) will not run, because the webserver based UI is stopped.
+    - Also, many of the according backend services are stopped as well as basic services like the Samba or NFS service.
+
+---
 ### DietPi file explorer
 
 Lightweight file manager and explorer.  
