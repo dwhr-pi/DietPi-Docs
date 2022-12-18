@@ -244,7 +244,7 @@ Es unterstützt No-IP und ersetzt den No-IP-Client, der als Installationsoption 
 
     - Wenn kein Argument angegeben wird, wird das interaktive Menü gestartet.
     - Verwenden Sie `dietpi-ddns <options> apply <provider>`, um einen Cron-Job für den angegebenen Anbieter anzuwenden, und verwenden Sie die folgenden Optionssatzdetails:
-        - `<Anbieter>` ist entweder der Name eines unterstützten Anbieters oder eine benutzerdefinierte Update-URL.
+        - `<Provider>` ist entweder der Name eines unterstützten Anbieters oder eine benutzerdefinierte Update-URL.
         - Verwenden Sie `-d <domains>`, um eine oder eine durch Kommas getrennte Liste mehrerer Domains hinzuzufügen, die auf die öffentliche IP-Adresse dieses Systems zeigen sollten.
         - Verwenden Sie `-u <Benutzername>`, um einen Benutzernamen oder eine Kennung festzulegen. Dies ist nicht für alle Anbieter erforderlich, bei einem benutzerdefinierten Anbieter wird er als Benutzername für die HTTP-Authentifizierung verwendet.
         - Verwenden Sie `-p <password>`, um ein Passwort oder einen Token festzulegen. Dies ist nicht für alle Anbieter erforderlich, bei einem benutzerdefinierten Anbieter wird er als Benutzername für die HTTP-Authentifizierung verwendet.
