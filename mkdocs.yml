@@ -95,7 +95,7 @@ extra_css:
 
 nav:
 - Heim:
-  - Uebersicht: index-de.md
+  - Uebersicht: index.md
   - Installation: install-de.md
   - Erste Schritte: getting_started-de.md
   - Softwareoptionen: software-de.md
