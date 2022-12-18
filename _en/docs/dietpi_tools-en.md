@@ -1,3 +1,6 @@
+---
+description: Guides about the basic DietPi tools
+---
 # DietPi Tools
 
 ## DietPi launcher
@@ -9,6 +12,8 @@ dietpi-launcher
 ```
 
 ![DietPi-Launcher screenshot](assets/images/dietpi-launcher.jpg){: width="642" height="366" loading="lazy"}
+
+---
 
 ## DietPi software
 
@@ -22,7 +27,7 @@ It is one of the core tools, enabling you to install or uninstall one or more [*
 
 ![DietPi-Software screenshot](assets/images/dietpi-software.jpg){: width="643" height="365" loading="lazy"}
 
-### Software overview
+#### Software overview
 
 === "Browse Software"
 
@@ -30,7 +35,7 @@ It is one of the core tools, enabling you to install or uninstall one or more [*
 
     - Scroll through the list of available software - for more details check the [DietPi software list](../software/).
 
-    The list of optimised software is long. You either browse the list or use the option **Search**.
+    The list of optimised software is long. You either browse the list or use the option **Search Software**.
 
     - To install software on your DietPi, select it in the list and press ++space++ to add it to the installation list. If you change your mind, hit ++space++ again to remove it.
 
@@ -50,7 +55,7 @@ It is one of the core tools, enabling you to install or uninstall one or more [*
 
 ---
 
-### Quick selections
+#### Quick selections
 
 === "SSH Server"
 
@@ -166,8 +171,12 @@ It is one of the core tools, enabling you to install or uninstall one or more [*
 
 ### DietPi LetsEncrypt
 
-Access the frontend for the `Let's Encrypt` integration.  
+Access the frontend for the `Let's Encrypt` integration by running.  
 Run `dietpi-letsencrypt`.
+
+```sh
+dietpi-letsencrypt
+```
 
 In case of a non installed Certbot package it is installed at first:
 
@@ -183,9 +192,13 @@ When you execute the certificate installation it also installs it for your selec
     To be accessible from the internet, typically your router needs a port forwarding configuration to route incoming HTTP and HTTPS accesses to your DietPi system.  
     Although you only need a HTTPS protocol forwarding (typically port 433), you also need to forward the HTTP protocol (typically port 80) to your DietPi system, otherwise the certification renewal procedure will fail (due to the fact that the certification renewal procedure takes place several months later you may have forgotten this issue).
 
+---
 ### DietPi VPN
 
 DietPi-VPN is a combination of OpenVPN installation and DietPi front end GUI. Allowing all VPN users to quickly and easily connect to any NordVPN, ProtonVPN, or any other server that uses OpenVPN in TCP or UDP, using only open source software.
+```sh
+dietpi-vpn
+```
 
 ![DietPi-VPN screenshot](assets/images/dietpi-vpn.jpg){: width="642" height="300" loading="lazy"}
 
@@ -205,6 +218,8 @@ DietPi-VPN is a combination of OpenVPN installation and DietPi front end GUI. Al
     This will still allow access from your LAN and allow you to fix any problems using SSH, if needed.
 
 ![OpenVPN logo](assets/images/dietpi-software-vpn-openvpn-logo.png){: width="200" height="58" loading="lazy"}
+
+---
 
 ### DietPi DDNS
 
@@ -233,6 +248,7 @@ DietPi-DDNS is a generic Dynamic DNS (DDNS) client. It can be used to setup a cr
         - If you did already setup DietPi-DDNS before, the `apply` command can also be used to change one of the above settings. All other options are optional then.
     - Use `dietpi-ddns remove` to remove any cron job that was setup before.
 
+---
 ## System configuration
 
 ### DietPi configuration
@@ -402,6 +418,12 @@ Run `dietpi-drive_manager`.
       `-` Does not support UNIX permissions  
       `-` Does not support symbolic links
 
+    - `exFAT`  
+      Windows filesystem, intended for external drives, e.g. USB flash drives or SD cards.  
+      `+` Flash-Friendly File System: <https://en.m.wikipedia.org/wiki/ExFAT>  
+      `+` Compatible on a Windows system  
+      `-` Does not support UNIX permissions  
+      `-` Does not support symbolic links
     - `HFS+`  
       Recommended for users who plan to use this drive on a macOS system.  
       `+` macOS filesystem  
@@ -409,8 +431,8 @@ Run `dietpi-drive_manager`.
 
     - `Btrfs`  
       A modern Linux filesystem.  
-      `+` <https://github.com/MichaIng/DietPi/issues/271#issuecomment-247173250>  
-      `-` Not compatible on a Windows system
+      `+` Advantages were described in [this DietPi issue](https://github.com/MichaIng/DietPi/issues/271#issuecomment-247173250)  
+      `-` Compatible with Windows only via additional windows driver [WinBtrfs](https://github.com/maharmstone/btrfs)
 
     - `F2FS`  
       Linux filesystem designed for flash/NAND based drives.  
