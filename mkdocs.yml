@@ -18,7 +18,7 @@ theme:
   include_search_page: false
   search_index_only: true
 
-  language: en
+  language: de
   features:
   - navigation.tabs
   #logo: assets/images/logo.png
@@ -81,6 +81,15 @@ plugins:
     #js_files:
     #- assets/javascripts/custom.js
 
+extra:
+  alternate:
+    - name: English
+      link: /_en/ 
+      lang: en
+    - name: Deutsch
+      link: /_de/
+      lang: de
+      
 extra:
   social:
   - icon: fontawesome/brands/github
@@ -163,3 +172,5 @@ nav:
   - DietPi-Forum: https://dietpi.com/phpbb/
   - Community-Tutorials: https://dietpi.com/phpbb/viewforum.php?f=15
   - Fehlerbehebung: https://dietpi.com/phpbb/viewforum.php?f=11
+  
+  # MKDocs Dokumentation: https://squidfunk.github.io/

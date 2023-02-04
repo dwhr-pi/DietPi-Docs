@@ -23,11 +23,12 @@ Es verwendet erweitertes Markdown, wie von [MkDocs](https://www.mkdocs.org/) imp
 ## Erstellen der Dokumentation
 
 - Klonen Sie es: `git clone https://github.com/dwhr-pi/DietPi-Docs.git`
-- Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
+- Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`, hierdurch der sonst übliche Installationsbefehl entfällt:`pip install mkdocs-material`. Da in der requirements.txt Datei die notwendige Version angegeben wurde. 
 - Verzeichnis wechseln: `cd DietPi-Docs`
 - Führen Sie im Stammverzeichnis Folgendes aus: `mkdocs serve`
 
 - Update bzw. Upgrade von Phyton durchführen `sudo /usr/bin/python3 -m pip install --upgrade pip`
+
 
 Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8000`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8000`.  
 `mkdocs serve -a 192.168.178.21:8000`  
@@ -57,6 +58,9 @@ Die vollständige Liste der Möglichkeiten finden Sie auf unserer Seite [Beitrag](
 - DietPi: <https://github.com/MichaIng/DietPi>
 - Dokumentation: <https://github.com/MichaIng/DietPi-Docs>
 - Website: <https://github.com/MichaIng/DietPi-Website>
+
+### Weitere Infos zu MKDocs
+- MKDocs: https://squidfunk.github.io/mkdocs-material/
 
 ## Lizenz
 
